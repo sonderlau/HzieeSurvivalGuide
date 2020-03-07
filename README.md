@@ -8,7 +8,6 @@
 
 ## TODO
 
-- [ ] Anki 卡牌
 - [ ] 图片转移
 - [ ] 文件结构梳理
 
@@ -16,7 +15,7 @@
 
 目前仅包括大一下的几门课程 请参考下表
 
-
+Anki卡牌使用和分享内容 请参考 `[[Anki]HowToUseMySharedAnkiCards.md` 
 
 ## 内容细则
 

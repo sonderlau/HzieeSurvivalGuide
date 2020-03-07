@@ -1,0 +1,2346 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35b7b264-6066-11ea-96b4-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg",
+                        "paste-90dfd1d0c9dc70c8dc97be26b5e2a962b5ab6d7f.jpg",
+                        "paste-b5490951362465417f3515c4a6bba341ef9fd906.jpg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "01 绪论",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "编译器<br>从功能上是 把一种语言: {{c1::源语言}} 翻译成另外一种语言:{{c2::目标语言}}书写的等价程序",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "q[2*u<^dJh",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "编译的逻辑过程：<div>- {{c1::词法分析 Lexical Analysis}}</div><div>- {{c2::语法分析 Syntax Analysis}}</div><div>- {{c3::语义分析 Semantic Analysis}}</div><div>- {{c4::中间代码生成 Intermediate Code Generation}}</div><div>- {{c5::中间代码优化 Machine-Indepent Code Optimization}}</div><div>- {{c6::目标代码生成 Code Generation}}</div><div>- {{c7::机器代码优化 Machine-Dependent Code Optimization}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "p8|=^x/rWG",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "词法分析 Lexical Analysis<div>- 功能：{{c1::从左往右读源程序（字符流）}}识别{{c2::单词符号(Token 记号)}}</div><div>- {{c3::源程序字符序列}} -&gt; {{c4::单词符号序列}}</div><div>- 词法分析又称 {{c5::线性分析 Linear Analysis}} \\ {{c6::扫描 Scanning}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "uL)~QFg6XQ",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语法分析 Syntax Analysis<div>- 功能: {{c1::层次分析 Hierarchical Analysis}}</div><div>- 依据: 源程序的{{c2::语法规则}}</div><div>- {{c4::单词符号序列}} -&gt; {{c3::分析树Parse Tree\\语法树Syntax Tree}}</div><div>- 语法分析又称{{c5::解析 Parsing}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IoBRO,}#I1",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语义分析 Semantic Analysis<div>- 功能: 语义检查 {{c1::</div><div>即验证语法结构合法的程序是否在语义上正确</div><div></div><div>}} - 收集代码生成阶段需要的语义信息</div><div>&nbsp;- 类型检查与类型转换</div><div>- 分析树 -&gt; {{c2::带语义(注释)的树}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f.4`u3FOVP",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "中间代码生成 Intermediate Code Generation<div>- 功能: {{c3::</div><div>生成源程序的中间表示</div><div></div><div>}}&nbsp; - {{c2::</div><div>三地址码 Three address-code</div><div></div><div>}}- 带语义(注释)的树 -&gt; {{c1::中间代码}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Doj;(,5GMB",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "代码优化 Code Optimization<div>- 功能: 对中间代码进行优化 (提高{{c1::时间与空间效率}})</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "]11$NsCx{",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "代码生成 Code Generation<div>- 功能: 生成{{c1::目标代码}}</div><div>&nbsp; - {{c2::机器代码 Machine Code}}</div><div>&nbsp; - {{c3::可重定位的机器代码 Relocatable Machine}}</div><div>&nbsp; - {{c4::汇编语言代码 Assembly Code}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Q.#J]v.hoo",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "符号表管理 Symbal-Table Management<div>- 功能: 管理分析过程中得到的源程序中的{{c6::标识符的各种信息}}</div><div>&nbsp; - 记录源程序中使用的{{c5::标识符 identifier}}</div><div>&nbsp; - 收集每个标识符的各种{{c3::属性 attribute 信息}}&nbsp; {{c2::包括类型Type}} 作{{c4::用域Scope}} {{c1::存储分配Storage Allocated信息}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "LNm}SRy)gd",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "出错处理 Error Detection and Reporting<div>- 功能:</div><div>&nbsp; - {{c2::</div><div>检查错误的位置</div><div></div><div>}}&nbsp; {{c3::</div><div>- 检查错误的性质 词法 语法 语义</div><div></div><div>}}&nbsp; - {{c1::错误恢复}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "g>2Toi/XJ5",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "编译程序分成 {{c2::前端Front end}} 和 {{c1::后端Back end}}",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "q#Xwyc*tES",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "前端: 只依赖于{{c2::源程序}} {{c3::独立于目标机器}}<div>&nbsp; - {{c1::生成中间代码}}</div><div><br></div><div>后端: 依赖于{{c4::目标机器}} 与{{c5::源程序}}无关 只与{{c6::中间语言}}有关</div><div>&nbsp; - 从{{c7::中间代码}}生成{{c7::目标代码}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "n94xVtuq-A",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "遍 Pass",
+                                "- 对源程序或源程序中间表示的一次扫描 每一遍读入一个文件 执行一个或几个阶段的编译操作 并输出源程序的一个中间表示",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rJ|.AtrTl4",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "每一遍的输入是上一遍的输出<div>第一遍的输入是{{c2::源程序正文}}</div><div>最后一遍输出是{{c1::目标代码}}</div><div><br></div><div>- 遍数多: 编译器{{c4::结构清晰}} 但{{c4::效率不高}}</div><div>- 遍数少: 编译速度{{c3::快}} 但对机器的{{c3::内存要求高}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "o3k4[{lZgA",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "自展技术 - 开发高级语言的编译器<div><br></div><div>- 直接用目标机器上的机器语言书写源语言的编译程序工作量太大</div><div>- 用目标机器上的{{c1::机器语言}}书写源程序的编译程序 再用这个子集作为书写语言 实线源语言的编译程序 这就是自展技术</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "da6,EjkSF1",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>LEX 词法分析器的自动生成程序</b>",
+                                "<img src=\"paste-90dfd1d0c9dc70c8dc97be26b5e2a962b5ab6d7f.jpg\">",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "HZa,3oniX:",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "YACC 语法分析器自动生成程序",
+                                "<img src=\"paste-b5490951362465417f3515c4a6bba341ef9fd906.jpg\">",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "h6AhBuFh5Z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "预处理器 Pre-processors<div>- {{c1::删除注释}}</div><div>- {{c2::宏 Macro展开}}</div><div>- {{c3::处理包含文件}}</div><div>- {{c4::语言扩充}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ooancl_7K)",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "汇编器 Assemblers<div>- 处理汇编语言代码 产生{{c1::可重定位的机器代码}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Pr_.ReRe(o",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "装配器和连接编辑器 Loader/Link-Editors<div><br><div>- 将多个可重定位机器代码文件连接装配 成{{c1::一个可执行机器代码文件}}</div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "JD0|N:N2JL",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35b8c42e-6066-11ea-8926-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "name": "02 文法与语言",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>符号</div><div>- 可以{{c1::相互区别的记号（元素）}}</div>字母表 Alphabet<div>- 是{{c2::符号的非空有穷集合}}</div>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "n9ZZ}vl)/$",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "符号串 String<div>- String是由字母表中的符号所组成的{{c2::有穷序列}}</div><div><b><br></b></div>-&nbsp;\\(\\varepsilon\\) 是 {{c1::任何 \\(\\sum_{}\\)上的符号串}}",
+                                "在语言理论中 符号串又称为 句子sentence 字word",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "zQBU<*SQJu",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "符号串的长度<div>- 包含{{c1::符号的个数}}</div><div>- 符号串s的长度记为{{c2::&nbsp;\\( \\left| s \\right| \\) }}&nbsp;</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "n=~=0Cx2-H",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "符号串中的<div>- 前缀 移走符号串{{c2::尾部的0个或大于0个}}符号得到的字符串</div><div>- 后缀 删去{{c1::头部0个或大于0个}}符号得到的符号串</div>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "sr<1zJpz/^",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "子串：<div>{{c1::删去一个前缀和一个后缀}}得到的符号串</div>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pzeagA~NS%",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Proper<div>真前缀 真后缀 真子串</div><div>要求{{c1::非空}}</div>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "dIpL7PK<Yk",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语言 Langeuage<div>- 某个字母表上的符号串的{{c1::集合}}</div>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ek(;cYA_3+",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&nbsp;符号串的运算<div>- 连接 concatenation : 符号串x y的连接 是{{c1::把y的符号写在x的符号之后得到的符号串xy}}</div><div>\\(x=ab,y=cd\\) 则&nbsp;\\(xy=abcd\\)</div>",
+                                "",
+                                "<div>方幂 exponentiation</div>\\(a^n\\;=\\;aaaaa.....a\\) 共\\(n\\)个a<br><div>\\(a^0\\;=\\varepsilon\\)<br></div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "L[W2D${4~@",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "连接 （乘积）<div>- 两个符号串集合A 和 B 的乘积定义为{{c1::</div><div></div><div>&nbsp;\\(AB\\;=\\;\\left\\{xy\\;\\vert\\;x\\in A,also\\;y\\;\\in\\;B\\right\\} \\) }}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "daLN&^&c|#",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "科林闭包 Kleene closure<div>{{c1::\\(L^\\ast=L^0\\cup L^1\\cup L^2.....\\)}}</div><div>闭包 Positive closure</div><div>{{c2::\\(L^+=L^1\\cup L^2\\cup L^3....\\)}}<br></div>",
+                                "",
+                                "\\(L^\\ast=L^+\\cup\\left\\{\\varepsilon\\right\\}\\)",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "hR!8Qe~hbF",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "综合性的例子<div><br></div><div><div><div>\\(L=\\)&nbsp;{{c1::\\(\\left\\{A,B,C,....Z,a,b,c,....z\\right\\}\\)}}<br></div><div>\\(D=\\) {{c2::\\(\\left\\{0,1,....9\\right\\}\\)}}<br></div></div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rjWo9L/&[e",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>文法G定义</div>- V<sub>t</sub> {{c3::终结符}} terminals 集合 一般用{{c3::小写字母数字}}表示 代表语言中{{c3::不可再分的基本符号}}<div><br><div>- V<sub>n</sub> {{c4::非终结符}} 一般用{{c4::大写字母表示}} 或者{{c4::用尖括号括起来}} 代表 {{c4::语法单位}}<span style=\"font-size: 16.6667px;\">&nbsp; </span>如汉语中的语句段落</div><div><br></div><div>- S是{{c5::特殊的非终结符符号}} 称为{{c5::开始符号 start symbol}}&nbsp; &nbsp;S至少{{c5::要在一条产生式作为左部出现}}</div><div><br></div><div>- P是一个产生式production的集合</div><div>- 产生式（重写规则 生成式）形如{{c6:: \\(\\alpha \\rightarrow \\beta \\alpha \\beta \\) }}</div><div>且&nbsp;{{c6::\\(\\alpha\\in V^+,\\beta\\in V^\\ast\\)}} 其中&nbsp;\\(V\\;=\\;\\left(V_T\\cup V_N\\right)\\)</div><div>&nbsp; -&nbsp;\\(\\alpha\\) 称为产生式的{{c1::左部}} {{c1::不能为}}空\\(\\varepsilon\\)</div><div>&nbsp; -&nbsp;\\(\\beta\\) 称为产生式的{{c2::右部}} {{c2::可以为}}空\\(\\varepsilon\\) 如&nbsp;{{c2:: \\( A \\rightarrow \\varepsilon \\) }}</div><div><br></div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "P0ehQ<m^[$",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "35b67ab6-6066-11ea-9868-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "mid": 1437128516929,
+            "name": "编译原理",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35ba49b6-6066-11ea-98d9-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128454805,
+                    "name": "01 命题逻辑",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "逻辑连接词的运算先后顺序",
+                                "\\(\\neg \\quad \\land \\quad \\lor \\quad \\rightarrow \\quad \\leftrightarrow\\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "wK3jiBWwy9",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "命题公式",
+                                "命题常元&nbsp;<div>命题变元</div><div>逻辑连接词</div><div>有限次使用以上的</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "OSA2MOBs1g",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>命题公式</b>与<b>命题</b>之间的关系",
+                                "命题公式的真值不能确定 <b>不是 </b>命题",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "A@+UGE.qi?",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "可满足式",
+                                "不是永假式即可",
+                                "永真式也是可满足式",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "qUWCJUJQEy",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\(A=B\\)<br>",
+                                "在任何赋值下 A B都有相同的真值 称A B等价",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "tYoefUIMKw",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\(A=B\\) 的充要条件是&nbsp; {{c1::\\(A \\leftrightarrow B\\) 是永真式}}<br>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "d6+?Yqv/y1",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "初等和",
+                                "由<b>有限个命题变元或其否定</b>组成的<b>析取式</b>",
+                                "0 1既是初等和也是初等积<div>单个变元或其否定既是初等和也是初等积</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "G=eHwAqE?*",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "初等积",
+                                "由有限个命题或其否定组成的合取式",
+                                "0 1既是初等和也是初等积<div>单个变元或其否定既是初等和也是初等积</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "d]G$lm-`1`",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "析取范式",
+                                "\\(A_{1} \\lor A_{2} \\lor \\cdots \\lor A_{n}\\)<div>其中&nbsp;\\(A_{i}\\)&nbsp; 是<b>初等积</b></div>",
+                                "两种范式都是的：\\(p \\lor q , \\neg p \\land q , 0 , 1 \\)",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "z|mm^OJk]6",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "合取范式",
+                                "\\(A_{1} \\land A_{2} \\land \\cdots \\land A_{n} \\)<br><div>其中 \\(A_{i} \\) 是初等和</div>",
+                                "两种范式都是的：\\(p \\lor q , \\neg p \\land q , 0 , 1 \\)",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f(CqJ&.7c<",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>最小项</b><div>在命题变元&nbsp;\\( p_{1} , \\cdots , p_{n} \\) 组成的{{c1::初等积}}中<br><div>- 每个变元或其否定出现且仅出现一个</div><div>- 各个变元按照其子模或下标次序排列</div><div>称该初等积为最小项</div><div><br></div></div>",
+                                "n个命题变元可以构成 2<sup>n&nbsp;</sup>个最小项",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k:-:M9eT`$",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "最小项的性质<div>- 每个最小项只有一个{{c1::成真赋值}}</div><div>- 最小项的编码 即 {{c4::唯一的成真赋值}}</div><div>- 不同的最小项的{{c2::合}}取{{c2::永假}}</div><div>- 所有最小项的{{c3::析}}取{{c3::永真}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f{E=PneQu^",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "标准析取范式<div>- 每个初等{{c1::积}}都是{{c1::最小项}}</div><div>- 最{{c1::小}}项按下标递增排列</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "LK*H?&nVkQ",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "标准析取范式的求法 变化变元",
+                                "\\(p = p \\land 1= p \\land (q \\lor \\neg q) = (p \\land q) \\lor (p \\land \\neg q)\\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IlKth[U(S!",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "命题公式A中出现的所有最小项的编码实际上就是<div>A所有的成真赋值</div><div>- 永真式的标准析取范式包含{{c3::所有的}}最小项</div><div>- 永假式的标准析取范式{{c2::为0}}</div><div>- 可满足式的标准析取范式{{c1::至少包含一个}}最小项</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IFFaP(^48o",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>最大项</b><div>在命题变元&nbsp;\\( p_{1} , \\cdots , p_{n}&nbsp; \\) 组成的{{c1::初等和}}中</div><div>- 每个变元或其否定出现且仅出现一个</div><div>- 各个变元按照其子模或下标次序排列</div><div>称该初等和为 \\( p_{1} , \\cdots , p_{n}&nbsp; \\)&nbsp; 的最大项<br><div><br></div></div>",
+                                "",
+                                "n个命题变元可以构成2<span style=\"font-size: 16.6667px;\"><sup>n</sup></span>个最大项",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FM%2KmBA*B",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "最大项的性质<div>- 每个最大项只有一个{{c1::成假}}赋值</div><div>- 最大项的编码: 唯一{{c1::成假值}}作为编码</div><div>- 不同最大项的{{c2::析}}取永{{c2::真}}</div><div>- 所有最大项的{{c3::合}}取{{c3::永}}假</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "vj~54PC,>y",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "标准合取范式<div>- 每个初等{{c1::和}}都是最{{c2::大}}项</div><div>- 最{{c2::大}}项按下标递增排列</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Jk>97_;80E",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "标准合取范式的求法 变元补足",
+                                "\\( p = p \\lor 0= p \\lor(q \\land \\neg q) = (p \\lor q) \\land (p \\lor \\neg q) \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "j$co>RlZud",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "命题公式A中出现的所有最大项的编码实际上就是A所有的成假赋值<div>- 永假式的标准合取范式包含{{c2::所有的}}最大项</div><div>- 永真式的标准合取范式为{{c3::1}}</div><div>- 可满足式的标准合取范式{{c1::不包含所有的}}最大项</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "dI+q5|!xwx",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( (P \\land Q) \\lor (P \\land R)&nbsp; &nbsp;\\Leftrightarrow \\)&nbsp;{{c1::&nbsp;\\( P \\land ( Q \\lor R) \\) }}<br>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "xdl}H|#>fw",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( (P \\lor Q) \\land (P \\lor R)&nbsp; &nbsp;\\Leftrightarrow \\)&nbsp;{{c1::&nbsp;\\( P \\lor ( Q \\land R) \\) }}",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "b).FyE3|]2",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "{{c2::&nbsp;\\( P \\rightarrow (Q \\rightarrow R) \\)&nbsp;}} &nbsp;\\( \\Leftrightarrow \\)&nbsp;{{c1:: \\( (P \\land Q) \\rightarrow R \\) }}<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rAeN#6T.HB",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&nbsp;\\( P \\leftrightarrow Q \\Leftrightarrow&nbsp; \\)&nbsp;&nbsp;{{c1::&nbsp;\\( (P \\land Q) \\lor (\\neg P \\land \\neg Q)&nbsp; \\) }}<br>",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "xdd%vq/,/!",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( \\neg (P \\leftrightarrow Q) \\Leftrightarrow \\)&nbsp;&nbsp;{{c1::&nbsp; \\( P \\leftrightarrow \\neg Q \\)&nbsp;}}",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "lU9Mv5QzkW",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "设&nbsp;\\( A_1 , A_2 . \\cdots , A_n \\)&nbsp;和&nbsp;\\( B \\)&nbsp;都是命题公式,&nbsp;则 \\( A_1 , A_2 . \\cdots , A_n \\Rightarrow B \\)&nbsp; 的充要条件是&nbsp;{{c1::&nbsp;\\( A_1 , \\land A_2 , \\cdots \\land \\rightarrow B \\)&nbsp;是永真式 }}&nbsp; 和&nbsp;&nbsp;{{c1:: \\( A_1 , \\land A_2 , \\cdots \\land \\rightarrow \\neg B \\)&nbsp;是永假式&nbsp;}}",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "WxC(v5hWv",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "常用推理公式<div>\\( A \\Rightarrow&nbsp;\\)&nbsp;&nbsp;{{c1::\\( A \\lor B\\)}}</div><div><hr></div><div>\\( A \\land B \\Rightarrow \\)&nbsp; &nbsp;{{c2::\\( A \\)}}<span><br></span></div><div><hr></div><div>\\( A, B \\Rightarrow \\)&nbsp;&nbsp;{{c3::\\( A \\land B \\)}}<br></div><div><hr></div><div>\\( (A \\lor B) \\land \\neg B \\Rightarrow \\)&nbsp;{{c4::\\(A\\)}}<br></div><div><hr></div><div>\\( B \\Rightarrow \\)&nbsp;&nbsp;{{c5::\\( A \\rightarrow B \\)}}<br></div><div><hr></div><div>\\( \\neg A&nbsp; \\Rightarrow\\)&nbsp;&nbsp;{{c6::\\( A \\rightarrow B&nbsp; \\)}}<br></div><div><hr></div><div>\\( (A \\rightarrow B) \\land A \\Rightarrow \\)&nbsp;&nbsp;{{c7::\\(B\\)}}<br></div><div><hr></div><div>\\( (A \\rightarrow B) \\land \\neg B \\Rightarrow \\)&nbsp;&nbsp;{{c11::\\(\\neg A\\)}}<br></div><div><hr></div><div>\\( (A \\rightarrow B) \\land (B \\rightarrow C) \\Rightarrow \\)&nbsp;{{c8::\\(A \\rightarrow C\\)}}<br></div><div><hr></div><div>\\(&nbsp; (A \\leftrightarrow B) \\land A \\Rightarrow \\)&nbsp;{{c9::\\( B&nbsp; \\)}}<br></div><div><hr></div><div>\\( (A \\leftrightarrow B)&nbsp; \\land (B \\leftrightarrow C) \\Rightarrow \\)&nbsp;&nbsp;{{c10::\\( A \\leftrightarrow C \\)}}<br></div><div><hr><br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "AVf+,k7fe~",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "P 规则 {{c1::(前提引入规则)}}<div>E&nbsp;规则&nbsp;{{c2::(置换规则)}}</div><div>T&nbsp;规则&nbsp;{{c3::结论引入规则}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pbo)ryr`$K",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "附加前提法<div>1. \\( A_1 , A_2 , \\cdots , A_n \\Rightarrow A\\)<br></div><div>转换成</div><div>{{c1::\\(&nbsp;A_1 , A_2 , \\cdots , A_n, \\neg A \\Rightarrow 0&nbsp;\\)&nbsp;}}<br></div><div><br></div><div>2. \\(<span>A_1 , A_2 , \\cdots , A_n</span><span>&nbsp;\\Rightarrow A \\rightarrow B</span><span>\\)&nbsp;转换成&nbsp;</span></div><div>{{c2::(\\&nbsp;A_1 , A_2 , \\cdots , A_n,A \\Rightarrow B&nbsp;&nbsp;\\)}}<br></div>",
+                                "其中&nbsp;\\( \\neg A and A \\)&nbsp;称为&nbsp;<b>附加前提</b>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "mU4qjp$:{2",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35bb3380-6066-11ea-a9ef-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "00 错题集",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "除非A 否则B",
+                                "\\( \\neg B \\rightarrow A \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "dbEyT*m/d1",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "只要P 就Q",
+                                "\\( P \\rightarrow Q \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "q3);{PQOPQ",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "仅当P 才Q",
+                                "\\(&nbsp; Q \\rightarrow P \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "l0:f!~x86O",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果P那么Q",
+                                "\\( P \\rightarrow Q \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "KrB*Tr;n;K",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "只有P才Q",
+                                "\\( Q \\rightarrow P \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "bq@gX_<!]8",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "只使用命题变元p和q能构造多少个不同的命题公式真值表",
+                                "16",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "u;@E.<3e{&",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "若今天是1号&nbsp;则明天是5号<div>明天是5号&nbsp;所以今天是1号</div>",
+                                "✕&nbsp;不正确",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "fhK`l^^Lv=",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一到晚上7点&nbsp;我就看电视新闻<div>没到晚上7点&nbsp;我没看电视新闻</div>",
+                                "✕&nbsp;不正确",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "okH{gT!8~&",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( p,p \\rightarrow q \\Rightarrow q \\)<br>",
+                                "✓&nbsp;正确",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "qqvG6J+qj,",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "35b985f3-6066-11ea-982f-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "mid": 1437128516929,
+            "name": "离散数学",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35bc6b38-6066-11ea-a17d-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "07 微分方程",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>\\[\\frac{dy}{dx} + p(x) \\cdot y = 0\\]的解</div>",
+                                "case1 : \\(y=0\\)<div>case2 : \\(y\\;=\\;C\\times e^{-\\int p(x)\\;dx}\\) 且&nbsp;\\(C\\neq0\\)</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FwtJE=(rce",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>形如</div><div>\\[\\frac{\\operatorname dy}{\\operatorname dx}+p(x)\\cdot y=Q(x)\\]</div><div>的方程叫</div>",
+                                "一阶非齐线性微分方程",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f8OAEz2|;#",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[\\frac{\\operatorname dy}{\\operatorname dx}+p(x)\\cdot y=Q(x)\\]<div>的解</div>",
+                                "\\[y=\\left[\\int\\left(Q(x)\\cdot e^{\\int p(x)dx}\\right)dx+C\\right]\\;\\cdot e^{-\\int p(x)dx}\\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Ps!;]TJTeI",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[def \\quad \\frac{\\operatorname dx}{\\operatorname dy}=f(x,y)\\;(\\ast)\\\\if \\quad f(x.y)\\;=\\;\\varphi(\\frac yx)\\]<br><div><br></div><div>称 * 式为</div>",
+                                "齐次微分方程",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "gBPc%($ysF",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[y^{''}+a(x)y^{'}+b(x)y=0 \\quad (1) \\]<div><div>若 \\( \\varphi_1 (x) , \\varphi_2(x)&nbsp; \\)&nbsp;为 (1)&nbsp;的解<br></div><div>则(1) 的解的也可表示为</div></div>",
+                                "\\[ y = C_1 \\varphi_1 (x) + C_2 \\varphi_2 (x)&nbsp; \\]<br>",
+                                "<div><br></div><div><br></div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "l=(%]Y_e7}",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[y^{''}+a(x)y^{'}+b(x)y=0 \\quad (1) \\\\ y^{''}+a(x)y^{'}+b(x)y=c(x) \\quad (2)\\]<div>若&nbsp;\\( \\varphi_1, \\varphi_2 \\) 分别为 (1) (2)&nbsp;的解&nbsp;则 (2)的解</div>",
+                                "\\[ y = \\varphi_1(x) + \\varphi_2(x) \\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "bbFd$7cSQH",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[y^{''}+a(x)y^{'}+b(x)y=0 \\quad (1) \\\\ y^{''}+a(x)y^{'}+b(x)y=c(x) \\quad (2)\\]<div>若 \\( \\varphi_1, \\varphi_2 \\)&nbsp;都是 (2) 的解&nbsp;则 (1)&nbsp;的解为</div>",
+                                "\\[ y=\\varphi_2 (x) - \\varphi_1 (x)&nbsp; \\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "zQ%yRY-H#D",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[ y'' + a(x)y' + b(x)y = f(x) \\quad (2) \\\\ if \\quad f(x) = f_1 (x) + f_2 (x) \\quad&nbsp; then \\\\ y'' + a(x)y' +b(x)y = f_1 (x) \\quad (2)' \\\\ y''+a(x)y' + b(x)y = f_2 (x) \\quad (2)'' \\]<br><div>若&nbsp;\\( \\varphi_1 (x) , \\varphi_2 (x)&nbsp; \\)&nbsp;为 (2)' (2)''&nbsp;的解&nbsp;则 (2)&nbsp;解为</div>",
+                                "\\[ y= \\varphi_1 (x) + \\varphi_2 (x)&nbsp; \\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "g{k&7(6s!z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>\\[y^{''}+a(x)y^{'}+b(x)y=0 \\quad (1) \\\\ y^{''}+a(x)y^{'}+b(x)y=c(x) \\quad (2)\\]<br></div><div>1.&nbsp;设&nbsp;\\( \\varphi_1(x) , \\varphi_2 (x)&nbsp; \\)&nbsp;为(1)&nbsp;的两个线性无关解&nbsp;则 (1)&nbsp;的通解为&nbsp;{{c1::\\( y = C_1 \\varphi_1 (x) + C_2 \\varphi_2 (x) \\)}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "iuQ#_)K)x^",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[y^{''}+a(x)y^{'}+b(x)y=0 \\quad (1) \\\\ y^{''}+a(x)y^{'}+b(x)y=c(x) \\quad (2)\\]<div>设&nbsp;\\( \\varphi_1 (x) , \\varphi_2 (x) \\)&nbsp;为 (1)&nbsp;的两个线性无关解&nbsp;\\( \\varphi_0 (x)&nbsp; \\)&nbsp;为(2)的一个特解&nbsp;则 (2)&nbsp;的通解为</div>",
+                                "\\[ y=C_1 \\varphi_1 (x) + C_2 \\varphi_2 (x) + \\varphi_0 \\]",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "QQUzryXGHl",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[ y'' + py' + qy = 0 \\]<br><div><br></div><div>\\( \\Delta &gt; 0 \\) {{c1::&nbsp;\\( y=C_1 \\cdot e^{\\lambda_1 x} + C_2 \\cdot e^{\\lambda_2 x} \\) }}</div><div>\\( \\Delta = 0 \\)&nbsp;{{c2::&nbsp;\\( y=(C_1 + C_2 x) e^{\\lambda_1} \\) }}<br></div><div>\\( \\Delta &lt; 0 \\)&nbsp;{{c3::&nbsp;\\( y = e^{ \\alpha x} ( C_1 \\cdot cos \\beta x + C_2 \\cdot sin\\beta x) \\) }}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k1jW$|}mj`",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "35bbce61-6066-11ea-9225-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "mid": 1485179307096,
+            "name": "高等数学A2",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35bdf0cc-6066-11ea-8240-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "01 数据库系统概论",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库 定义",
+                                "长期存储在计算机内 有组织 可共享的大量数据集合",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pdHV1N|lZQ",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库特点<div><br></div><div>- {{c1::冗余度小}}</div><div>- {{c2::数据独立性高}}</div><div>- {{c3::容易扩展}}</div><div>- {{c4::可为各种用户共享}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "e`S?kW,]sO",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库管理系统&nbsp;定位",
+                                "- 是数据库管理的工具<div>- 位于用户与操作系统之间的一层数据管理软件</div>",
+                                "科学地组织和存储数据 高效地获取和维护数据",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "e/kKc?g`aj",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库系统 指",
+                                "在计算机系统中引入数据库后的系统构成<div>由 计算机硬件、操作系统、DBMS、DB、应用程序、用户和管理开发人员</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "uG]A:Pa%uQ",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库管理系统定义",
+                                "是一种操纵和管理数据库的大型软件<div>用于建立、使用和维护数据库</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "t=pn]ZRnYE",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "进行数据处理的目的 2个",
+                                "1.借住计算机科学的保存管理大量复杂数据 方便利用<div>2.从大量数据中提取 操作 计算</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "P_%MSS^mZA",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Database System 具有的特点<div>- {{c1::整体数据结构化}}</div><div>-&nbsp;{{c2::数据的共享度高}}</div><div>-&nbsp;{{c3::数据的独立性高}}</div><div>-&nbsp;{{c4::高度的数据控制能力}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "jh5.^C|^[*",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "DBMS的基本功能<div>-&nbsp;{{c1::数据定义 Data Definition}}</div><div>DDL&nbsp; 能够全面的分析&nbsp;研究数据</div><div><br></div><div>-&nbsp;{{c2::数据操纵 Data Manipulation}}</div><div>DML&nbsp; 插入&nbsp;查询&nbsp;删除等</div><div><br></div><div>-&nbsp;{{c3::访问控制 Acess Control}}</div><div>DCL&nbsp;实现对不同级别用户的控制功能</div><div><br></div><div>-&nbsp;{{c4::并发控制 Concurrency Control}}</div><div>避免并发操作带来的数据不一致性</div><div><br></div><div>-&nbsp;{{c6::完整性约束检查 Integrity Constraint Check}}</div><div>数据必须符合一定的规定</div><div><br></div><div>-&nbsp;{{c5::数据库恢复 Database Recovery}}</div><div>恢复</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "cA<R7DkOtr",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库模式 Data Schema",
+                                "对全体数据结构的逻辑结构&nbsp;联系&nbsp;和约束的描述",
+                                "一般在设计阶段就确定下来的&nbsp;并且不会频繁更改",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "I;%e@_@b|j",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据库的结构包含三级模式&nbsp;由外到内分别为<div>-&nbsp;{{c1::外模式 External Schema}}</div><div>-&nbsp;{{c2::模式 Schema \\ Logical Schema}}</div><div>-&nbsp;{{c3::内模式 Internal Schema}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "u8q@?EHy5z",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "DBS&nbsp;中&nbsp;模式",
+                                "数据库全体数据在逻辑上的视图<div>常常以某种数据结构为基础&nbsp;定义数据库中全部数据的逻辑结构</div>",
+                                "仅仅描述数据库的结构&nbsp;不涉及硬件环境和物理存储细节",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "fR&&9A9xz~",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "DBS&nbsp;中&nbsp;外模式",
+                                "个别用户的数据库视图&nbsp;<div>每个外模式描述特定用户组感兴趣的那部分</div><div>一个应用程序只能启用一个外模式</div><div>无法访问其他数据</div>",
+                                "Sub-DDL&nbsp;描述外语言",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pY7:Hbt<)n",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "DBS&nbsp;中&nbsp;内模式",
+                                "称&nbsp;存储模式 Storage Chema<div>既定义了数据库中全部数据的物理结构&nbsp;也定义了数据的存储方法&nbsp;存取策略等</div><div>与软件和硬件都有关</div>",
+                                "DDL&nbsp;描述和定义",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "z[TE?U<Kf`",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "数据的独立性<div>- 外模式/模式映像和数据的{{c2::逻辑}}独立性</div><div>-&nbsp;模式/内模式映像和数据的{{c1::物理}}独立性</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "z0=npCLJDI",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "三级模式{{c1::并不是}}关系模型特有的&nbsp;",
+                                "但关系模型特别适合实现三级结构模式",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "HiG/c0WS{V",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "视图是{{c1::外模式}}的基本单位<div>任何一个视图都是从已有关系中导出的关系</div><div><br></div>",
+                                "只是逻辑上的定义&nbsp;实际上不存在<div>只在数据字典中存在定义</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "yMBjpn.GE?",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "基本表 Base Table<div>基本表是{{c1::模式}}的基本内容&nbsp;每个表都是一个{{c2::实际存在的关系}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "F.h1xpOA-t",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "存储文件<div>是{{c1::内模式}}的基本单位&nbsp;可存储一个或多个{{c2::基本表}}的内容&nbsp;可有若干个{{c3::索引}}</div><div>就DBMS来说 DBA负责&nbsp;{{c4::模式&nbsp;外模式的定义}}和{{c4::模式-外模式之间}}的映像定义&nbsp;{{c5::内模式}}中的索引</div><div>其他内容{{c6::(模式/内模式的映像)}}都由 DBMS负责</div>",
+                                "存储结构对用户是透明的",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "z_>@SzkRv0",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "面对用户的数据库系统体系结构<div>-&nbsp;{{c4::集中式系统}}</div><div>-&nbsp;{{c3::文件服务器系统}}</div><div>- {{c2::客户/服务器系统 Cilent/Server C/S}}</div><div>-&nbsp;{{c1::浏览器/服务器系统 Browser/Server B/S}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "sE]-934]UD",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "35bd2f1d-6066-11ea-a354-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "数据库",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35bf7774-6066-11ea-b140-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg",
+                        "image-20200220140250583.png",
+                        "image-20200220140503053.png",
+                        "paste-49e41b31bec94989660a1afb6d3d81aa8aa59250.jpg",
+                        "paste-58926231427fa520576d1c21e8a022a7fd62735d.jpg",
+                        "paste-9adedd21b552b51ae21c978116e1b7ed0324c0e9.jpg",
+                        "paste-cf1dc045674654de00b01ad47e2cd9309576bf14.jpg",
+                        "paste-e8c1c5f44ea0a53d6150a5f0e11f77621dfb6059.jpg",
+                        "paste-eb4a1a81a91ee37c6623615efe909797b4a04afc.jpg",
+                        "paste-fe0215e417b3ee129c3f22e10cc9ac45e21d1cee.jpg"
+                    ],
+                    "mid": 1437128454805,
+                    "name": "01 数字和逻辑基础",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>理想的数字逻辑电路图<br></div><img src=\"image-20200220140250583.png\"><div>V<span style=\"font-size: 16.6667px;\">m&nbsp;</span>{{c4::信号幅度}}</div><div><span style=\"font-size: 16.6667px;\">T&nbsp;</span>{{c3::周期}}</div><div><span style=\"font-size: 16.6667px;\">t<sub>w&nbsp;</sub></span>{{c2::脉冲宽度}}</div><div><span style=\"font-size: 16.6667px;\">q(β)&nbsp;</span>{{c1::<span style=\"font-size: 16.6667px;\">占空比 =&nbsp;</span>\\(q(\\%)=\\frac{t_w}T\\times100\\%\\)}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "j.llB07h`Q",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "实际脉冲波形和参数<div><img src=\"image-20200220140503053.png\"><br></div><div>T {{c4::周期}}</div><div>t<sub>w </sub>{{c3::脉冲幅值为50%的两个时间所跨越的时间}}</div><div><span style=\"font-size: 16.6667px;\">t<sub>r&nbsp;</sub></span>{{c2::上升时间}}</div><div><span style=\"font-size: 16.6667px;\">t<sub>f</sub>&nbsp;</span>{{c2::下降时间}}</div><div><span style=\"font-size: 16.6667px;\">&nbsp;&nbsp;</span>{{c1::从脉冲幅值10%到90%上升下降所经历的时间}}</div>",
+                                "上升下降的典型值 ns",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "gIMvc-,z*K",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "各种数制转换成十进制",
+                                "按权展开求和",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K^[|mOOtfD",
+                            "note_model_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "十进制转换为二进制<div><br></div><div>整数部分：{{c2::除2取余}}</div><div>小数部分：{{c1::乘2取整}}</div><div><br></div><div>两个部分所得的数{{c3::读取顺序不一样}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "c$-]ob,Y1d",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "二进制-&gt;八进制<div>从小数点开始&nbsp;</div><div>{{c3::整数部分向左}}</div><div>{{c3::小数部分向右}}</div><div>{{c2::三位一组 不足的补0}}</div><div><br></div><div>八进制-&gt;二进制</div><div>每位八进制用{{c1::三位二进制数}}代替 再按原顺序排列即可</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "p=z;7rXolg",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "二进制数码 Binary Coded Decimal<div>表示十进制数0~9的二进制代码</div><div>有权码: {{c2::8421码 5421码}} 等</div><div>无权码: {{c1::余3码}} 等</div>",
+                                "<b>注意区别BCD码和数制的区别!!!</b>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "p_1#{)_i9`",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;原码&nbsp; &nbsp;反码&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;补码<div>正数: {{c1::本身}}&nbsp; &nbsp;{{c1::本身}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{c1::本身}}</div><div>负数: 本身&nbsp; {{c2::符号位除外取反}}&nbsp; &nbsp;{{c3::反码后+1}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "yq1iPjrHXr",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "与",
+                                "都为1才为1",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "kYk8EjX})a",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "或",
+                                "都为0才为0",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pVHEgr1g~O",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "非",
+                                "取反",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "l8p9Cy8NMB",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "与非",
+                                "都为1才为0",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FB%X=]NP&z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "或非",
+                                "都为0才为1",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "L:0/=aZpiQ",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "异或",
+                                "不同为1 相同为0",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "O4=C;l__iU",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "同或",
+                                "相同为1 不同为0",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "NV,ogUp=A1",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-58926231427fa520576d1c21e8a022a7fd62735d.jpg\">",
+                                "与逻辑",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "kf?Z~xNB;i",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-fe0215e417b3ee129c3f22e10cc9ac45e21d1cee.jpg\">",
+                                "或逻辑",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "M}<L/$?E+V",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-9adedd21b552b51ae21c978116e1b7ed0324c0e9.jpg\">",
+                                "非逻辑",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "B!;|N:Pa$L",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-cf1dc045674654de00b01ad47e2cd9309576bf14.jpg\">",
+                                "与非",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "hH=0E/odA%",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-eb4a1a81a91ee37c6623615efe909797b4a04afc.jpg\">",
+                                "或非",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "o(jk$R)Z+0",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-49e41b31bec94989660a1afb6d3d81aa8aa59250.jpg\">",
+                                "异或",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "w%7Kc1a-Aw",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-e8c1c5f44ea0a53d6150a5f0e11f77621dfb6059.jpg\">",
+                                "同或",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Av7AB5INLR",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "35beda92-6066-11ea-a9a1-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "数字电路",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "35c0fe42-6066-11ea-9648-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "name": "Servlet基础",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "35c06239-6066-11ea-8d9e-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "JavaServerPage",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "cf9f44e4-6066-11ea-8c89-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "Test",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "cf9fb9c0-6066-11ea-9256-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "Temp",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "nice啊{{c1::发}}",
+                        "卧槽",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "f!IZJ[aHK|",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "35b4f51a-6066-11ea-8948-b025aa30a048",
+    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 0,
+                "perDay": 200,
+                "separate": true
+            },
+            "reminder": {
+                "enabled": true,
+                "time": [
+                    18,
+                    0
+                ]
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "_bg.png",
+        "_space.png",
+        "_switch.png",
+        "_times.ttf",
+        "_x-day.svg",
+        "_x-night.svg",
+        "_y-day.svg",
+        "_y-night.svg",
+        "_z-day.svg",
+        "_z-night.svg"
+    ],
+    "name": "大一下",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n\n.cloze {\n\tcolor: #ec6c4f;\n\t#font-weight: bold;\n\tborder-bottom: 1px solid #ec6c4f;\n\tpadding-bottom: 2px;\n\t-webkit-animation: cloze 0.4s 0s;\n\t-webkit-animation-fill-mode: forwards;\n}\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.btn {\n\topacity: 0.8;\n\tright: 10px;\n\tbottom: 10px;\n\theight: 70px;\n\twidth: 70px;\n\tborder: none;\n\tbackground: url(_switch.png);\n\tbackground-size: 100%;\n\tposition: fixed;\n}\n\t.btn:active { opacity: 0.9; }\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nuu { border-bottom: 1px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n.night_mode .cloze { color: #a0a0a0; border-bottom: 1px solid #a0a0a0; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode uu { border-bottom: 1px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n.night_mode .btn { opacity:0.5; right:10px; bottom:10px; position: fixed; }\n.night_mode .btn:active { opacity:0.3; }\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n\n@-webkit-keyframes cloze {\n\tfrom\t{ opacity: 0; }\n\tto  \t{ opacity: 1; }\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "知识",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "知识点-Cloze (Leaflyer)",
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}知识{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "填空题",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}知识{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t<span id=\"time\"></span>\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n<script type=\"text/javascript\">\n    [].forEach.call(document.querySelectorAll('.cloze'),\n       function(V0) {\n          V0.innerHTML = V0.innerHTML.replace(/\\[...]/g,\"　　\");\n });\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "知识点-Basic (Leaflyer)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n{{FrontSide}}\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n{{/答案}}\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "知识点-Basic",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}问题{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{问题}}</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35b95ee2-6066-11ea-a264-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n\n.cloze {\n\tcolor: #ec6c4f;\n\t#font-weight: bold;\n\tborder-bottom: 1px solid #ec6c4f;\n\t-webkit-animation: cloze 0.4s 0s;\n\t-webkit-animation-fill-mode: forwards;\n}\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.btn {\n\topacity: 0.8;\n\tright: 10px;\n\tbottom: 10px;\n\theight: 70px;\n\twidth: 70px;\n\tborder: none;\n\tbackground: url(_switch.png);\n\tbackground-size: 100%;\n\tposition: fixed;\n}\n\t.btn:active { opacity: 0.9; }\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nuu { border-bottom: 1px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n.night_mode .cloze { color: #a0a0a0; border-bottom: 1px solid #a0a0a0; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode uu { border-bottom: 1px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n.night_mode .btn { opacity:0.5; right:10px; bottom:10px; position: fixed; }\n.night_mode .btn:active { opacity:0.3; }\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n\n@-webkit-keyframes cloze {\n\tfrom\t{ opacity: 0; }\n\tto  \t{ opacity: 1; }\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "知识点-Mix (Leaflyer)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}问题{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\" id=\"div0\" style=\"display:none; \"><%问题%></div>\n\t<div class=\"h2 xleft\" id=\"div1\" style=\"display:block;\"><%问题%></div>\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\" id='div0' style=\"display:block;\"><hr><%答案%></div>\n\t<div class=\"h2 xleft slide\" id='div1' style=\"display:none; \"><hr><%答案%></div>\n{{/答案}}\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}\n\n\n<input class=\"btn\" type=\"button\" onclick=\"showAndHidden();\" value=\"\" style=\"display:none;\" />\n\n<div style=\"display:none\">{{cloze:问题}}</div>\n\n{{=<% %>=}}\n\n<script type=\"text/javascript\">\n\nfunction showLocale(objD)\n    {   \n        var hh = objD.getHours();\n            if(hh<10) hh = '0' + hh;\n        var mm = objD.getMinutes();\n            if(mm<10) mm = '0' + mm;\n                str = hh + \":\" + mm;   \n            return(str);   \n    }   \nfunction tick()   \n    {   \n        var today;   \n        today = new Date();\n        document.getElementById(\"time\").innerHTML = showLocale(today);\n        window.setTimeout(\"tick()\", 1000);\n    }   \n    tick();\n\nvar arr = new Array,arr1 = new Array,arr2 = new Array;\n\n/////////\n    [].forEach.call(document.querySelectorAll('#div0'),\n      function(V0) {\n         V0.innerHTML = V0.innerHTML.replace(/\\{\\{[c]\\d+\\:\\:([^\\{|\\}]+?)\\}\\}/g,\n               function(cloze) {\n                   var div30='<span id=\"div3\" onclick=\"toggle(this)\" class=\"cloze\" cloze=\"@CLOZE@\" cloze1=\"@CLOZE@1\" cloze2=\"@CLOZE@2\" wor=\"wor2\">@......@</span>';\nvar dd1=cloze.indexOf(\"::\"),dd2=cloze.lastIndexOf(\"::\"),dd3=cloze.length,cc=0,cc1=0,cc2=0;\n                   var word = cloze.substring(dd1+2, dd3-2);\n                   var word1,word2;\n                   switch(dd2-dd1){\n                     case 0: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     case 1: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     case 2: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     default:\n                        if(dd3-dd2==4){word1=word;word2=\"<uu>&emsp;&emsp;</uu>\";}\n                           else{word1=cloze.substring(dd1+2, dd2);word2=\"<uu>&nbsp;&nbsp;\"+cloze.substring(dd2+2, dd3-2)+\"&nbsp;&nbsp;</uu>\";}}\n                  cc=arr.push(word)-1; cc1=arr1.push(word1)-1;cc2=arr2.push(word2)-1;\n                  return div30.replace( '@CLOZE@',cc).replace( '@CLOZE@1',cc1).replace( '@CLOZE@2',cc2).replace( '@......@', word2);\n  }); });\n/////////\n\n/////////\n    [].forEach.call(document.querySelectorAll('#div1'),\n       function(V2) {\n          V2.innerHTML = V2.innerHTML.replace(/(\\{\\{[c]\\d+\\:\\:[^\\{|\\}]+?)\\:\\:[^\\{|\\}]*?\\}\\}/g,\"$1}}\").replace(/\\{\\{[c]\\d+\\:\\:([^\\{|\\}]+?)\\}\\}/g,'<span class=\"cloze\">'+\"$1\"+'</span>');\n });\n //////////\n\n//////////\n     function toggle(id) {\n\n       if (id.getAttribute('wor')==\"wor2\") {\n    \t \n                   id.innerHTML = arr1[id.getAttribute('cloze1')]; \n                   id.setAttribute('wor',\"wor1\");\n\n                  return;}\n        if (id.getAttribute('wor')==\"wor1\"){\n\n           id.innerHTML = arr2[id.getAttribute('cloze2')]; \n           id.setAttribute('wor',\"wor2\");\n\n          return;}}\n/////////\n\n\n//////////\n     function showAndHidden(){\n        var div0=document.getElementById(\"div0\");\n        var div1=document.getElementById(\"div1\");\n        if(div0.style.display=='block') {div0.style.display='none';}\n             else {div0.style.display='block';}\n        if(div1.style.display=='none') {div1.style.display='block';}\n             else {div1.style.display='none';}\n      }\n\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "知识点-Mix",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}问题{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\" id=\"div0\" style=\"display:block;\"><%问题%></div>\n\t<div class=\"h2 xleft\" id=\"div1\" style=\"display:none; \"><%问题%></div>\n\n<input class=\"btn\" type=\"button\" onclick=\"showAndHidden();\" value=\"\" style=\"display:none;\" />\n\n<div style=\"display:none\">{{cloze:问题}}</div>\n\n{{=<% %>=}}\n\n<script type=\"text/javascript\">\n\nfunction showLocale(objD)\n    {   \n        var hh = objD.getHours();\n            if(hh<10) hh = '0' + hh;\n        var mm = objD.getMinutes();\n            if(mm<10) mm = '0' + mm;\n                str = hh + \":\" + mm;   \n            return(str);   \n    }   \nfunction tick()   \n    {   \n        var today;   \n        today = new Date();\n        document.getElementById(\"time\").innerHTML = showLocale(today);\n        window.setTimeout(\"tick()\", 1000);\n    }   \n    tick();\n\nvar arr = new Array,arr1 = new Array,arr2 = new Array;\n\n/////////\n    [].forEach.call(document.querySelectorAll('#div0'),\n      function(V0) {\n         V0.innerHTML = V0.innerHTML.replace(/\\{\\{[c]\\d+\\:\\:([^\\{|\\}]+?)\\}\\}/g,\n               function(cloze) {\n                   var div30='<span id=\"div3\" onclick=\"toggle(this)\" class=\"cloze\" cloze=\"@CLOZE@\" cloze1=\"@CLOZE@1\" cloze2=\"@CLOZE@2\" wor=\"wor2\">@......@</span>';\nvar dd1=cloze.indexOf(\"::\"),dd2=cloze.lastIndexOf(\"::\"),dd3=cloze.length,cc=0,cc1=0,cc2=0;\n                   var word = cloze.substring(dd1+2, dd3-2);\n                   var word1,word2;\n                   switch(dd2-dd1){\n                     case 0: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     case 1: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     case 2: word1=word;word2=\"<uu>　　</uu>\";  break;\n                     default:\n                        if(dd3-dd2==4){word1=word;word2=\"<uu>&emsp;&emsp;</uu>\";}\n                           else{word1=cloze.substring(dd1+2, dd2);word2=\"<uu>&nbsp;&nbsp;\"+cloze.substring(dd2+2, dd3-2)+\"&nbsp;&nbsp;</uu>\";}}\n                  cc=arr.push(word)-1; cc1=arr1.push(word1)-1;cc2=arr2.push(word2)-1;\n                  return div30.replace( '@CLOZE@',cc).replace( '@CLOZE@1',cc1).replace( '@CLOZE@2',cc2).replace( '@......@', word2);\n  }); });\n/////////\n\n/////////\n    [].forEach.call(document.querySelectorAll('#div1'),\n       function(V2) {\n          V2.innerHTML = V2.innerHTML.replace(/(\\{\\{[c]\\d+\\:\\:[^\\{|\\}]+?)\\:\\:[^\\{|\\}]*?\\}\\}/g,\"$1}}\").replace(/\\{\\{[c]\\d+\\:\\:([^\\{|\\}]+?)\\}\\}/g,'<span class=\"cloze\">'+\"$1\"+'</span>');\n });\n //////////\n\n//////////\n     function toggle(id) {\n\n       if (id.getAttribute('wor')==\"wor2\") {\n    \t \n                   id.innerHTML = arr1[id.getAttribute('cloze1')]; \n                   id.setAttribute('wor',\"wor1\");\n\n                  return;}\n        if (id.getAttribute('wor')==\"wor1\"){\n\n           id.innerHTML = arr2[id.getAttribute('cloze2')]; \n           id.setAttribute('wor',\"wor2\");\n\n          return;}}\n/////////\n\n     function showAndHidden(){\n        var div0=document.getElementById(\"div0\");\n        var div1=document.getElementById(\"div1\");\n        if(div0.style.display=='block') {div0.style.display='none';}\n             else {div0.style.display='block';}\n        if(div1.style.display=='none') {div1.style.display='block';}\n             else {div1.style.display='none';}\n      }\n\n</script>\u0000\u0000\u0000\u0000"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
