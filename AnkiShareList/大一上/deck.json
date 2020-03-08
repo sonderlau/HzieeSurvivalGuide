@@ -1,0 +1,1734 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "1380822c-60e5-11ea-acc8-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "Java",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "void表明main方法",
+                        "不返回任何结果",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "p1?J@JYiPg",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "\\n",
+                        "换行",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "K_0p;Ln5Z|",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "什么是静态(static)方法？",
+                        "无须创建对象即可使用的方法",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "C^8h%|Xp^6",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "逻辑与&amp;",
+                        "都为true才为true否则是false",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "q@cM`FZX-z",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "逻辑或",
+                        "有一个true 结果就true",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Difs_>YLcn",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Java",
+                        "System.out.println(a = b);",
+                        "将b的值赋值给a 然后输出a",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tKj*,3Sd}*",
+                    "note_model_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "1381b921-60e5-11ea-8643-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "name": "ZMX 网页",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&amp;quot",
+                                "\"",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Q<?Zh3]G4N",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&amp;apos",
+                                "'",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "LOZR2$|I<z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&amp;amp",
+                                "&amp;",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "sKI0ehS!+s",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&amp;lt",
+                                "&lt;",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "hnYnT0cZ-p",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&amp;gt",
+                                "&gt;",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "e8^CvVAtGu",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "138257c5-60e5-11ea-968c-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1485179307096,
+                    "name": "布局学习",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平居中：文本/行内/行内块级",
+                                "#parent<div>text-align:center;</div>",
+                                "只对行内内容有效；属性会继承影响到后代行内内容；如果子元素宽度大于父元素宽度则无效，但是后代行内内容中宽度小于设置text-align属性的元素宽度的时候，也会继承水平居中",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "v(H^#AAM)z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平居中： 单个块级元素",
+                                "#son{<br>&nbsp;&nbsp;&nbsp; width: 100px; /*必须定宽*/<br>&nbsp;&nbsp;&nbsp; margin: 0 auto;<br>}",
+                                "<div>必须定宽，并且值不能为auto；宽度要小于父元素，否则无效<br></div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "qIQj51vj|f",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平居中：多个块级元素",
+                                "#parent{text-align: center;}<br>.son{display: inline-block;}<br> /*改为行内或者行内块级形式，以达到text-align对其生效*/",
+                                "只对行内内容有效；属性会继承影响到后代行内内容；块级改为inline-block换行、空格会产生元素间隔",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "y4LZFn@eeK",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平居中：使用position实现",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; height: 200px;<br>&nbsp;&nbsp;&nbsp; width: 200px;&nbsp; /*定宽*/<br>&nbsp;&nbsp;&nbsp; position: relative;&nbsp; /*父相*/<br>&nbsp;&nbsp;&nbsp; background-color: #f00;<br>}<br>#son{<br>&nbsp;&nbsp;&nbsp; position: absolute;&nbsp; /*子绝*/<br>&nbsp;&nbsp;&nbsp; left: 50%;&nbsp; /*父元素宽度一半,这里等同于left:100px*/<br>&nbsp;&nbsp;&nbsp; transform: translateX(-50%);&nbsp; /*自身宽度一半,等同于margin-left: -50px;*/<br>&nbsp;&nbsp;&nbsp; width: 100px;&nbsp; /*定宽*/<br>&nbsp;&nbsp;&nbsp; height: 100px;<br>&nbsp;&nbsp;&nbsp; background-color: #00ff00;<br>}",
+                                "代码较多；脱离文档流；使用margin-left需要知道宽度值；使用transform兼容性不好（ie9+）",
+                                "使用margin-left兼容性好；不管是块级还是行内元素都可以实现"
+                            ],
+                            "flags": 0,
+                            "guid": "cwvvZ`#Dl",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平居中：任意个元素(flex)",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; justify-content: center;<br>}<br>",
+                                "PC端兼容性差&nbsp;移动端（Android4.0+）",
+                                "就是设置当前主轴对齐方式为居中<div><br></div><div>flex务必带上兼容</div>"
+                            ],
+                            "flags": 0,
+                            "guid": "E&)>X?EDX)",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>对于水平居中，我们应该先考虑，哪些元素有自带的居中效果，最先想到的应该就是 {{c1::text-align:center}} 了，但是这个{{c2::只对行内内容}}有效，所以我们要使用 text-align:center 就必须将{{c3::子元素设置为 display: inline; 或者 display: inline-block; ；}} </div><div><br></div><div>其次就是考虑能不能用{{c4::margin: 0 auto;}} ，因为这都是一两句代码能搞定的事，实在不行就是用绝对定位去实现了；</div><div><br></div><div>移动端能用{{c5::flex就用flex，}}简单方便，灵活并且功能强大，无愧为网页布局的一大利器！务必带上兼容</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "BY}J#]eNG4",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：单行文本/行内/行内块级",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; line-height: 150px;&nbsp; /*与height等值*/<br>}",
+                                "只能用于单行行内内容；要知道高度的值",
+                                "line-height的最终表现是通过inline box实现的，而无论inline box所占据的高度是多少（无论比文字大还是比文字小），其占据的空间都是与文字内容公用水平中垂线的"
+                            ],
+                            "flags": 0,
+                            "guid": "C//E!_q}cL",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：多行文本/行内/行内块级",
+                                "#parent{&nbsp; /*或者用span把所有文字包裹起来，设置display：inline-block转换成图片的方式解决*/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; line-height: 30px;&nbsp; /*元素在页面呈现为5行,则line-height的值为height/5*/<br>&nbsp;&nbsp;&nbsp; }",
+                                "只能用于行内内容；需要知道高度和最终呈现多少行来计算出line-height的值，建议用span包裹多行文本",
+                                "原理与单行的相同"
+                            ],
+                            "flags": 0,
+                            "guid": "nv{P+#Mg&E",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：图片",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; line-height: 150px;<br>&nbsp;&nbsp;&nbsp; font-size: 0;<br>}<br>img#son{vertical-align: middle;} /*默认是基线对齐，改为middle*/",
+                                "需要添加font-size: 0; 才可以完全的垂直居中；不过需要注意html中#parent包裹img之间需要有换行或空格；熟悉line-height和vertical-align的基友关系较难",
+                                "熟悉：vertical-align 与 line-height的关系"
+                            ],
+                            "flags": 0,
+                            "guid": "cg`3j64_=G",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：单个块级元素 使用table-cell 实现<div>div: parent/son</div>",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; display: table-cell;<br>&nbsp;&nbsp;&nbsp; vertical-align: middle;<br>}",
+                                "设置tabl-cell的元素，宽度和高度的值设置百分比无效，需要给它的父元素设置display: table; 才生效；table-cell不感知margin，在父元素上设置table-row等属性，也会使其不感知height；设置float或position会对默认布局造成破坏，可以考虑为之增加一个父div定义float等属性；内容溢出时会自动撑开父元素",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "G|p$&SRw=I",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：单个块级元素 使用positon实现<div>div: parent/son</div>",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; position: relative;&nbsp; /*父相*/<br>}<br>#son{<br>&nbsp;&nbsp;&nbsp; position: absolute;&nbsp; /*子绝*/<br>&nbsp;&nbsp;&nbsp; top: 50%;&nbsp; /*父元素高度一半,这里等同于top:75px;*/<br>&nbsp;&nbsp;&nbsp; transform: translateY(-50%);&nbsp; /*自身高度一半,这里等同于margin-top:-25px;*/<br>&nbsp;&nbsp;&nbsp; height: 50px;<br>}",
+                                "- 优点：使用margin-top兼容性好；不管是块级还是行内元素都可以实现<br>- 缺点：代码较多；脱离文档流；使用margin-top需要知道高度值；使用transform兼容性不好（ie9+）*/",
+                                "原理：子绝父相，top、right、bottom、left的值是相对于父元素尺寸的，然后margin或者transform是相对于自身尺寸的，组合使用达到水平居中的目的*/"
+                            ],
+                            "flags": 0,
+                            "guid": "dOg-Fk{-~",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：单个块级元素 使用position实现",
+                                "#parent{position: relative;}<br>#son{<br>&nbsp;&nbsp;&nbsp; position: absolute;<br>&nbsp;&nbsp;&nbsp; margin: auto 0;<br>&nbsp;&nbsp;&nbsp; top: 0;<br>&nbsp;&nbsp;&nbsp; bottom: 0;<br>&nbsp;&nbsp;&nbsp; height: 50px;<br>}",
+                                "- 优点：简单;兼容性较好(ie8+)<br>- 缺点：脱离文档流*/",
+                                "原理：当top、bottom为0时,margin-top&amp;bottom设置auto的话会无限延伸占满空间并且平分"
+                            ],
+                            "flags": 0,
+                            "guid": "PXTUA>z{XB",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：单个块级元素 使用flex实现 3种<div>{{c1::#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; align-items: center;<br>}}}<br><br>或<br>{{c2::<br>#parent{display: flex;}<br>#son{align-self: center;}}}<br><br>或<br>{{c3::/*原理：这个尚未搞清楚，应该是flex使margin上下边界无限延伸至剩余空间并平分了*/<br>#parent{display: flex;}<br>#son{margin: auto 0;}}}<br></div>",
+                                "<div>优点：简单灵活；功能强大</div><div>缺点：PC端兼容性不好，移动端（Android4.0+）</div><div>flex务必带上兼容，写法请参考文末阅读推荐，也可以使用autoprefixer</div>",
+                                "<div>flex设置排列方式、对齐方式罢了<br></div>"
+                            ],
+                            "flags": 0,
+                            "guid": "v>3Vtf6!DM",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中：任意个元素<div><br></div><div>{{c1::#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; align-items: center;<br>}}}<br><br>或<br><br>{{c2::#parent{display: flex;}<br>.son{align-self: center;}<br>}}<br>或 <br><br>{{c3::#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; flex-direction: column;<br>&nbsp;&nbsp;&nbsp; justify-content: center;<br>}}}<br></div>",
+                                "<div>优点：简单灵活；功能强大</div><div>缺点：PC端兼容性不好，移动端（Android4.0+）</div>",
+                                "flex设置对齐方式罢了"
+                            ],
+                            "flags": 0,
+                            "guid": "EkM)U(:B/+",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "垂直居中小结<div><br></div><div><div>对于垂直居中，最先想到的应该就是 {{c1::line-height}} 了，但是这个只能用于{{c1::行内内容；}} </div><div><br></div><div>其次就是考虑能不能用{{c2::vertical-align: middle;}}&nbsp;</div><div><br></div><div>然后便是{{c3::绝对定位}}，虽然代码多了点，但是胜在适用于不同情况；</div><div><br></div><div>移动端兼容性允许的情况下能用{{c4::flex就用flex}}，务必带上兼容</div><div></div><br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Q,T?^`&dPE",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：行内/行内块级/图片",
+                                "#parent{<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; line-height: 150px;&nbsp; /*行高的值与height相等*/<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>&nbsp;&nbsp;&nbsp; font-size: 0;&nbsp;&nbsp; /*消除幽灵空白节点的bug*/<br>}<br>#son{<br>&nbsp;&nbsp;&nbsp; /*display: inline-block;*/&nbsp; /*如果是块级元素需改为行内或行内块级才生效*/<br>&nbsp;&nbsp;&nbsp; vertical-align: middle;<br>}",
+                                "只对行内内容有效；需要添加font-size: 0; 才可以完全的垂直居中；不过需要注意html中#parent包裹#son之间需要有换行或空格；熟悉line-height和vertical-align的基友关系较难",
+                                "text-align: center; 控制行内内容相对于块父元素水平居中,然后就是line-height和vertical-align的基友关系使其垂直居中，font-size: 0; 是为了消除近似居中的bug"
+                            ],
+                            "flags": 0,
+                            "guid": "Eq7Fw[;Lc~",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：table-cell",
+                                "parent{<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; width: 200px;<br>&nbsp;&nbsp;&nbsp; display: table-cell;<br>&nbsp;&nbsp;&nbsp; vertical-align: middle;<br>&nbsp;&nbsp;&nbsp; /*text-align: center;*/&nbsp;&nbsp; /*如果是行内元素就添加这个*/<br>}<br>#son{<br>&nbsp;&nbsp;&nbsp; /*margin: 0 auto;*/&nbsp;&nbsp;&nbsp; /*如果是块级元素就添加这个*/<br>&nbsp;&nbsp;&nbsp; width: 100px;<br>&nbsp;&nbsp;&nbsp; height: 50px;<br>}",
+                                "简单；适用于宽度高度未知情况；兼容性好（ie8+）<div>设置tabl-cell的元素，宽度和高度的值设置百分比无效，需要给它的父元素设置display: table; 才生效；table-cell不感知margin，在父元素上设置table-row等属性，也会使其不感知height；设置float或position会对默认布局造成破坏，可以考虑为之增加一个父div定义float等属性；内容溢出时会自动撑开父元素<br></div>",
+                                "CSS Table，使表格内容垂直对齐方式为middle,然后根据是行内内容还是块级内容采取不同的方式达到水平居中"
+                            ],
+                            "flags": 0,
+                            "guid": "Fx9R${]_gy",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：btton作为父元素",
+                                "button#parent{&nbsp; /*改掉button默认样式就好了,不需要居中处理*/<br>&nbsp;&nbsp;&nbsp; height: 150px;<br>&nbsp;&nbsp;&nbsp; width: 200px;<br>&nbsp;&nbsp;&nbsp; outline: none;&nbsp; <br>&nbsp;&nbsp;&nbsp; border: none;<br>}<br>#son{<br>&nbsp;&nbsp;&nbsp; display: inline-block; /*button自带text-align: center,改为行内水平居中生效*/<br>}",
+                                "简单方便，充分利用默认样式<div>只适用于行内内容；需要清除部分默认样式；水平垂直居中兼容性很好，但是ie下点击会有凹陷效果！<br></div>",
+                                "button的默认样式，再把需要居中的元素表现形式改为行内或行内块级就好"
+                            ],
+                            "flags": 0,
+                            "guid": "NFCF0n@mrn",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：绝对定位",
+                                "#parent{position: relative;}<br>#son{<br>&nbsp;&nbsp;&nbsp; position: absolute;<br>&nbsp;&nbsp;&nbsp; top: 50%;<br>&nbsp;&nbsp;&nbsp; left: 50%;<br>&nbsp;&nbsp;&nbsp; /*定宽高时等同于margin-left:负自身宽度一半;margin-top:负自身高度一半;*/<br>&nbsp;&nbsp;&nbsp; transform: translate(-50%,-50%); <br>}",
+                                "使用margin兼容性好；不管是块级还是行内元素都可以实现<div>代码较多；脱离文档流；使用margin需要知道宽高；使用transform兼容性不好（ie9+）<br></div>",
+                                "子绝父相，top、right、bottom、left的值是相对于父元素尺寸的，然后margin或者transform是相对于自身尺寸的，组合使用达到几何上的水平垂直居中"
+                            ],
+                            "flags": 0,
+                            "guid": "e1#o=#Pr6H",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：绝对居中",
+                                "#parent{position: relative;}<br>#son{<br>&nbsp;&nbsp;&nbsp; position: absolute;<br>&nbsp;&nbsp;&nbsp; margin: auto;<br>&nbsp;&nbsp;&nbsp; width: 100px;<br>&nbsp;&nbsp;&nbsp; height: 50px;<br>&nbsp;&nbsp;&nbsp; top: 0;<br>&nbsp;&nbsp;&nbsp; bottom: 0;<br>&nbsp;&nbsp;&nbsp; left: 0;<br>&nbsp;&nbsp;&nbsp; right: 0;<br>}",
+                                "无需关注宽高；兼容性较好(ie8+)<div>代码较多；脱离文档流<br></div>",
+                                "当top、bottom为0时,margin-top&amp;bottom设置auto的话会无限延伸占满空间并且平分；当left、right为0时,margin-left&amp;right设置auto的话会无限延伸占满空间并且平分"
+                            ],
+                            "flags": 0,
+                            "guid": "fTkj]amq,d",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：flex",
+                                "#parent{display: flex;}<br>#son{margin: auto;}<br><br>或<br><br>#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; justify-content: center;<br>&nbsp;&nbsp;&nbsp; align-items: center;<br>}<br><br>或<br><br>#parent{<br>&nbsp;&nbsp;&nbsp; display: flex;<br>&nbsp;&nbsp;&nbsp; justify-content: center;<br>}<br>#son{align-self: center;}",
+                                "<div>优点：简单灵活；功能强大</div><div>缺点：PC端兼容性不好，移动端（Android4.0+）</div><div>flex务必带上兼容</div>",
+                                "flex设置排列方式、对齐方式罢了，请查阅文末flex阅读推荐"
+                            ],
+                            "flags": 0,
+                            "guid": "P)xPC*CG;w",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：视窗居中",
+                                "#son{<br>&nbsp;&nbsp;&nbsp; /*0如果去掉，则会多出滚动条并且上下都是50vh的margin。如果去掉就给body加上overflow:hidden;*/<br>&nbsp;&nbsp;&nbsp; margin: 50vh auto 0;&nbsp; <br>&nbsp;&nbsp;&nbsp; transform: translateY(-50%);<br>}",
+                                "简单；容易理解；两句代码达到屏幕水平垂直居中<div>兼容性不好（ie9+，Android4.4+）<br></div>",
+                                "vh为视口单位，视口即文档可视的部分，50vh就是视口高度的50/100，设置50vh上边距再"
+                            ],
+                            "flags": 0,
+                            "guid": "z//4]s,%=6",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "水平垂直居中：<div><br><div><div>一般情况下，水平垂直居中，我们最常用的就是{{c1::绝对定位加负边距了}}，缺点就是需要知道{{c1::宽高}}，使用transform倒是可以不需要，但是兼容性不好（ie9+）</div><div><br></div><div>其次就是{{c2::绝对居中}}，{{c2::绝对定位设置top、left、right、bottom为0，然后margin:auto; 让浏览器自动平分边距}}以达到水平垂直居中的目的</div><div><br></div><div>如果是行内/行内块级/图片这些内容，可以优先考虑{{c3::line-height和vertical-align 结合使用，不要忘了还有text-align ，}}</div><div><br></div><div>移动端兼容性允许的情况下能用{{c4::flex就用flex，务必带上兼容}}，写法可参考文末阅读推荐，也可以使用Autoprefixer。</div></div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "E.%b>-EC^0",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "&lt;script&gt; window.Prism = windo\nw.Prism\n || {}; window.Prism.manual = true; \n&lt;/script&gt; &lt;script src=\"prism.\njs\"&gt;\n;&lt;/script&gt;",
+                                "<code class=\"language-html\">\n<div>&lt;script&gt; window.Prism</div></code> =<div>&nbsp;<div>window.Prism ||&nbsp;</div><div><br><div>{}; window.</div><div>\nPrism.manual = true;&nbsp;\n\n;</div><div><br></div><div><br></div><div>&lt;\n/script&gt;</div><div>&nbsp;&lt;script src=\"prism.js\"&gt;\n\n\n\n</div><div>&lt;/sc\nript&gt;</div>\n</div></div>\n",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "PX$/!Q;gR%",
+                            "note_model_uuid": "138317d7-60e5-11ea-b870-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "TEST here",
+                                "自由换行可以不<div><br></div>\n<code class=\"language-html><pre><code class=\" language-css\"=\"\">p { color: red }</code>\nasdasd\n<code><script data-manual=\"\" src=\"prism.js\"></script></code>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k|vRhOwwIl",
+                            "note_model_uuid": "138317d7-60e5-11ea-b870-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "1380f712-60e5-11ea-b1c4-b025aa30a048",
+            "deck_config_uuid": "1380f713-60e5-11ea-b2e4-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "mid": 1485179307096,
+            "name": "Web",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "文字删除线的标签",
+                        "&lt;del&gt; &lt;/del&gt;",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "I8yoQ-G[B#",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "特殊符号 注册商标 C R",
+                        "C : &amp;Copy;<div>R : &amp;reg;</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "q2XvX-QW4q",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "特殊符号 空格",
+                        "&amp;nbsp;",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "P2x5&G&9sW",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "注释语句 已经被淘汰的",
+                        "&lt;comment&gt; &lt;/comment&gt;",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "m#bd#q+?ih",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "设置文字标注",
+                        "&lt;ruby&gt;<div>&nbsp; 被说明的文字</div><div>&nbsp;&lt;rt&gt;文字的标注&lt;/rt&gt;&nbsp;<div>&lt;ruby&gt;</div></div>",
+                        "标注平铺在字体上面",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "oykpzJmwX=",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "等宽字体 标签",
+                        "&lt;tt&gt; 标签",
+                        "HTML5 中已经不再支持",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "E({2<Cd&s)",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "&lt;p&gt; 标记与换行符的等价",
+                        "等价于两个&lt;br&gt;",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o~x)Ybsq,_",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "13833f6e-60e5-11ea-9a22-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg",
+                "latex-a18875212e9e713e7945009da11097c7d2314298.png"
+            ],
+            "name": "高数",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "cot x 导数",
+                        "[$$]cot\\;x\\;=\\;\\frac1{\\tan\\;x}[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "iisQS~Vy&)",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "sec x&nbsp;",
+                        "[$$]\\frac1{\\cos\\;x}[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "p?%?k~W}k7",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "csc x",
+                        "\\frac1{\\sin\\;x}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tXYMerIyv$",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "cot x 的导数",
+                        "[$$]-csc^2\\;x[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "PJoqfnV7Iw",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "sec x 导数",
+                        "sec x * tan x",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "LO#-VMehvE",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "csc x 导数",
+                        "-csc x * cot x",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "I6F^|bEPW{",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "arcsinx 导数",
+                        "[$$]\\frac1{\\sqrt{1-x^2}}[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tFku&m$SQg",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "arccos x导数",
+                        "[$$]-\\frac1{\\sqrt{1-x^2}}[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "6]d=z(s`6",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "arctan x 导数",
+                        "[$$]\\frac1{1+x^2}[/$$]<br>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "wXXuJ2r{H7",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "arccot x 导数",
+                        "[$$]-\\frac1{1+x^2}[/$$]",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "nCAdtrn?x",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "\\left(\\frac1{ax+b}\\right)^{\\left(n\\right)} =&nbsp;",
+                        "\\frac{\\left(-1\\right)^n\\;\\ast\\;n\\;!\\;\\ast\\;a^n}{\\left(ax+b\\right)^{n+1}}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "A&%vDPG70{",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "f(x) g(x) 在某点不可导 与 f(x)+g(x )&nbsp; &nbsp; &nbsp;f(x)*g(x)在该点不可导是否有关",
+                        "无关",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "pMOM8$B_A<",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "1383db63-60e5-11ea-881d-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "OCC_20191027_090526.jpg",
+                "OCC_20191027_090639.jpg",
+                "OCC_20191027_091220.jpg",
+                "OCC_20191027_092206.jpg",
+                "OCC_20191027_092557.jpg",
+                "OCC_20191027_092835.jpg",
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "计算机实践",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_090526.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 780,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    34.82684326171875,\n                    133.12025451660156\n                ],\n                [\n                    34.82684326171875,\n                    388.3973846435547\n                ],\n                [\n                    783.6731567382812,\n                    388.3973846435547\n                ],\n                [\n                    783.6731567382812,\n                    133.12025451660156\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "|ERH5",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_090526.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 780,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    64.0306396484375,\n                    439.125\n                ],\n                [\n                    64.0306396484375,\n                    663.375\n                ],\n                [\n                    851.9693603515625,\n                    663.375\n                ],\n                [\n                    851.9693603515625,\n                    439.125\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "919qM",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_090639.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 831,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    70.49945068359375,\n                    166.00051879882812\n                ],\n                [\n                    70.49945068359375,\n                    262.0005187988281\n                ],\n                [\n                    1057.4994506835938,\n                    262.0005187988281\n                ],\n                [\n                    1057.4994506835938,\n                    166.00051879882812\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Ts}yP",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_090639.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 831,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    70.67022705078125,\n                    252.93524169921875\n                ],\n                [\n                    70.67022705078125,\n                    472.56475830078125\n                ],\n                [\n                    1071.8297729492188,\n                    472.56475830078125\n                ],\n                [\n                    1071.8297729492188,\n                    252.93524169921875\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "=$3:9",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_090639.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 831,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    184.625,\n                    747.5\n                ],\n                [\n                    184.625,\n                    881\n                ],\n                [\n                    1004.375,\n                    881\n                ],\n                [\n                    1004.375,\n                    747.5\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "XJ(K1",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    257.875,\n                    463.375\n                ],\n                [\n                    257.875,\n                    522.625\n                ],\n                [\n                    452.125,\n                    522.625\n                ],\n                [\n                    452.125,\n                    463.375\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "AFD)L",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    744.125,\n                    222.75\n                ],\n                [\n                    744.125,\n                    288.75\n                ],\n                [\n                    941.375,\n                    288.75\n                ],\n                [\n                    941.375,\n                    222.75\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": ">>0&7",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    729.125,\n                    291.5\n                ],\n                [\n                    729.125,\n                    348.5\n                ],\n                [\n                    990.875,\n                    348.5\n                ],\n                [\n                    990.875,\n                    291.5\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Y.JgM",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    775.25,\n                    348.5\n                ],\n                [\n                    775.25,\n                    405.5\n                ],\n                [\n                    941.75,\n                    405.5\n                ],\n                [\n                    941.75,\n                    348.5\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "cABRS",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    161.125,\n                    547\n                ],\n                [\n                    161.125,\n                    769\n                ],\n                [\n                    464.875,\n                    769\n                ],\n                [\n                    464.875,\n                    547\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "#::jQ",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_091220.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 790,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    681.375,\n                    551.125\n                ],\n                [\n                    681.375,\n                    757.375\n                ],\n                [\n                    1024.125,\n                    757.375\n                ],\n                [\n                    1024.125,\n                    551.125\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "bd};B",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092206.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 822,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    217.5,\n                    664.25\n                ],\n                [\n                    217.5,\n                    785.75\n                ],\n                [\n                    514.5,\n                    785.75\n                ],\n                [\n                    514.5,\n                    664.25\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "S/+h5",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092206.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 822,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    582.625,\n                    664.5\n                ],\n                [\n                    582.625,\n                    787.5\n                ],\n                [\n                    895.375,\n                    787.5\n                ],\n                [\n                    895.375,\n                    664.5\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": ".$.dC",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092557.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 826,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    354.36199951171875,\n                    173.875\n                ],\n                [\n                    354.36199951171875,\n                    224.125\n                ],\n                [\n                    581.6380004882812,\n                    224.125\n                ],\n                [\n                    581.6380004882812,\n                    173.875\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "D56MH",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092557.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 826,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    624.574951171875,\n                    178.75\n                ],\n                [\n                    624.574951171875,\n                    220.75\n                ],\n                [\n                    833.824951171875,\n                    220.75\n                ],\n                [\n                    833.824951171875,\n                    178.75\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "pw2B5",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    38.75,\n                    192.375\n                ],\n                [\n                    38.75,\n                    299.625\n                ],\n                [\n                    241.25,\n                    299.625\n                ],\n                [\n                    241.25,\n                    192.375\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "h$C@I",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    61.75,\n                    472.625\n                ],\n                [\n                    61.75,\n                    575.375\n                ],\n                [\n                    210.25,\n                    575.375\n                ],\n                [\n                    210.25,\n                    472.625\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "nO%dO",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    67.42204284667969,\n                    612.375\n                ],\n                [\n                    67.42204284667969,\n                    679.125\n                ],\n                [\n                    231.6720428466797,\n                    679.125\n                ],\n                [\n                    231.6720428466797,\n                    612.375\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "9kY#C",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    286.59946579203506,\n                    730.5352921353874\n                ],\n                [\n                    286.158084323127,\n                    794.2837641358904\n                ],\n                [\n                    601.1505342079649,\n                    796.4647078646126\n                ],\n                [\n                    601.591915676873,\n                    732.7162358641096\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "|tOsC",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    1001.875,\n                    797.125\n                ],\n                [\n                    1001.875,\n                    722.875\n                ],\n                [\n                    686.125,\n                    722.875\n                ],\n                [\n                    686.125,\n                    797.125\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "bR7gP",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    919.5,\n                    544.875\n                ],\n                [\n                    919.5,\n                    442.125\n                ],\n                [\n                    1036.5,\n                    442.125\n                ],\n                [\n                    1036.5,\n                    544.875\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "R&ovJ",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src='OCC_20191027_092835.jpg'/>",
+                        "{\n    \"version\": 1,\n    \"image_file\": \"place_holder.jpg\",\n    \"width\": 1080,\n    \"height\": 830,\n    \"shape_list_front\": [\n        {\n            \"type\": \"rect\",\n            \"color\": \"#E65100\",\n            \"highlight\": true,\n            \"data\": [\n                [\n                    905.9114990234375,\n                    247.7878875732422\n                ],\n                [\n                    905.9114990234375,\n                    131.7121124267578\n                ],\n                [\n                    1034.7159423828125,\n                    131.7121124267578\n                ],\n                [\n                    1034.7159423828125,\n                    247.7878875732422\n                ]\n            ]\n        }\n    ],\n    \"shape_list_back\": []\n}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "3cj_D",
+                    "note_model_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "137f49c2-60e5-11ea-a395-b025aa30a048",
+    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 0,
+                "perDay": 200,
+                "separate": true
+            },
+            "reminder": {
+                "enabled": true,
+                "time": [
+                    18,
+                    0
+                ]
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1380f713-60e5-11ea-b2e4-b025aa30a048",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Vocabulary",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    5,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 200,
+                "separate": true
+            },
+            "reminder": {
+                "enabled": true,
+                "time": [
+                    18,
+                    0
+                ]
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.25,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.2100000381469727,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "_bg.png",
+        "_space.png",
+        "_switch.png",
+        "_times.ttf",
+        "_x-day.svg",
+        "_x-night.svg",
+        "_y-day.svg",
+        "_y-night.svg",
+        "_z-day.svg",
+        "_z-night.svg"
+    ],
+    "name": "大一上",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "1380f700-60e5-11ea-9f8d-b025aa30a048",
+            "css": "/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h3 { font: 16px/16px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid gray; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: gray; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "题型",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "解释/助记",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "小节",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "分类",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "问题|题型|答案|解释/助记|小节|分类",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n{{/答案}}\n\n{{#解释/助记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t\t解释/助记\n\t</div>\n\t<div class=\"h2  yleft\">{{hint:解释/助记}}</div></div>\n{{/解释/助记}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "卡片1",
+                    "ord": 0,
+                    "qfmt": "<div class=\"h3 zcolor xleft\">\n\t\t{{题型}}\n</div>\n\t<div class=\"h2 xleft\">{{问题}}</div>\n\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "知识点-Basic (Leaflyer)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n{{FrontSide}}\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n{{/答案}}\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "知识点-Basic",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}问题{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{问题}}</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n\n.cloze {\n\tcolor: #ec6c4f;\n\t#font-weight: bold;\n\tborder-bottom: 1px solid #ec6c4f;\n\tpadding-bottom: 2px;\n\t-webkit-animation: cloze 0.4s 0s;\n\t-webkit-animation-fill-mode: forwards;\n}\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.btn {\n\topacity: 0.8;\n\tright: 10px;\n\tbottom: 10px;\n\theight: 70px;\n\twidth: 70px;\n\tborder: none;\n\tbackground: url(_switch.png);\n\tbackground-size: 100%;\n\tposition: fixed;\n}\n\t.btn:active { opacity: 0.9; }\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nuu { border-bottom: 1px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n.night_mode .cloze { color: #a0a0a0; border-bottom: 1px solid #a0a0a0; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode uu { border-bottom: 1px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n.night_mode .btn { opacity:0.5; right:10px; bottom:10px; position: fixed; }\n.night_mode .btn:active { opacity:0.3; }\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n\n@-webkit-keyframes cloze {\n\tfrom\t{ opacity: 0; }\n\tto  \t{ opacity: 1; }\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "知识",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "知识点-Cloze (Leaflyer)",
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}知识{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "填空题",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}知识{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t<span id=\"time\"></span>\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n<script type=\"text/javascript\">\n    [].forEach.call(document.querySelectorAll('.cloze'),\n       function(V0) {\n          V0.innerHTML = V0.innerHTML.replace(/\\[...]/g,\"　　\");\n });\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "138317d7-60e5-11ea-b870-b025aa30a048",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n\n\n/* ----------动画效果---------- */\n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n\n\n\n\n\n/* PrismJS 1.17.1\nhttps://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript&plugins=line-numbers */\n/**\n * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML\n * Based on https://github.com/chriskempson/tomorrow-theme\n * @author Rose Pritchard\n */\ncode {  \n    white-space: pre-wrap;       /* CSS 3 */\n    white-space: -moz-pre-wrap;  /* Mozilla */\n    white-space: -pre-wrap;      /* Opera 4-6 */\n    white-space: -o-pre-wrap;    /* Opera 7 */\n    word-wrap: break-word;       /* IE 5.5+ */\n}\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tcolor: #ccc;\n\tbackground: none;\n\tfont-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;\n\tfont-size: 1em;\n\ttext-align: left;\n\twhite-space: pre;\n\tword-spacing: normal;\n\tword-break: normal;\n\tword-wrap: normal;\n\tline-height: 1.5;\n\n\t-moz-tab-size: 4;\n\t-o-tab-size: 4;\n\ttab-size: 4;\n\n\t-webkit-hyphens: none;\n\t-moz-hyphens: none;\n\t-ms-hyphens: none;\n\thyphens: none;\n\n}\n\n/* Code blocks */\npre[class*=\"language-\"] {\n\tpadding: 1em;\n\tmargin: .5em 0;\n\toverflow: auto;\n}\n\n:not(pre) > code[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tbackground: #2d2d2d;\n}\n\n/* Inline code */\n:not(pre) > code[class*=\"language-\"] {\n\tpadding: .1em;\n\tborder-radius: .3em;\n\twhite-space: normal;\n}\n\n.token.comment,\n.token.block-comment,\n.token.prolog,\n.token.doctype,\n.token.cdata {\n\tcolor: #999;\n}\n\n.token.punctuation {\n\tcolor: #ccc;\n}\n\n.token.tag,\n.token.attr-name,\n.token.namespace,\n.token.deleted {\n\tcolor: #e2777a;\n}\n\n.token.function-name {\n\tcolor: #6196cc;\n}\n\n.token.boolean,\n.token.number,\n.token.function {\n\tcolor: #f08d49;\n}\n\n.token.property,\n.token.class-name,\n.token.constant,\n.token.symbol {\n\tcolor: #f8c555;\n}\n\n.token.selector,\n.token.important,\n.token.atrule,\n.token.keyword,\n.token.builtin {\n\tcolor: #cc99cd;\n}\n\n.token.string,\n.token.char,\n.token.attr-value,\n.token.regex,\n.token.variable {\n\tcolor: #7ec699;\n}\n\n.token.operator,\n.token.entity,\n.token.url {\n\tcolor: #67cdcc;\n}\n\n.token.important,\n.token.bold {\n\tfont-weight: bold;\n}\n.token.italic {\n\tfont-style: italic;\n}\n\n.token.entity {\n\tcursor: help;\n}\n\n.token.inserted {\n\tcolor: green;\n}\n\npre[class*=\"language-\"].line-numbers {\n\tposition: relative;\n\tpadding-left: 3.8em;\n\tcounter-reset: linenumber;\n}\n\npre[class*=\"language-\"].line-numbers > code {\n\tposition: relative;\n\twhite-space: inherit;\n}\n\n.line-numbers .line-numbers-rows {\n\tposition: absolute;\n\tpointer-events: none;\n\ttop: 0;\n\tfont-size: 100%;\n\tleft: -3.8em;\n\twidth: 3em; /* works for line-numbers below 1000 lines */\n\tletter-spacing: -1px;\n\tborder-right: 1px solid #999;\n\n\t-webkit-user-select: none;\n\t-moz-user-select: none;\n\t-ms-user-select: none;\n\tuser-select: none;\n\n}\n\n\t.line-numbers-rows > span {\n\t\tpointer-events: none;\n\t\tdisplay: block;\n\t\tcounter-increment: linenumber;\n\t}\n\n\t\t.line-numbers-rows > span:before {\n\t\t\tcontent: counter(linenumber);\n\t\t\tcolor: #999;\n\t\t\tdisplay: block;\n\t\t\tpadding-right: 0.8em;\n\t\t\ttext-align: right;\n\t\t}\n\n\n\n\n",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "微软雅黑",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "笔记",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "相关知识",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "网页",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<script>var _self=\"undefined\"!=typeof window?window:\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(u){var c=/\\blang(?:uage)?-([\\w-]+)\\b/i,a=0;var _={manual:u.Prism&&u.Prism.manual,disableWorkerMessageHandler:u.Prism&&u.Prism.disableWorkerMessageHandler,util:{encode:function(e){return e instanceof L?new L(e.type,_.util.encode(e.content),e.alias):Array.isArray(e)?e.map(_.util.encode):e.replace(/&/g,\"&amp;\").replace(/</g,\"&lt;\").replace(/\\u00a0/g,\" \")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,\"__id\",{value:++a}),e.__id},clone:function n(e,r){var t,a,i=_.util.type(e);switch(r=r||{},i){case\"Object\":if(a=_.util.objId(e),r[a])return r[a];for(var o in t={},r[a]=t,e)e.hasOwnProperty(o)&&(t[o]=n(e[o],r));return t;case\"Array\":return a=_.util.objId(e),r[a]?r[a]:(t=[],r[a]=t,e.forEach(function(e,a){t[a]=n(e,r)}),t);default:return e}}},languages:{extend:function(e,a){var n=_.util.clone(_.languages[e]);for(var r in a)n[r]=a[r];return n},insertBefore:function(n,e,a,r){var t=(r=r||_.languages)[n],i={};for(var o in t)if(t.hasOwnProperty(o)){if(o==e)for(var l in a)a.hasOwnProperty(l)&&(i[l]=a[l]);a.hasOwnProperty(o)||(i[o]=t[o])}var s=r[n];return r[n]=i,_.languages.DFS(_.languages,function(e,a){a===s&&e!=n&&(this[e]=i)}),i},DFS:function e(a,n,r,t){t=t||{};var i=_.util.objId;for(var o in a)if(a.hasOwnProperty(o)){n.call(a,o,a[o],r||o);var l=a[o],s=_.util.type(l);\"Object\"!==s||t[i(l)]?\"Array\"!==s||t[i(l)]||(t[i(l)]=!0,e(l,n,o,t)):(t[i(l)]=!0,e(l,n,null,t))}}},plugins:{},highlightAll:function(e,a){_.highlightAllUnder(document,e,a)},highlightAllUnder:function(e,a,n){var r={callback:n,selector:'code[class*=\"language-\"], [class*=\"language-\"] code, code[class*=\"lang-\"], [class*=\"lang-\"] code'};_.hooks.run(\"before-highlightall\",r);for(var t,i=e.querySelectorAll(r.selector),o=0;t=i[o++];)_.highlightElement(t,!0===a,r.callback)},highlightElement:function(e,a,n){var r=function(e){for(;e&&!c.test(e.className);)e=e.parentNode;return e?(e.className.match(c)||[,\"none\"])[1].toLowerCase():\"none\"}(e),t=_.languages[r];e.className=e.className.replace(c,\"\").replace(/\\s+/g,\" \")+\" language-\"+r;var i=e.parentNode;i&&\"pre\"===i.nodeName.toLowerCase()&&(i.className=i.className.replace(c,\"\").replace(/\\s+/g,\" \")+\" language-\"+r);var o={element:e,language:r,grammar:t,code:e.textContent};function l(e){o.highlightedCode=e,_.hooks.run(\"before-insert\",o),o.element.innerHTML=o.highlightedCode,_.hooks.run(\"after-highlight\",o),_.hooks.run(\"complete\",o),n&&n.call(o.element)}if(_.hooks.run(\"before-sanity-check\",o),!o.code)return _.hooks.run(\"complete\",o),void(n&&n.call(o.element));if(_.hooks.run(\"before-highlight\",o),o.grammar)if(a&&u.Worker){var s=new Worker(_.filename);s.onmessage=function(e){l(e.data)},s.postMessage(JSON.stringify({language:o.language,code:o.code,immediateClose:!0}))}else l(_.highlight(o.code,o.grammar,o.language));else l(_.util.encode(o.code))},highlight:function(e,a,n){var r={code:e,grammar:a,language:n};return _.hooks.run(\"before-tokenize\",r),r.tokens=_.tokenize(r.code,r.grammar),_.hooks.run(\"after-tokenize\",r),L.stringify(_.util.encode(r.tokens),r.language)},matchGrammar:function(e,a,n,r,t,i,o){for(var l in n)if(n.hasOwnProperty(l)&&n[l]){var s=n[l];s=Array.isArray(s)?s:[s];for(var u=0;u<s.length;++u){if(o&&o==l+\",\"+u)return;var c=s[u],g=c.inside,f=!!c.lookbehind,h=!!c.greedy,d=0,m=c.alias;if(h&&!c.pattern.global){var p=c.pattern.toString().match(/[imsuy]*$/)[0];c.pattern=RegExp(c.pattern.source,p+\"g\")}c=c.pattern||c;for(var y=r,v=t;y<a.length;v+=a[y].length,++y){var k=a[y];if(a.length>e.length)return;if(!(k instanceof L)){if(h&&y!=a.length-1){if(c.lastIndex=v,!(x=c.exec(e)))break;for(var b=x.index+(f&&x[1]?x[1].length:0),w=x.index+x[0].length,A=y,P=v,O=a.length;A<O&&(P<w||!a[A].type&&!a[A-1].greedy);++A)(P+=a[A].length)<=b&&(++y,v=P);if(a[y]instanceof L)continue;j=A-y,k=e.slice(v,P),x.index-=v}else{c.lastIndex=0;var x=c.exec(k),j=1}if(x){f&&(d=x[1]?x[1].length:0);w=(b=x.index+d)+(x=x[0].slice(d)).length;var N=k.slice(0,b),S=k.slice(w),C=[y,j];N&&(++y,v+=N.length,C.push(N));var E=new L(l,g?_.tokenize(x,g):x,m,x,h);if(C.push(E),S&&C.push(S),Array.prototype.splice.apply(a,C),1!=j&&_.matchGrammar(e,a,n,y,v,!0,l+\",\"+u),i)break}else if(i)break}}}}},tokenize:function(e,a){var n=[e],r=a.rest;if(r){for(var t in r)a[t]=r[t];delete a.rest}return _.matchGrammar(e,n,a,0,0,!1),n},hooks:{all:{},add:function(e,a){var n=_.hooks.all;n[e]=n[e]||[],n[e].push(a)},run:function(e,a){var n=_.hooks.all[e];if(n&&n.length)for(var r,t=0;r=n[t++];)r(a)}},Token:L};function L(e,a,n,r,t){this.type=e,this.content=a,this.alias=n,this.length=0|(r||\"\").length,this.greedy=!!t}if(u.Prism=_,L.stringify=function(e,a){if(\"string\"==typeof e)return e;if(Array.isArray(e))return e.map(function(e){return L.stringify(e,a)}).join(\"\");var n={type:e.type,content:L.stringify(e.content,a),tag:\"span\",classes:[\"token\",e.type],attributes:{},language:a};if(e.alias){var r=Array.isArray(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(n.classes,r)}_.hooks.run(\"wrap\",n);var t=Object.keys(n.attributes).map(function(e){return e+'=\"'+(n.attributes[e]||\"\").replace(/\"/g,\"&quot;\")+'\"'}).join(\" \");return\"<\"+n.tag+' class=\"'+n.classes.join(\" \")+'\"'+(t?\" \"+t:\"\")+\">\"+n.content+\"</\"+n.tag+\">\"},!u.document)return u.addEventListener&&(_.disableWorkerMessageHandler||u.addEventListener(\"message\",function(e){var a=JSON.parse(e.data),n=a.language,r=a.code,t=a.immediateClose;u.postMessage(_.highlight(r,_.languages[n],n)),t&&u.close()},!1)),_;var e=document.currentScript||[].slice.call(document.getElementsByTagName(\"script\")).pop();if(e&&(_.filename=e.src,e.hasAttribute(\"data-manual\")&&(_.manual=!0)),!_.manual){function n(){_.manual||_.highlightAll()}\"loading\"!==document.readyState?window.requestAnimationFrame?window.requestAnimationFrame(n):window.setTimeout(n,16):document.addEventListener(\"DOMContentLoaded\",n)}return _}(_self);\"undefined\"!=typeof module&&module.exports&&(module.exports=Prism),\"undefined\"!=typeof global&&(global.Prism=Prism);\nPrism.languages.markup={comment:/<!--[\\s\\S]*?-->/,prolog:/<\\?[\\s\\S]+?\\?>/,doctype:{pattern:/<!DOCTYPE(?:[^>\"'[\\]]|\"[^\"]*\"|'[^']*')+(?:\\[(?:(?!<!--)[^\"'\\]]|\"[^\"]*\"|'[^']*'|<!--[\\s\\S]*?-->)*\\]\\s*)?>/i,greedy:!0},cdata:/<!\\[CDATA\\[[\\s\\S]*?]]>/i,tag:{pattern:/<\\/?(?!\\d)[^\\s>\\/=$<%]+(?:\\s(?:\\s*[^\\s>\\/=]+(?:\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|[^\\s'\">=]+(?=[\\s>]))|(?=[\\s/>])))+)?\\s*\\/?>/i,greedy:!0,inside:{tag:{pattern:/^<\\/?[^\\s>\\/]+/i,inside:{punctuation:/^<\\/?/,namespace:/^[^\\s>\\/:]+:/}},\"attr-value\":{pattern:/=\\s*(?:\"[^\"]*\"|'[^']*'|[^\\s'\">=]+)/i,inside:{punctuation:[/^=/,{pattern:/^(\\s*)[\"']|[\"']$/,lookbehind:!0}]}},punctuation:/\\/?>/,\"attr-name\":{pattern:/[^\\s>\\/]+/,inside:{namespace:/^[^\\s>\\/:]+:/}}}},entity:/&#?[\\da-z]{1,8};/i},Prism.languages.markup.tag.inside[\"attr-value\"].inside.entity=Prism.languages.markup.entity,Prism.hooks.add(\"wrap\",function(a){\"entity\"===a.type&&(a.attributes.title=a.content.replace(/&amp;/,\"&\"))}),Object.defineProperty(Prism.languages.markup.tag,\"addInlined\",{value:function(a,e){var s={};s[\"language-\"+e]={pattern:/(^<!\\[CDATA\\[)[\\s\\S]+?(?=\\]\\]>$)/i,lookbehind:!0,inside:Prism.languages[e]},s.cdata=/^<!\\[CDATA\\[|\\]\\]>$/i;var n={\"included-cdata\":{pattern:/<!\\[CDATA\\[[\\s\\S]*?\\]\\]>/i,inside:s}};n[\"language-\"+e]={pattern:/[\\s\\S]+/,inside:Prism.languages[e]};var t={};t[a]={pattern:RegExp(\"(<__[\\\\s\\\\S]*?>)(?:<!\\\\[CDATA\\\\[[\\\\s\\\\S]*?\\\\]\\\\]>\\\\s*|[\\\\s\\\\S])*?(?=<\\\\/__>)\".replace(/__/g,a),\"i\"),lookbehind:!0,greedy:!0,inside:n},Prism.languages.insertBefore(\"markup\",\"cdata\",t)}}),Prism.languages.xml=Prism.languages.extend(\"markup\",{}),Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup;\n!function(s){var t=/(\"|')(?:\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1/;s.languages.css={comment:/\\/\\*[\\s\\S]*?\\*\\//,atrule:{pattern:/@[\\w-]+[\\s\\S]*?(?:;|(?=\\s*\\{))/,inside:{rule:/@[\\w-]+/}},url:{pattern:RegExp(\"url\\\\((?:\"+t.source+\"|[^\\n\\r()]*)\\\\)\",\"i\"),inside:{function:/^url/i,punctuation:/^\\(|\\)$/}},selector:RegExp(\"[^{}\\\\s](?:[^{};\\\"']|\"+t.source+\")*?(?=\\\\s*\\\\{)\"),string:{pattern:t,greedy:!0},property:/[-_a-z\\xA0-\\uFFFF][-\\w\\xA0-\\uFFFF]*(?=\\s*:)/i,important:/!important\\b/i,function:/[-a-z0-9]+(?=\\()/i,punctuation:/[(){};:,]/},s.languages.css.atrule.inside.rest=s.languages.css;var e=s.languages.markup;e&&(e.tag.addInlined(\"style\",\"css\"),s.languages.insertBefore(\"inside\",\"attr-value\",{\"style-attr\":{pattern:/\\s*style=(\"|')(?:\\\\[\\s\\S]|(?!\\1)[^\\\\])*\\1/i,inside:{\"attr-name\":{pattern:/^\\s*style/i,inside:e.tag.inside},punctuation:/^\\s*=\\s*['\"]|['\"]\\s*$/,\"attr-value\":{pattern:/.+/i,inside:s.languages.css}},alias:\"language-css\"}},e.tag))}(Prism);\nPrism.languages.clike={comment:[{pattern:/(^|[^\\\\])\\/\\*[\\s\\S]*?(?:\\*\\/|$)/,lookbehind:!0},{pattern:/(^|[^\\\\:])\\/\\/.*/,lookbehind:!0,greedy:!0}],string:{pattern:/([\"'])(?:\\\\(?:\\r\\n|[\\s\\S])|(?!\\1)[^\\\\\\r\\n])*\\1/,greedy:!0},\"class-name\":{pattern:/(\\b(?:class|interface|extends|implements|trait|instanceof|new)\\s+|\\bcatch\\s+\\()[\\w.\\\\]+/i,lookbehind:!0,inside:{punctuation:/[.\\\\]/}},keyword:/\\b(?:if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\\b/,boolean:/\\b(?:true|false)\\b/,function:/\\w+(?=\\()/,number:/\\b0x[\\da-f]+\\b|(?:\\b\\d+\\.?\\d*|\\B\\.\\d+)(?:e[+-]?\\d+)?/i,operator:/[<>]=?|[!=]=?=?|--?|\\+\\+?|&&?|\\|\\|?|[?*/~^%]/,punctuation:/[{}[\\];(),.:]/};\nPrism.languages.javascript=Prism.languages.extend(\"clike\",{\"class-name\":[Prism.languages.clike[\"class-name\"],{pattern:/(^|[^$\\w\\xA0-\\uFFFF])[_$A-Z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*(?=\\.(?:prototype|constructor))/,lookbehind:!0}],keyword:[{pattern:/((?:^|})\\s*)(?:catch|finally)\\b/,lookbehind:!0},{pattern:/(^|[^.])\\b(?:as|async(?=\\s*(?:function\\b|\\(|[$\\w\\xA0-\\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\\b/,lookbehind:!0}],number:/\\b(?:(?:0[xX](?:[\\dA-Fa-f](?:_[\\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\\d(?:_\\d)?)+n|NaN|Infinity)\\b|(?:\\b(?:\\d(?:_\\d)?)+\\.?(?:\\d(?:_\\d)?)*|\\B\\.(?:\\d(?:_\\d)?)+)(?:[Ee][+-]?(?:\\d(?:_\\d)?)+)?/,function:/#?[_$a-zA-Z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*(?=\\s*(?:\\.\\s*(?:apply|bind|call)\\s*)?\\()/,operator:/--|\\+\\+|\\*\\*=?|=>|&&|\\|\\||[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\\.{3}|\\?[.?]?|[~:]/}),Prism.languages.javascript[\"class-name\"][0].pattern=/(\\b(?:class|interface|extends|implements|instanceof|new)\\s+)[\\w.\\\\]+/,Prism.languages.insertBefore(\"javascript\",\"keyword\",{regex:{pattern:/((?:^|[^$\\w\\xA0-\\uFFFF.\"'\\])\\s])\\s*)\\/(?:\\[(?:[^\\]\\\\\\r\\n]|\\\\.)*]|\\\\.|[^/\\\\\\[\\r\\n])+\\/[gimyus]{0,6}(?=\\s*(?:$|[\\r\\n,.;})\\]]))/,lookbehind:!0,greedy:!0},\"function-variable\":{pattern:/#?[_$a-zA-Z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*(?=\\s*[=:]\\s*(?:async\\s*)?(?:\\bfunction\\b|(?:\\((?:[^()]|\\([^()]*\\))*\\)|[_$a-zA-Z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*)\\s*=>))/,alias:\"function\"},parameter:[{pattern:/(function(?:\\s+[_$A-Za-z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*)?\\s*\\(\\s*)(?!\\s)(?:[^()]|\\([^()]*\\))+?(?=\\s*\\))/,lookbehind:!0,inside:Prism.languages.javascript},{pattern:/[_$a-z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*(?=\\s*=>)/i,inside:Prism.languages.javascript},{pattern:/(\\(\\s*)(?!\\s)(?:[^()]|\\([^()]*\\))+?(?=\\s*\\)\\s*=>)/,lookbehind:!0,inside:Prism.languages.javascript},{pattern:/((?:\\b|\\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\\w\\xA0-\\uFFFF]))(?:[_$A-Za-z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*\\s*)\\(\\s*)(?!\\s)(?:[^()]|\\([^()]*\\))+?(?=\\s*\\)\\s*\\{)/,lookbehind:!0,inside:Prism.languages.javascript}],constant:/\\b[A-Z](?:[A-Z_]|\\dx?)*\\b/}),Prism.languages.insertBefore(\"javascript\",\"string\",{\"template-string\":{pattern:/`(?:\\\\[\\s\\S]|\\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\\${)[^\\\\`])*`/,greedy:!0,inside:{\"template-punctuation\":{pattern:/^`|`$/,alias:\"string\"},interpolation:{pattern:/((?:^|[^\\\\])(?:\\\\{2})*)\\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}/,lookbehind:!0,inside:{\"interpolation-punctuation\":{pattern:/^\\${|}$/,alias:\"punctuation\"},rest:Prism.languages.javascript}},string:/[\\s\\S]+/}}}),Prism.languages.markup&&Prism.languages.markup.tag.addInlined(\"script\",\"javascript\"),Prism.languages.js=Prism.languages.javascript;\n!function(){if(\"undefined\"!=typeof self&&self.Prism&&self.document){var l=\"line-numbers\",c=/\\n(?!$)/g,m=function(e){var t=a(e)[\"white-space\"];if(\"pre-wrap\"===t||\"pre-line\"===t){var n=e.querySelector(\"code\"),r=e.querySelector(\".line-numbers-rows\"),s=e.querySelector(\".line-numbers-sizer\"),i=n.textContent.split(c);s||((s=document.createElement(\"span\")).className=\"line-numbers-sizer\",n.appendChild(s)),s.style.display=\"block\",i.forEach(function(e,t){s.textContent=e||\"\\n\";var n=s.getBoundingClientRect().height;r.children[t].style.height=n+\"px\"}),s.textContent=\"\",s.style.display=\"none\"}},a=function(e){return e?window.getComputedStyle?getComputedStyle(e):e.currentStyle||null:null};window.addEventListener(\"resize\",function(){Array.prototype.forEach.call(document.querySelectorAll(\"pre.\"+l),m)}),Prism.hooks.add(\"complete\",function(e){if(e.code){var t=e.element,n=t.parentNode;if(n&&/pre/i.test(n.nodeName)&&!t.querySelector(\".line-numbers-rows\")){for(var r=!1,s=/(?:^|\\s)line-numbers(?:\\s|$)/,i=t;i;i=i.parentNode)if(s.test(i.className)){r=!0;break}if(r){t.className=t.className.replace(s,\" \"),s.test(n.className)||(n.className+=\" line-numbers\");var l,a=e.code.match(c),o=a?a.length+1:1,u=new Array(o+1).join(\"<span></span>\");(l=document.createElement(\"span\")).setAttribute(\"aria-hidden\",\"true\"),l.className=\"line-numbers-rows\",l.innerHTML=u,n.hasAttribute(\"data-start\")&&(n.style.counterReset=\"linenumber \"+(parseInt(n.getAttribute(\"data-start\"),10)-1)),e.element.appendChild(l),m(n),Prism.hooks.run(\"line-numbers\",e)}}}}),Prism.hooks.add(\"line-numbers\",function(e){e.plugins=e.plugins||{},e.plugins.lineNumbers=!0}),Prism.plugins.lineNumbers={getLine:function(e,t){if(\"PRE\"===e.tagName&&e.classList.contains(l)){var n=e.querySelector(\".line-numbers-rows\"),r=parseInt(e.getAttribute(\"data-start\"),10)||1,s=r+(n.children.length-1);t<r&&(t=r),s<t&&(t=s);var i=t-r;return n.children[i]}}}}}();</script>\n\n{{FrontSide}}\n{{#答案}}\n\n\t\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n\t\n{{/答案}}\n\n{{#笔记}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t笔记\n\t</div>\n\t<div class=\"h2  yleft\">{{笔记}}</div></div>\n{{/笔记}}\n\n{{#相关知识}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t相关知识\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:相关知识}}</div></div>\n{{/相关知识}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "知识点-Basic",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^Tags}}问题{{/Tags}}\n\t\t{{#Tags}}{{Tags}}{{/Tags}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{问题}}</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "138477b8-60e5-11ea-bb20-b025aa30a048",
+            "css": "\r\n\r\n\r\n\r\n</style>\r\n\r\n<script>\r\n        function hexToRgb(hex) {\r\n            var result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);\r\n            return result ? {\r\n                r: parseInt(result[1], 16),\r\n                g: parseInt(result[2], 16),\r\n                b: parseInt(result[3], 16)\r\n            } : null;\r\n        }\r\n\r\n        function makeDarker(hex){\r\n            var vrgb = hexToRgb(hex);\r\n            return 'rgb(' + vrgb.r / 2 +',' + vrgb.g / 2 + ',' + vrgb.b / 2 +')';\r\n\t\t}\r\n\r\n        function ColorLuminance(hex, lum) {\r\n\r\n\t// validate hex string\r\n\thex = String(hex).replace(/[^0-9a-f]/gi, '');\r\n\tif (hex.length < 6) {\r\n\t\thex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];\r\n\t}\r\n\tlum = lum || 0;\r\n\r\n\t// convert to decimal and change luminosity\r\n\tvar rgb = \"#\", c, i;\r\n\tfor (i = 0; i < 3; i++) {\r\n\t\tc = parseInt(hex.substr(i*2,2), 16);\r\n\t\tc = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);\r\n\t\trgb += (\"00\"+c).substr(c.length);\r\n\t}\r\n\r\n\treturn rgb;\r\n}\r\n        function drawShapeListOnImage(canvas, img, shapes){\r\n            var ctx = canvas.getContext('2d');\r\n            canvas.style.position = 'absolute';\r\n            var rect = img.getBoundingClientRect();\r\n            canvas.style.left = rect.left + 'px';\r\n            canvas.style.top = rect.top + 'px';\r\n            //console.log([img.width, img.height])\r\n            canvas.width = img.width;\r\n            canvas.height = img.height;\r\n            var scale = canvas.width / img.naturalWidth;\r\n            var i;\r\n\r\n            for(i = 0; i < shapes.length; i ++){\r\n\r\n                var shape = shapes[i];\r\n                //if(!shape.highlight){\r\n                //      shape.color = \"#9e9e9e\";\r\n                //}else{\r\n                //      shape.color = \"#e65100\";\r\n                //}\r\n                ctx.fillStyle = shape.color;\r\n\r\n\t\t\t //ctx.strokeStyle = \"black\";\r\n                //ctx.lineWidth = 10;\r\n\t           //ctx.shadowColor = ColorLuminance(shape.color, -0.5);\r\n            \t //ctx.shadowBlur = 10;\r\n                //ctx.shadowOffsetX = 3;\r\n                //ctx.shadowOffsetY = 5;\r\n                var path = shape.data;\r\n\r\n                if(path.length > 0){\r\n                    ctx.beginPath();\r\n                    ctx.moveTo(path[0][0] * scale, path[0][1] * scale);\r\n                    var j;\r\n                    for(j = 1; j < path.length; j ++){\r\n                        ctx.lineTo(path[j][0] * scale, path[j][1] * scale);\r\n                    }\r\n                    ctx.fill();\r\n                }\r\n            }\r\n        }\r\n\r\n        function draw(shape_list){\r\n          var canvas = document.getElementById('occlusion_canvas');\r\n          if (canvas.getContext){\r\n            var ctx = canvas.getContext('2d');\r\n            var img = document.querySelector(\"#occlusion_img img\");\r\n            //console.log('draw()')\r\n            //console.log(img)\r\n            drawShapeListOnImage(canvas, img, shape_list);\r\n          }\r\n        }\r\n\r\n</script>\r\n<style>\r\n.card {\r\n background:#e9ebee;\r\n}\r\n.container{\r\nborder:1px solid;\r\nborder-color     : #e5e6e9 #dfe0e4 #d0d1d5;\r\nbox-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\r\nborder-radius: 4px;\r\nbackground-color:#fff;\r\n}\r\n\r\n.title{\r\npadding:16px 12px 0px 12px;\r\ncolor:#e85b46;\r\nfont:22px/30px  FaricyNew;\r\ntext-align:center;\r\n\r\n}\r\n\r\n#front,#back{\r\n     padding:16px 12px;\r\n     text-align: left;\r\n     font-size:1.25em;\r\n\t   display: block;\r\n     color:#e85b46;\r\n\t/*box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.6);*/\r\n\r\n}\r\n\r\n#occlusion_img img{\r\n     width: 100%;\r\n\t display: block;\r\n     /*margin-left: auto;*/\r\n     /*margin-right: auto;*/\r\n    /* border           : 1px solid;*/\r\n    /* border-color     : #e5e6e9 #dfe0e4 #d0d1d5;*/\r\n     /*border-radius    : 8px;*/\r\n     /*box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.6);*/\r\n}\r\n\r\n#occlusion_canvas{\r\n     /*border: 1px solid black;*/\r\n\t display:inline;\r\n}\r\n</style>\r\n\r\n<style>",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Data",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "ankillusion_note_type_v3",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "\r\n\r\n<div class =\"container\">\r\n    <div class =\"title\" style=\"display:none;\">\r\n        ankiillusion 涂鸦\r\n    </div>\r\n    {{#Front}}\r\n    <div id='front'>{{Front}}</div>\r\n    {{/Front}}\r\n    <div hidden id=\"occlusion_data\">\r\n        {{Data}}\r\n    </div>\r\n    <div id='occlusion_img'>\r\n        {{Image}}\r\n    </div>\r\n    <canvas id=\"occlusion_canvas\">\r\n    </canvas>\r\n    {{#Back}}\r\n    <div id='back'>{{Back}}</div>\r\n    {{/Back}}\r\n</div>\r\n<script type=\"text/javascript\">\r\n function refresh(){\r\n      var occlusion_data = JSON.parse(document.querySelector(\"#occlusion_data\").textContent);\r\n      draw(occlusion_data.shape_list_back);\r\n      //console.log('refresh')\r\n  }\r\n\r\n  //console.log('window onload')\r\n  var img_ele = document.querySelector('#occlusion_img img');\r\n  if (img_ele.complete) {\r\n          refresh()\r\n          } else {\r\n          img_ele.addEventListener('load', refresh)\r\n          img_ele.addEventListener('error', function() {\r\n              alert('error')\r\n          })\r\n  }\r\n  window.addEventListener('resize', refresh, false);\r\n</script>\r\n\r\n",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "card1",
+                    "ord": 0,
+                    "qfmt": "<div class =\"container\">\r\n    <div class =\"title\" style=\"display:none;\">\r\n        ankiillusion 涂鸦\r\n    </div>\r\n    {{#Front}}\r\n    <div id='front'>{{Front}}</div>\r\n    {{/Front}}\r\n    <div hidden id=\"occlusion_data\">\r\n        {{Data}}\r\n    </div>\r\n    <div id='occlusion_img'>\r\n        {{Image}}\r\n    </div>\r\n    <canvas id=\"occlusion_canvas\">\r\n    </canvas>\r\n</div>\r\n\r\n<script>\r\n\t   function refresh(){\r\n\t        var occlusion_data = JSON.parse(document.querySelector(\"#occlusion_data\").textContent);\r\n            draw(occlusion_data.shape_list_front);\r\n            //console.log('refresh')\r\n        }\r\n\r\n        //console.log('window onload')\r\n        var img_ele = document.querySelector('#occlusion_img img');\r\n        if (img_ele.complete) {\r\n                refresh()\r\n                } else {\r\n                img_ele.addEventListener('load', refresh)\r\n                img_ele.addEventListener('error', function() {\r\n                    alert('error')\r\n                })\r\n        }\r\n        window.addEventListener('resize', refresh, false);\r\n</script>\r\n\r\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
