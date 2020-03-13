@@ -314,7 +314,8 @@
                         "_y-day.svg",
                         "_y-night.svg",
                         "_z-day.svg",
-                        "_z-night.svg"
+                        "_z-night.svg",
+                        "paste-cde7cdaeb8674c9af29fe6619cc18f17a20b62cb.jpg"
                     ],
                     "name": "02 文法与语言",
                     "notes": [
@@ -480,6 +481,234 @@
                             "guid": "P0ehQ<m^[$",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>如果 A → γ 是 G 的一条产生式</div><div>则称用αγβ代替αAβ 为一步直接推导&nbsp;<span>记为{{c1::αAβ =&gt;αγβ}}</span></div><div>称用αAβ代替αγβ&nbsp; &nbsp; 为一步直接归约 记为{{c1::αγβ&lt;=αAβ}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "i,KLczN)se",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div><span>\\( \\alpha \\overset{+}{\\Rightarrow} \\beta \\)&nbsp;</span><span>长度</span>{{c1::大于等于1}}<span>的推导</span><br></div><div>\\( \\alpha \\overset{*}{\\Rightarrow} \\beta \\)&nbsp;长度{{c2::大于等于0}}的推导<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K_(YL3w`gF",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "规范推导",
+                                "最右推导",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k*UfsuqL(]",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "规范规约",
+                                "最左规约",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "x1*WZU_B4a",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "句型 :&nbsp;<span>从文法的开始符号出发进行大于等于0步的推导得到的文法符号串</span><div>\\( S \\overset{*}{\\Rightarrow} \\alpha \\)<br></div><div>句子 :&nbsp;{{c1::只包含终结符号}}的句型</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FisPpQ:#BL",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在推导<div>\\[ E \\Rightarrow T \\Rightarrow T*F \\Rightarrow F*F \\Rightarrow a*F \\Rightarrow a*a \\]<br></div><div>句型有 :&nbsp;{{c1::\\(E \\ T \\ T*F \\ F*F \\ a*F \\ a*a \\)}}</div><div>句子有 :&nbsp;{{c2::\\(a*a\\)}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Ovh=XdY+x&",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语言&nbsp;定义",
+                                "文法 G&nbsp;推导出的所有句子组成的集合&nbsp;记为&nbsp;\\(L(G)\\)",
+                                "\\(L(G) = {a | S \\overset{*}{\\Rightarrow} a , a \\in V_T^* \\)<br>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "2nZei~pJ<",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "等价文法",
+                                "一个文法对应一个语言，但一个语言可能有若干个文法产生它，这若干个文法是等价的&nbsp;则称为 等价文法",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rfQ*f){YfE",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>Chomsky&nbsp;文法</b><div>- 0型文法&nbsp;{{c1::\\( | \\alpha | \\ne 0 . which is \\ne&nbsp; \\varepsilon (\\alpha \\rightarrow \\beta )\\)}}</div><div>- 1型文法 \\ 上下文有关文法 {{c2::\\(|\\alpha | \\leq |\\beta | (\\alpha \\rightarrow \\beta )&nbsp; \\)}}</div><div>- 2型文法 \\ 上下文无关文法&nbsp;{{c3::\\(A \\in V_N , \\beta \\in (V_T \\cup V_N )^* \\)}}</div><div>- 3型文法 \\&nbsp;正规文法 {{c4::\\( A \\rightarrow a \\ or \\ A \\rightarrow aB \\ RightLinear \\quad&nbsp;<span>A \\rightarrow a \\ or A \\rightarrow Ba \\quad LeftLinear</span><span>&nbsp;\\)}}</span></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "s~dPwky]Dw",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>0 型文法产生的语言称为 {{c4::0 型语言}}</div><div><div>1 型文法或上下文有关文法产生的语言称为 {{c3::1 型语言或上下文有关语言}}</div></div><div><div>2 型文法或上下文无关文法(Context-Free Grammar)产生的语言称为 {{c2::2 型语言或上下文无关语言(Context-Free Language)}}</div></div><div><div>3 型文法或正则 (正规) 文法 (Regular Grammar) 产生的语言称为 {{c1::3 型语言正则 (正规) 语言 (Regular Language)}}</div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "C[8:kn+E![",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>- 一次推导{{c1::（不是一个句型）}} 对应{{c1::一棵}}分析树</div><div>-&nbsp;<span>一棵分析树可能对应{{c2::若干个推导}}</span></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "BPDMz,8piZ",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果&nbsp;\\( S \\overset {*}{Rightarrow} \\ and \\ A \\overset{+}{\\beta} \\)",
+                                "称β是关于 A的，句型αβδ的一个短语",
+                                "<img src=\"paste-cde7cdaeb8674c9af29fe6619cc18f17a20b62cb.jpg\">",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "g<U7pPu`5Y",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果&nbsp;\\(S \\overset {*} {\\Rightarrow \\alpha A \\delta } \\ and \\ A \\Rightarrow \\beta \\)",
+                                "称β是关于 A的，句型αβδ的一个直接短语",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K=/2zG>%l,",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "句柄",
+                                "最左直接短语",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "l6{[7,X{99",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "素短语&nbsp;最左素短语",
+                                "1 .&nbsp;β是关于 A 的，句型αβδ的一个短语<div><div>2 . β至少含有一个终结符</div></div><div>3 .&nbsp;<span>β不包含其他的素短语</span></div>",
+                                "<div>句型最左边的素短语称为最左素短语</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IRCRn72u@A",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>二义性 Ambiguity</b><div>-&nbsp;句子二义 :&nbsp;{{c1::如果一个文法的句子有两棵或两棵以上的分析树}}</div><div>-&nbsp;语言二义 :&nbsp;{{c2::如果一个语言的所有文法都是二义的}}</div>",
+                                "<div>最左（右）推导与分析树一一对应，句子二义说明它有两个或以上最左（右）推导</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "DR~Gp/`P9k",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": [
+                                "分析树与句型推导的关系"
+                            ]
                         }
                     ]
                 }
@@ -918,14 +1147,16 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "附加前提法<div>1. \\( A_1 , A_2 , \\cdots , A_n \\Rightarrow A\\)<br></div><div>转换成</div><div>{{c1::\\(&nbsp;A_1 , A_2 , \\cdots , A_n, \\neg A \\Rightarrow 0&nbsp;\\)&nbsp;}}<br></div><div><br></div><div>2. \\(<span>A_1 , A_2 , \\cdots , A_n</span><span>&nbsp;\\Rightarrow A \\rightarrow B</span><span>\\)&nbsp;转换成&nbsp;</span></div><div>{{c2::(\\&nbsp;A_1 , A_2 , \\cdots , A_n,A \\Rightarrow B&nbsp;&nbsp;\\)}}<br></div>",
-                                "其中&nbsp;\\( \\neg A and A \\)&nbsp;称为&nbsp;<b>附加前提</b>",
+                                "附加前提法<div>1. \\( A_1 , A_2 , \\cdots , A_n \\Rightarrow A\\)<br></div><div>转换成</div><div>{{c1::\\(&nbsp;A_1 , A_2 , \\cdots , A_n, \\neg A \\Rightarrow 0&nbsp;\\)&nbsp;}}<br></div><div><br></div><div>2. \\(A_1 , A_2 , \\cdots , A_n&nbsp;\\Rightarrow A \\rightarrow B\\)<span>&nbsp;转换成&nbsp;</span></div><div>{{c2::\\(A_1 , A_2 , \\cdots , A_n,A \\Rightarrow B\\)}}<br></div>",
+                                "其中&nbsp;\\( \\neg A , A \\)&nbsp;称为&nbsp;<b>附加前提</b>",
                                 ""
                             ],
                             "flags": 0,
                             "guid": "mU4qjp$:{2",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
-                            "tags": []
+                            "tags": [
+                                "marked"
+                            ]
                         }
                     ]
                 },
@@ -1069,7 +1300,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "\\( p,p \\rightarrow q \\Rightarrow q \\)<br>",
+                                "\\( p,p \\rightarrow q \\Rightarrow q \\)&nbsp;是否正确<br>",
                                 "✓&nbsp;正确",
                                 "",
                                 ""
@@ -1077,6 +1308,86 @@
                             "flags": 0,
                             "guid": "qqvG6J+qj,",
                             "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a54672e2-6529-11ea-930b-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "02 谓词逻辑",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div><span><b>个体词</b></span></div>{{c1::<div>在原子命题中&nbsp;表示对象的词<span>}}</span></div><div><span><b>谓词</b></span></div><div>{{c2::表示对象所具有的性质或多个对象之间关系的词}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "s0i]txL@dq",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div style=\"text-align: left;\">0元谓词</div>",
+                                "不含个体变元的谓词",
+                                "\\(P(a), Q(b,c), R(d,e,f)\\)&nbsp;都是0元谓词<br><div>0元谓词是命题&nbsp;命题可看作特殊的谓词</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "w6$9/+%NK$",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "量词",
+                                "存在量词&nbsp;\\(\\exists \\)<div>全称量词&nbsp;\\(\\forall \\)</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Q`/uSnD+$c",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在&nbsp;\\(\\forall x A \\ and \\ \\exsits x A \\)中&nbsp;称 x&nbsp;是&nbsp;{{c1::指导变元}} A&nbsp;为对应量词的{{c2::辖域或作用域&nbsp;}}<div>辖域或作用域中凡与指导变元相同的个体变元称为{{c3::约束变元}}&nbsp;</div><div>不是则称为{{c4::自由变元}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rK=g)dtQsX",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
                         }
                     ]
@@ -1137,7 +1448,7 @@
                             "fields": [
                                 "<div>\\[\\frac{dy}{dx} + p(x) \\cdot y = 0\\]的解</div>",
                                 "case1 : \\(y=0\\)<div>case2 : \\(y\\;=\\;C\\times e^{-\\int p(x)\\;dx}\\) 且&nbsp;\\(C\\neq0\\)</div>",
-                                "",
+                                "一阶齐次微分方程",
                                 ""
                             ],
                             "flags": 0,
@@ -1165,7 +1476,7 @@
                             "fields": [
                                 "\\[\\frac{\\operatorname dy}{\\operatorname dx}+p(x)\\cdot y=Q(x)\\]<div>的解</div>",
                                 "\\[y=\\left[\\int\\left(Q(x)\\cdot e^{\\int p(x)dx}\\right)dx+C\\right]\\;\\cdot e^{-\\int p(x)dx}\\]<br>",
-                                "",
+                                "一阶非齐线性微分方程",
                                 ""
                             ],
                             "flags": 0,
@@ -1280,6 +1591,33 @@
                             ],
                             "flags": 0,
                             "guid": "k1jW$|}mj`",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[&nbsp; \\frac{\\operatorname dx}{\\operatorname dy}= \\varphi (\\frac{y}{x} ) \\]<div>的解</div>",
+                                "\\[Let \\ u = \\frac{y}{x} , \\\\&nbsp;So \\quad&nbsp; u+x \\cdot&nbsp; \\frac{du}{dx} = \\varphi (u) \\Rightarrow \\int \\frac{du}{\\varphi (u) - u}&nbsp; = \\int \\frac{dx}{x} + C\\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "HMgQlqGjI",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\[ y'' + py'+qy = f(x) \\\\ 1) \\ y'' + py' + qy = 0 \\\\ y''+py' + qy = f(x) \\\\ \\]<br><div>\\[ If \\quad f(x) = P_n (x) \\cdot e^{kx} \\\\ \\]<br></div><div>构造相同形式&nbsp;如果通解中的\\( \\lambda \\)&nbsp;与&nbsp;{{c2::\\( k \\)}}&nbsp;有相同的 则需要乘以相同数量的\\(x\\)</div><div>\\[ If \\quad f(x) = e^{\\alpha x} [Polynomial \\times cos\\beta x + Polynomial \\times sin\\beta x] \\]<br></div><div>构造相同形式 判断&nbsp;{{c1::\\( \\alpha + i \\beta&nbsp; \\)}}&nbsp;与&nbsp;通解相同个数&nbsp;乘以对应的&nbsp;\\(x\\)&nbsp;</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "v6g`%FhNYB",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
                         }
@@ -1639,14 +1977,7 @@
                         "_z-day.svg",
                         "_z-night.svg",
                         "image-20200220140250583.png",
-                        "image-20200220140503053.png",
-                        "paste-49e41b31bec94989660a1afb6d3d81aa8aa59250.jpg",
-                        "paste-58926231427fa520576d1c21e8a022a7fd62735d.jpg",
-                        "paste-9adedd21b552b51ae21c978116e1b7ed0324c0e9.jpg",
-                        "paste-cf1dc045674654de00b01ad47e2cd9309576bf14.jpg",
-                        "paste-e8c1c5f44ea0a53d6150a5f0e11f77621dfb6059.jpg",
-                        "paste-eb4a1a81a91ee37c6623615efe909797b4a04afc.jpg",
-                        "paste-fe0215e417b3ee129c3f22e10cc9ac45e21d1cee.jpg"
+                        "image-20200220140503053.png"
                     ],
                     "mid": 1437128454805,
                     "name": "01 数字和逻辑基础",
@@ -1655,7 +1986,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "<div>理想的数字逻辑电路图<br></div><img src=\"image-20200220140250583.png\"><div>V<span style=\"font-size: 16.6667px;\">m&nbsp;</span>{{c4::信号幅度}}</div><div><span style=\"font-size: 16.6667px;\">T&nbsp;</span>{{c3::周期}}</div><div><span style=\"font-size: 16.6667px;\">t<sub>w&nbsp;</sub></span>{{c2::脉冲宽度}}</div><div><span style=\"font-size: 16.6667px;\">q(β)&nbsp;</span>{{c1::<span style=\"font-size: 16.6667px;\">占空比 =&nbsp;</span>\\(q(\\%)=\\frac{t_w}T\\times100\\%\\)}}</div>",
+                                "<div>理想的数字逻辑电路图<br></div><img src=\"image-20200220140250583.png\"><div>V<span style=\"font-size: 16.6667px;\"><sub>m</sub>&nbsp;</span>{{c4::信号幅度}}</div><div><span style=\"font-size: 16.6667px;\">T&nbsp;</span>{{c3::周期}}</div><div><span style=\"font-size: 16.6667px;\">t<sub>w&nbsp;</sub></span>{{c2::脉冲宽度}}</div><div><span style=\"font-size: 16.6667px;\">q(β)&nbsp;</span>{{c1::<span style=\"font-size: 16.6667px;\">占空比 =&nbsp;</span>\\(q(\\%)=\\frac{t_w}T\\times100\\%\\)}}</div>",
                                 "",
                                 ""
                             ],
@@ -1742,7 +2073,96 @@
                             "guid": "yq1iPjrHXr",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a5497f15-6529-11ea-810c-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1485179307096,
+                    "name": "03 逻辑代数基础",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "DeMorgan :&nbsp;\\( \\overline{AB} = \\overline{A} + \\overline{B} \\)&nbsp;\\( \\overline{A+B} = \\overline{A} \\overline{B} \\)<div>吸收律 :&nbsp;{{c1::\\( A + AB =A \\)}}</div><div>消因子 :&nbsp;{{c2::\\(A + \\overline{A} B = A + B\\)}}</div><div>并项 :&nbsp;{{c3::\\( AB + A \\overline{B} = A \\)}}</div><div>消项 :&nbsp;{{c4::\\(AB + \\overline{A}C + BC = AB + \\overline{A}C \\)}}</div>",
+                                "&nbsp;",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "t69xq6rdUX",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
                         },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "De Morgan&nbsp;",
+                                "\\[ \\overline{A+B} = \\overline{A} \\overline{B} \\ , \\overline{AB} = \\overline{A} + \\overline{B} \\]<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ET20dX~)1]",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a549f55e-6529-11ea-9a71-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg",
+                        "image-20200305124631650.png",
+                        "image-20200305124710488.png",
+                        "image-20200305130100155.png",
+                        "paste-49e41b31bec94989660a1afb6d3d81aa8aa59250.jpg",
+                        "paste-58926231427fa520576d1c21e8a022a7fd62735d.jpg",
+                        "paste-9adedd21b552b51ae21c978116e1b7ed0324c0e9.jpg",
+                        "paste-cf1dc045674654de00b01ad47e2cd9309576bf14.jpg",
+                        "paste-e8c1c5f44ea0a53d6150a5f0e11f77621dfb6059.jpg",
+                        "paste-eb4a1a81a91ee37c6623615efe909797b4a04afc.jpg",
+                        "paste-fe0215e417b3ee129c3f22e10cc9ac45e21d1cee.jpg"
+                    ],
+                    "mid": 1485179307096,
+                    "name": "02 数字与逻辑门",
+                    "notes": [
                         {
                             "__type__": "Note",
                             "data": "",
@@ -1938,6 +2358,73 @@
                             "guid": "Av7AB5INLR",
                             "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<b>TTL&nbsp;门&nbsp;多余输入端的处理</b><div>-&nbsp;与门&nbsp;与非门&nbsp;接&nbsp;{{c1::逻辑1&nbsp;或&nbsp;有用输入端}}</div><div>-&nbsp;或门&nbsp;或非门&nbsp;接&nbsp;{{c2::逻辑0&nbsp;或&nbsp;有用输入端}}</div>",
+                                "<strong>输入端悬空时相当于输入高电平</strong>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "L_H|s2Pp/&",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "5V CMOS&nbsp;的&nbsp;逻辑电平<div>输入 :&nbsp;{{c1::\\(V_{IH} \\ [2V,5V]) \\; V_{IL} = [0V,0.8V] \\)}}</div><div>输出 :&nbsp;{{c2::\\(V_{OH} \\ [2.4V,5V] \\; V_{OL} = [0V,0.4V] \\)}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Qg%vs~+{|;",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "三态门:<div>高电平使能 :&nbsp;<img src=\"image-20200305124631650.png\" style=\"background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;{{c1::EN = 0 , Y=Z&nbsp; &nbsp; &nbsp;EN=1 , Y=A}}</div><div>低电平使能 :&nbsp;<img src=\"image-20200305124710488.png\">&nbsp;{{c2::EN = 0, Y=A&nbsp; &nbsp; &nbsp; EN=1 , Y=Z}}</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "H|N+:7o1TS",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "三态门的应用",
+                                "构成单向总线<div>构成双向总线</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "P(1,3>{O88",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "OC&nbsp;门<div><img src=\"image-20200305130100155.png\"><br></div>",
+                                "主要能用线与",
+                                "多为与非门&nbsp;但是别的也有",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "A/fEI9%N)E",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
                         }
                     ]
                 }
@@ -2011,68 +2498,6 @@
             ],
             "name": "JavaServerPage",
             "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "cf9f44e4-6066-11ea-8c89-b025aa30a048",
-            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [
-                "_bg.png",
-                "_space.png",
-                "_switch.png",
-                "_times.ttf",
-                "_x-day.svg",
-                "_x-night.svg",
-                "_y-day.svg",
-                "_y-night.svg",
-                "_z-day.svg",
-                "_z-night.svg"
-            ],
-            "name": "Test",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "cf9fb9c0-6066-11ea-9256-b025aa30a048",
-            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [
-                "_bg.png",
-                "_space.png",
-                "_switch.png",
-                "_times.ttf",
-                "_x-day.svg",
-                "_x-night.svg",
-                "_y-day.svg",
-                "_y-night.svg",
-                "_z-day.svg",
-                "_z-night.svg"
-            ],
-            "name": "Temp",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "nice啊{{c1::发}}",
-                        "卧槽",
-                        ""
-                    ],
-                    "flags": 0,
-                    "guid": "f!IZJ[aHK|",
-                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
-                    "tags": []
-                }
-            ]
         }
     ],
     "crowdanki_uuid": "35b4f51a-6066-11ea-8948-b025aa30a048",
@@ -2090,7 +2515,7 @@
                 "leechAction": 0,
                 "leechFails": 8,
                 "minInt": 1,
-                "mult": 0.0
+                "mult": 0
             },
             "maxTaken": 60,
             "name": "Default",
@@ -2107,7 +2532,7 @@
                     7
                 ],
                 "order": 0,
-                "perDay": 200,
+                "perDay": 100,
                 "separate": true
             },
             "reminder": {
@@ -2123,7 +2548,7 @@
                 "ease4": 1.3,
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
-                "ivlFct": 1.0,
+                "ivlFct": 1,
                 "maxIvl": 36500,
                 "minSpace": 1,
                 "perDay": 9999
