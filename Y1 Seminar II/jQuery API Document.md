@@ -321,15 +321,59 @@ DOM
 
 #### width()
 
+> `返回元素的宽度 为纯数字
+
+
+
+> 给每个匹配的元素设置CSS宽度
+>
+> `param value Number\String`   一个正整数代表的像素数,或是整数和一个可选的附加单位 (默认是 px)
+
+> `param function(index, width)`返回用于设置宽度的一个函数 接收元素的索引位置和元素旧的高度值作为参数 在函数中 this指向集合中当前的元素
+
 #### height()
+
+> `返回元素的宽度 为纯数字
+
+
+
+> 给每个匹配的元素设置CSS宽度
+>
+> `param value Number\String`   一个正整数代表的像素数,或是整数和一个可选的附加单位 (默认是 px)
+
+> `param function(index, height)`返回用于设置高度的一个函数 接收元素的索引位置和元素旧的高度值作为参数 在函数中 this指向集合中当前的元素
 
 #### innerWidth()
 
+*匹配的元素集合中获取第一个元素的当前计算宽度值,包括padding 但是不包括border*
+
+
+
+不适用于 window 和 document 对象 
+
 #### innerHeight()
+
+*匹配的元素集合中获取第一个元素的当前计算高度值,包括padding 但是不包括border*
+
+
+
+不适用于 window 和 document 对象 
 
 #### outerWidth()
 
+*获取元素集合中第一个元素的当前计算宽度值,包括padding，border和选择性的margin。（注：返回一个整数（不包含“px”）表示的值，或如果在一个空集合上调用该方法，则会返回 null。）*
+
+> `param [includeMargin] Boolean` 明是否在计算时包含元素的margin值
+
+这个方法不适用于window 和 document对象
+
 #### outerHeight
+
+*获取元素集合中第一个元素的当前计算高度值,包括padding，border和选择性的margin。（注：返回一个整数（不包含“px”）表示的值，或如果在一个空集合上调用该方法，则会返回 null。）*
+
+> `param [includeMargin] Boolean` 明是否在计算时包含元素的margin值
+
+这个方法不适用于window 和 document对象
 
 ---
 
@@ -337,15 +381,69 @@ DOM
 
 #### offset()
 
+> 无参
+>
+> 在匹配的元素集合中，获取的第一个元素的当前坐标，坐标相对于文档
+
+> `param coordinates PlainObject` 包含top left属性的对象 用整数指明元素的新顶部和左边坐标
+>
+> `param function(index, coords)` 返回用于设置坐标的一个函数。接收元素在匹配的元素集合中的索引位置作为第一个参数，和当前坐标作为第二个参数。这个函数应该返回一个包含top 和 left属性的对象
+
+如果对象原先的`position`样式属性是`static`的话，会被改成`relative`来实现重定位。
+
 #### offsetParent()
+
+取得离指定元素最近的含有定位信息的祖先元素。含有定位信息的元素指的是，CSS 的 position 属性是 relative, absolute, 或 fixed 的元素
 
 #### position()
 
+获取匹配元素中第一个元素的当前坐标，相对于offset parent的坐标。( 注：offset parent指离该元素最近的而且被定位过的祖先元素 )
+
+`.position()`返回一个包含 `top` 和 `left`属性的对象.
+
 #### scrollLeft()
+
+设置水平滚动条的位置
+
+> 无参
+>
+> *获取匹配的元素集合中第一个元素的当前水平滚动条的位置。*
+
+> `param value Number` 用来设置滚动水平位置的正整数
+>
+> 设置每个匹配元素的水平滚动条位置
 
 #### scrollTop()
 
+设置垂直滚动条的位置
+
+> 无参
+>
+> *获取匹配的元素集合中第一个元素的当前垂直滚动条的位置。*
+
+> `param value Number` 用来设置滚动垂直位置的正整数
+>
+> 设置每个匹配元素的垂直滚动条位置
+
 ### .attr()
+
+取匹配的元素集合中的第一个元素的属性的值  或 设置每一个匹配元素的一个或多个属性
+
+> `param attributeName String` 要获取的属性名称
+>
+> **只获取第一个匹配元素的属性值**
+
+> `param attributeName String` 要设置值的属性名
+>
+> `param value String\Number`这个属性设置的值
+
+> `param attributes PlainObject` 一个 属性 - 值 集合对象
+
+> `param attributeName String`要设置值的属性名.
+>
+> `param function(index, attr) Function()` 这个函数返回用来设置的值，this指向当前的元素。接收index 参数表示元素在匹配集合中的索引位置和html 参数表示元素上原来的 HTML 内容
+
+
 
 
 
