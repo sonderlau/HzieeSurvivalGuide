@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>发票展示</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<h4>Created by 199050418 刘柏田</h4>
+<div class="inputArea">
+    <!--用户输入-->
+    <form id="infoInput" class="">
+            <div>
+                <label >车号</label><input type="text" placeholder="请输入车牌号"> <br>
+            </div>
+            <div>
+                <label>证号</label><input type="text" placeholder="请输入证件号"> <br>
+            </div>
+            <div>
+                <label>上车</label><input type="text" placeholder="请输入上车站"> <br>
+            </div>
+            <div>
+                <label>下车</label><input type="text" placeholder="请输入下车站"> <br>
+            </div>
+            <div>
+                <label>计价</label><input type="text" placeholder="请输入总价"> <br>
+            </div>
+            <button type="button" onclick="getAllInfo()" class=""> 提交 </button>
+
+    </form>
+
+</div>
+
+
+
+<!--表格展示-->
+<!--默认关闭-->
+    <div class="invoiceShow">
+        <h3>XX省 汽车发票</h3>
+        <span class="handWriting">手写无效</span>
+        <table class="">
+            <thead>
+                <tr>
+                    <th>发票代码 : </th> <th id="invoiceId">random numbers here </th>
+                </tr>
+                <tr>
+                    <th>发票号码 : </th> <th id="invoiceNum">random numbers here </th>
+                </tr>
+            </thead>
+
+
+
+            <tbody class="infoShow">
+                <tr>
+                    <td>车号 : </td> <td></td>
+                </tr>
+                <tr class="">
+                    <td>证号 : </td> <td></td>
+                </tr>
+                <tr>
+                    <td>上车 : </td> <td></td>
+                </tr>
+                <tr class="">
+                    <td>下车 : </td> <td></td>
+                </tr>
+                <tr>
+                    <td>计价 : </td> <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<script>
+    <!--jQuery Here-->
+    let invoiceShow = $(".invoiceShow");
+    invoiceShow.hide();
+
+    // 启动
+    function getAllInfo (){
+        // 找到输入
+        let infoArray = $("#infoInput").find(":text");
+        // 找到输出
+        let infoShow = $(".infoShow").find("td:odd");
+        // 逐个写入
+        for (let i = 0 ; i < infoArray.length ; i ++){
+            // 获取输入框的内容
+            let dataTemp =infoArray.eq(i).val();
+            // 展示
+            infoShow.eq(i).text(dataTemp);
+        }
+
+        // 收起
+        $(".inputArea").slideUp();
+        // 展示
+        invoiceShow.slideDown();
+
+        // 随机票吗生成
+        $("#invoiceId").text(generateMixed(20,0));
+        $("#invoiceNum").text(generateMixed(18,1));
+
+    }
+
+
+
+    function generateMixed(n,isNum) {
+        let chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+        let res = "";
+        if (isNum){
+            for(let i = 0; i < n; i++) {
+                let id = Math.ceil(Math.random() * 10);
+                res += chars[id];
+            }
+        }else {
+            for(let i = 0; i < n; i++) {
+                let id = Math.ceil(Math.random() * 35);
+                res += chars[id];
+            }
+        }
+        return res;
+    }
+</script>
+</body>
+</html>

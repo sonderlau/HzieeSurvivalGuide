@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check</title>
+</head>
+<body>
+    <input type="checkbox" id="control"> 序号 <br>
+    <input type="checkbox" name="options"> 1 <br>
+    <input type="checkbox" name="options"> 2 <br>
+    <input type="checkbox" name="options"> 3 <br>
+
+
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script>
+
+        let controlInput = $("#control");
+        let options = $("input[name='options']");
+
+
+
+        controlInput.click( () => {
+            if (controlInput.prop("checked") === true){
+                options.prop("checked",true);
+            }else{
+                options.prop("checked", false);
+            }
+            checkAll();
+        } );
+
+
+
+        options.click(() => {
+           checkAll();
+        });
+
+
+
+        function checkAll () {
+
+            let size = options.length;
+            let checkedCount = 0;
+
+            options.each(function (index, Element) {
+                if ($(this).prop("checked") === true){
+                    console.log("checked!!!");
+                    checkedCount ++;
+                }
+            });
+
+            console.log(checkedCount);
+            if (checkedCount === size){
+               controlInput.prop("checked",true)
+            }else {
+                controlInput.prop("checked",false)
+            }
+        }
+    </script>
+</body>
+</html>
