@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap-material-design.min.css" />
+    <link rel="stylesheet" href="../css/mdui.min.css">
+    <link rel="stylesheet" href="../css/panel.css">
+    <title>Blog :: 控制台</title>
+</head>
+
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-color-black">
+    <!-- Appbar -->
+    <div class="mdui-appbar mdui-appbar-fixed mdui-color-white">
+        <div class="mdui-toolbar mdui-color-theme">
+            <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
+                mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+            <a href="./panelIndex.html" class="mdui-typo-headline mdui-hidden-xs">控制台</a>
+            <a href="../index.html" class="mdui-typo-title">返回首页</a>
+
+            <div class="mdui-toolbar-spacer"></div>
+
+            <!-- FIXME: ID Here -->
+            <p class="h4">Ge15emium</p>
+            <img src="../imgs/avatar.jpg" alt="" class="img-fluid avatar rounded-circle">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Left Side Drawer -->
+    <div class="mdui-drawer" id="main-drawer">
+        <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+
+            <div class=" mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <img src="../svgs/compass-line.svg" class=" icons" alt="">
+                    <div class="mdui-list-item-content"><a href="./panelIndex.html">仪表盘</a></div>
+                    <i class="mdui-icon material-icons">keyboard_arrow_up</i>
+                </div>
+            </div>
+
+            <div class="mdui-collapse-item mdui-collapse-item-open">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <img src="../svgs/inbox-archive-line.svg" class="icons" alt="">
+                    <div class="mdui-list-item-content">文章</div>
+                    <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                </div>
+
+                <div class="mdui-collapse-item-body mdui-list">
+                    <a href="./panelArticlesControl.html" class="mdui-list-item mdui-ripple ">管理文章</a>
+                    <a href="./panelArticlesWrite.html" class="mdui-list-item mdui-ripple mdui-list-item-active">写文章</a>
+                </div>
+            </div>
+
+            <div class="mdui-collapse-item ">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <img src="../svgs/settings-5-line.svg" class="icons" alt="">
+                    <div class="mdui-list-item-content">系统</div>
+                    <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                </div>
+                <div class="mdui-collapse-item-body mdui-list">
+                    <a href="./panelSystemControl.html" class="mdui-list-item mdui-ripple ">全局设置</a>
+                    <a href="./panelSystemChangepw.html" class="mdui-list-item mdui-ripple ">更改密码</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="panelContent">
+        <div class="container articleEditor">
+            <div class="row">
+                <div class="col-10 offset-1">
+                        <div class="form-group">
+                                <label for="articleEditor" class="bmd-label-floating">输入标题</label>
+                                <input type="password" class="form-control" id="articleTitle">
+                        </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-10 offset-1">
+                    <form action="">
+                            <div class="form-group">
+                                    <label for="articleContent" class="bmd-label-floating">开始编辑</label>
+                                    <textarea class="form-control" id="articleContent" rows="26"></textarea>
+                            </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row my-3">
+                <div class="col-1 offset-10">
+                    <button type="button" class="btn btn-block btn-raised btn-info">发布</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text-center fixed-bottom">Made by Sonder Lau<img src="/svgs/heart-line.svg" class="iconHeart">Blog:<a
+                href="http://9up.fun/" target="_blank">http://9up.fun</a></p>
+    </footer>
+
+    <script src="../js/bootstrap-material-design.min.js"></script>
+    <script src="../js/mdui.min.js"></script>
+    <script src="../js/jquery.slim.min.js"></script>
+</body>
+
+</html>

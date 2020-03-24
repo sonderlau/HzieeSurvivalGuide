@@ -1,0 +1,36 @@
+/* 图标 */
+div.iconInfo>img+img {
+    margin-right: 0.3rem;
+}
+
+.iconInfo {
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.3rem;
+}
+
+
+
+/* 文章显示 */
+.signleArticle {
+    margin: 1rem auto;
+}
+
+/* 文章标题 */
+.indexHeader {
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* 文章描述 */
+.indexCaption {
+    margin: 0.5rem 0;
+    font-weight: 300;
+    text-align: left;
+}

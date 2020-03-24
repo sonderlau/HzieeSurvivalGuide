@@ -1,0 +1,89 @@
+/* 主页背景图片 */
+
+.backgroundImg {
+    height: 100vh;
+    background: url('../imgs/bg.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/* 图片蒙版 */
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* 内容大小 */
+    width: 100vw;
+    height: 100vh;
+
+    /* 背景图像不随内容滚动 */
+    background-attachment: fixed;
+
+    background-color: rgba(50, 50, 50, 0.2);
+    /* Flex */
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/* 白板 */
+#board {
+    position: relative;
+    margin-top: -10rem;
+    background-color:#fff;
+    border-radius: 0.5rem;
+    z-index: 3;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    /* 顶部 */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+/* 覆盖Bootstrap默认 */
+a {
+    color: #3c4858;
+
+}
+
+a:hover {
+    color: #d35656;
+}
+
+
+/* 导航栏提升层次 */
+nav {
+    z-index: 4 !important;
+}
+
+/* 导航栏效果 */
+.navbarLink {
+    color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 300;
+    margin-left: 1rem;
+
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+}
+
+
+/* 打字特效 */
+.displayTyping {
+    margin: auto 0;
+}
+.white {
+    color: white;
+}

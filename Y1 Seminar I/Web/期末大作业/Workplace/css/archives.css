@@ -1,0 +1,16 @@
+.archives{
+    margin: 0 2rem;
+}
+    /* 文章内容字体 */
+.archiveContent{
+    font-weight: 300;
+}
+    /* 文章标题 */
+.archiveHead{
+    font-weight: inherit;
+    font-size: large;
+}
+/* 文章之间间距设置 */
+.archiveEach{
+    margin: 0.5rem 0;
+}

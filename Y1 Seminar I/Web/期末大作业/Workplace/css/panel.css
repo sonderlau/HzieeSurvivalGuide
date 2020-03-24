@@ -1,0 +1,72 @@
+/*MDUI图标本地化*/
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/MaterialIcons-Regular.woff2)format('woff2');
+}
+
+/* 头像 */
+.avatar{
+    border: 1px solid black;
+    height: 50px;
+}
+
+
+/* 图标 */
+.icons{
+    width: 30px;
+    margin-right: 20px;
+}
+.iconHeart{
+    /* footer 心形 */
+    width: 30px;
+}
+.statusIcon{
+    font-size: 0.4rem;
+    margin-right: 0.3rem;
+}
+
+/* 信息面板 */
+.infoBoard{
+    width: 400px;
+    height: 225px;
+    box-shadow: 0px 6px 12px #ABABAB;;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+    padding: 20px;
+}
+    /* 内容 */
+.panelContent{
+    padding-left: 100px;
+}
+.achors{ 
+    padding-top: 5px;
+}
+.show_details{
+    margin-top: 65px;
+}
+.articleEditor{
+    margin-top: 30px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 
+                0 17px 50px 0 rgba(0, 0, 0, .19);
+    border-radius: 0.5rem;
+    padding: 4rem 0 ;
+}
+/* Bootstrap 颜色覆盖 */
+.bmd-label-floating{
+    color: black;
+}
+.articleControl{
+    margin-top: 30px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 
+                0 17px 50px 0 rgba(0, 0, 0, .19);
+    border-radius: 0.5rem;
+    padding: 4rem 4rem ;
+}
+
+
+/* 覆盖Bootstrap 默认设置 */
+th{
+    font-weight: 600 !important;
+}

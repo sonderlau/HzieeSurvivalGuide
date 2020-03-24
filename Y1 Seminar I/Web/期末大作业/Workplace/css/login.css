@@ -1,0 +1,20 @@
+body{
+    background-color: #eeeeee;
+}
+/* 登录面板 */
+.loginPanel{
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24),
+                0 17px 50px 0 rgba(0, 0, 0, .19);
+    border-radius: 0.5rem;
+    position: relative;
+    width: 30vw;
+    height: 35vh;
+
+    /* 垂直水平居中 */
+    margin: 30vh auto;
+}
+
+/* 图标 */
+.inputIcons{
+    height: 28px;
+}

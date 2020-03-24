@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Blog</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><strong>Blog</strong></a>
+
+        <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto text-center">
+
+                  <li class="nav-item">
+                    <a class="navbarLink" href="./index.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="navbarLink" href="./archives.html">Archives</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="navbarLink" href="./about.html">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="navbarLink" href="./panel/login.html">Panel</a>
+                  </li>
+
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bg Img  -->
+    <div class="backgroundImg">
+        <div class="mask">
+                <div class="container text-center white">
+                        <span class="h2 Autotype" id="subtitle">&nbsp;</span>
+
+                </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Content -->
+    <div class="container">
+        <div id="board">
+            <div class="aboutAvatar">
+                <img src="imgs/avatar.jpg" alt="" class="img-fluid avatar rounded-circle">
+            </div>
+
+
+            <!-- About Content -->
+            <div class="container aboutContent">
+                <div class="row">
+                  <div class="col-10 m-auto">
+                      <div class="text-center">
+                          <p class="h4">Ge15emium</p>
+                          <p>Perfectionist / CTF Noob / Front-End / Resume Driven Developer</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center ">Made by Sonder Lau <img src="/svgs/heart-line.svg" class="icons"> Blog:<a href="http://9up.fun/" target="_blank">http://9up.fun</a></p>
+
+    </footer>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap-material-design.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+
+    var typed = new Typed('#subtitle', {
+    strings: [
+      '  ',
+      "关于&nbsp;",
+    ],
+    cursorChar: "_",
+    typeSpeed: 60,
+    loop: false,
+  });
+  typed.stop();
+  $(document).ready(function () {
+    $(".typed-cursor").addClass("h2");
+    typed.start();
+  });
+
+  </script>
+</body>
+
+</html>
