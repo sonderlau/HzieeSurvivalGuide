@@ -186,9 +186,15 @@ DOM
 
 此方法通常用于设置表单字段的值
 
+#### .prop
+
+> `param : propertyName String` 要得到的属性名称
+
+> `param : propertyName,value String,String\Boolean\Number`
+
 ---
 
-#### 选择器 Selector
+### 选择器 Selector
 
 ##### :hidden
 
@@ -249,9 +255,17 @@ DOM
 
 同 :hidden 的注意事项
 
+#### each () 
+
+遍历一个jQuery对象 为每个匹配元素执行一个函数
+
+> `param function(index, Element)` 为每个匹配元素执行的一个函数
+>
+> 关键字 this 总是指向这个元素
+
 ---
 
-### 属性选择 Attributes 
+### 属性选择 Attributes
 
 #### [attribute$=value]
 
