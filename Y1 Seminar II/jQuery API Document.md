@@ -28,25 +28,29 @@ DOM
 
 ## 文档摘要
 
-### .html()
+### 值 与 取值
+
+
+
+#### .html()
 
 返回选中元素的HTML内容 采用`innerHtml`
 
 **对XML文档无效**
 
-#### html()
+##### html()
 
 > `return String`
 >
 > 获取集合中第一个匹配元素的HTML内容
 
-#### html(String)
+##### html(String)
 
 > `return jQuery`
 >
 > 设置每个匹配元素的HTML字符串
 
-#### html( function(index, currentContent))
+##### html( function(index, currentContent))
 
 > `return jQuery`
 >
@@ -54,9 +58,29 @@ DOM
 >
 > `params: currentContent String` 当前选中元素的HTML内容
 
+##### .attr()
+
+取匹配的元素集合中的第一个元素的属性的值  或 设置每一个匹配元素的一个或多个属性
+
+> `param attributeName String` 要获取的属性名称
+>
+> **只获取第一个匹配元素的属性值**
+
+> `param attributeName String` 要设置值的属性名
+>
+> `param value String\Number`这个属性设置的值
+
+> `param attributes PlainObject` 一个 属性 - 值 集合对象
+
+> `param attributeName String`要设置值的属性名.
+>
+> `param function(index, attr) Function()` 这个函数返回用来设置的值，this指向当前的元素。接收index 参数表示元素在匹配集合中的索引位置和html 参数表示元素上原来的 HTML 内容
+
+
+
 ---
 
-### jQuery.trim(str)
+#### jQuery.trim(str)
 
 删除字符串开始和结尾处的换行符 空格(包括连续的空格) 和制表符(Tab)
 
@@ -64,15 +88,15 @@ DOM
 
 ---
 
-### .click()
-
 #### .click()
+
+##### .click()
 
 `.trigger("click")`的便捷方式
 
 触发该事件
 
-#### .click(handler(eventObject))
+##### .click(handler(eventObject))
 
 > `param: handler(eventObject) Function`
 >
@@ -80,47 +104,47 @@ DOM
 
 ---
 
-### .find(selector)
+#### .find(selector)
 
 后代元素选择器
 
-#### .find( selector)
+##### .find( selector)
 
 > `param: selector Selector` 用于匹配元素的选择器字符串
 
-#### .find( jQuery_object)
+##### .find( jQuery_object)
 
 > `param: jQuery_object Object` 匹配元素集合的jQuery对象
 
-#### .find( element)
+##### .find( element)
 
 > `param: element Element` 匹配元素集合的元素
 
 ---
 
-### .eq()
+#### .eq()
 
 减少匹配元素的集合为制定的索引的哪一个元素
 
-#### .eq( index)
+##### .eq( index)
 
 > `param: index Integer` 指示元素的位置
 
-#### .eq( -index)
+##### .eq( -index)
 
 > `param: -index Integer` 元素倒数的位置
 
 ---
 
-### .get()
+#### .get()
 
-#### .get( [index] )
+##### .get( [index] )
 
 > `param: index Numebr` 获取哪个元素
 
 ---
 
-### .text()
+#### .text()
 
 `XML HTML`中均可使用
 
@@ -128,13 +152,13 @@ DOM
 
 该两个元素需要使用`.val()`获取
 
-#### .text()
+##### .text()
 
 > `return String`
 >
 > 得到匹配元素集合中每个元素的合并文本 包括后代
 
-#### .text( textString )
+##### .text( textString )
 
 设置匹配元素集合中每个元素的文本内容为指定的文本内容
 
@@ -142,19 +166,19 @@ DOM
 
 > `param: textString String` 设置匹配元素内容的文本
 
-#### .text( function(index, currentContent) )
+##### .text( function(index, currentContent) )
 
 > `param function(index, currentContent) Function` 返回设置文本内容的一个函数 接受元素的位置和文本值作为参数
 
-### val()
-
 #### val()
+
+##### val()
 
 > `param : None`
 >
 > 获取匹配元素的第一个元素的值
 
-#### val(value)
+##### val(value)
 
 > `param : value String\Array` 设定每个匹配的元素的值
 >
@@ -164,9 +188,9 @@ DOM
 
 ---
 
-### Selector
+#### 选择器 Selector
 
-#### :hidden
+##### :hidden
 
 选取所有隐藏的元素
 
@@ -227,7 +251,7 @@ DOM
 
 ---
 
-### Attributes Series
+### 属性选择 Attributes 
 
 #### [attribute$=value]
 
@@ -255,7 +279,11 @@ DOM
 
 
 
-### .css()
+### CSS 相关
+
+
+
+#### .css()
 
 获取匹配元素集合中的第一个元素的样式属性的值
 
@@ -285,7 +313,7 @@ DOM
 
 ---
 
-### Manipulate classes
+### 操作类 classes
 
 #### addClass()
 
@@ -317,7 +345,7 @@ DOM
 
 ---
 
-### Manipulate size
+### 操作尺寸 size
 
 #### width()
 
@@ -377,7 +405,7 @@ DOM
 
 ---
 
-### Manipulate localtion
+### 操作位置 localtion
 
 #### offset()
 
@@ -425,27 +453,119 @@ DOM
 >
 > 设置每个匹配元素的垂直滚动条位置
 
-### .attr()
 
-取匹配的元素集合中的第一个元素的属性的值  或 设置每一个匹配元素的一个或多个属性
 
-> `param attributeName String` 要获取的属性名称
+
+
+### 操作 DOM
+
+#### 插入 创建
+
+##### append()
+
+在每个匹配元素里面的末尾处插入参数内容
+
+> `param content String Element jQuery` 用来插在每个匹配元素里面的末尾
 >
-> **只获取第一个匹配元素的属性值**
+> 可以多个元素
 
-> `param attributeName String` 要设置值的属性名
+##### prepend()
+
+在匹配元素集合中的每个元素后面插入参数所指定的内容 作为其兄弟节点
+
+>`param content String\Element\jQuery` 用来插在每个匹配元素里面的末尾
 >
-> `param value String\Number`这个属性设置的值
+>可以多个元素
 
-> `param attributes PlainObject` 一个 属性 - 值 集合对象
+> `param function( index )` 
 
-> `param attributeName String`要设置值的属性名.
+##### appendTo()
+
+将匹配的元素插入到目标元素的最后面（译者注：内部插入）
+
+> `param target Selector\Element\jQuery` 合的元素们会被插入到由参数指定的目标的末尾
+
+##### prependTo()
+
+> `param content String\Elemernt\jQuery` 将被插入到匹配元素前的内容
 >
-> `param function(index, attr) Function()` 这个函数返回用来设置的值，this指向当前的元素。接收index 参数表示元素在匹配集合中的索引位置和html 参数表示元素上原来的 HTML 内容
+> 可以多个元素
+
+> `param function( index)` 接收index 参数表示元素在匹配集合中的索引位置和html 参数表示元素上原来的 HTML 内容 在函数中this指向元素集合中的当前元素
 
 
 
+##### before()
 
+在匹配元素集合中的每个元素**前面**插入参数所指定的内容 作为其兄弟节点
+
+> `param conetent String\Element\jQuery` 用来插在每个匹配元素的**前面**
+
+> `param function( index ) ` 插在每个匹配元素的**前面** 接收元素在集合中的索引位置作为参数
+>
+> 在函数中this指向元素集合中的当前元素
+
+##### insertBefore()
+
+在目标元素前面插入集合中每个匹配的元素  (注: 插入的元素作为目标元素的兄弟元素
+
+> `param target Selector\Element\jQuery` 匹配的元素将会被插入在由参数指定的目标后面
+
+##### after()
+
+在匹配元素集合中的每个元素**后面**插入参数所指定的内容 作为其兄弟节点
+
+> `param conetent String\Element\jQuery` 用来插在每个匹配元素的**后面**
+
+> `param function( index ) ` 插在每个匹配元素的**后面** 接收元素在集合中的索引位置作为参数
+>
+> 在函数中this指向元素集合中的当前元素
+
+##### insertAfter()
+
+在目标元素后面插入集合中每个匹配的元素  (注: 插入的元素作为目标元素的兄弟元素
+
+> `param target Selector\Element\jQuery` 匹配的元素将会被插入在由参数指定的目标后面
+
+---
+
+#### 删除
+
+##### remove()
+
+将匹配元素集合从DOM中删除  注: 同时移除元素上的事件及 jQuery 数据
+
+> `param [selector] Selector` 一个选择器表达式用来过滤将被移除的匹配元素集合
+
+##### detach()
+
+从DOM中去掉所有匹配的元素
+
+> `param [selector] Selector` 个选择表达式将需要移除的元素从匹配的元素中过滤出来
+
+----
+
+#### 清空
+
+##### empty()
+
+从DOM中移除集合中匹配元素的所有子节点
+
+> 无参
+>
+> 这个方法不仅移除子元素（和其他后代元素） 同样移除元素里的文本
+
+---
+
+#### 复制节点
+
+##### clone()
+
+创建一个匹配的元素集合的深度拷贝副本
+
+> `param withDataAndEvents Boolean` 默认false
+>
+> `param deepWithDataAndEvents Boolean` 默认`value of withDataAndEvents`
 
 
 
