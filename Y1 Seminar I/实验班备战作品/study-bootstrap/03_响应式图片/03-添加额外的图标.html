@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--告诉IE浏览器用最新的引擎去渲染页面-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--
+1. has-feedback    给包裹表单的外层div(form-group)
+2. 最好加上label
+3. aria-describedby=“”  使确保辅助技术正确传递图标含义
+4. class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"  给定span设置相应图标
+5. 不希望将 label 标签展示出来，可以通过添加 .sr-only 类来实现
+-->
+<div class="container">
+    <form action="">
+        <div class="form-group has-success has-feedback">
+            <label class="control-label" for="inputSuccess2">Input with success</label>
+            <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            <span id="inputSuccess2Status" class="sr-only">(success)</span>  <!--额外的隐藏的文本应包含在 .sr-only 类中-->
+        </div>
+        <div class="form-group has-warning has-feedback">
+            <label class="control-label" for="inputWarning2">Input with warning</label>
+            <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+            <span id="inputWarning2Status" class="sr-only">(warning)</span>
+        </div>
+        <div class="form-group has-error has-feedback">
+            <label class="control-label" for="inputError2">Input with error</label>
+            <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
+            <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+            <span id="inputError2Status" class="sr-only">(error)</span>
+        </div>
+        <div class="form-group has-success has-feedback">
+            <label class="control-label" for="inputGroupSuccess1">Input group with success</label>
+            <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+            </div>
+            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            <span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+        </div>
+    </form>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+
+</script>
+</body>
+</html>
