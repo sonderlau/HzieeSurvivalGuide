@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--告诉IE浏览器用最新的引擎去渲染页面-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>麦子官网</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="swiper/css/swiper-3.4.2.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/index.css" rel="stylesheet">
+    <link href="wow/css/animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--导航栏开始-->
+    <div class="container">
+        <nav class="navbar navbar-default rnavbar-fixed-top">
+                <div class="navbar-header ">
+                    <!--切换折叠的图标-->
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar"
+                            aria-haspopup="true" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--项目的标志-->
+                    <a href="" class="navbar-brand"></a>
+                </div>
+                <!--需要响应式切换部分内容-->
+
+                <div class="collapse navbar-collapse " id="responsive-navbar">
+                    <!--导航菜单-->
+                    <ul class="nav navbar-nav navbar-right hidden-sm">
+                        <li class="active"><a href="">HOME</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"   aria-expanded="false">ABOUT</a>
+                            <ul class="my-dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">SERVICES</a>
+                            <ul class="my-dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">FEATURES</a>
+                            <ul class="my-dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">PORTFOLIO</a>
+                            <ul class="my-dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">BLOG</a>
+                            <ul class="my-dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                    <!--输入框-->
+                    <form action="" class="navbar-form navbar-right visible-sm">
+                        <div class="form-group">
+                            <input  type="text" class="form-control" placeholder="search">
+                            <button type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+
+        </nav>
+    </div>
+    <!--导航栏结束-->
+    <!--轮播图开始-->
+    <div class="container">
+        <ul class="wow bounce" data-wow-duration="1s" data-wow-delay="1s">
+            <li class="smoove" data-move-y="300px">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/img/swiper1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/img/swiper2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/img/swiper3.jpg" alt=""></div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- 如果需要滚动条 -->
+                    <!--<div class="swiper-scrollbar"></div>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--轮播图结束-->
+
+    <!--列表展示-->
+<div class="container">
+    <div class="list-display">
+        <ul class="row list-group">
+            <li class="col-md-3 wow bounceInLeft"  data-wow-offset="100">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span>
+                </button>
+                <h4>Internet Strategy</h4>
+                <p>Our Strategy Team converts brand values into actionable brand behavior. We implement and measure e-business strategies to provide maximum exposure to consumers everywhere around the globe. Our strategy makes our clients thrive. </p>
+            </li>
+            <li class="col-md-3 wow bounceInUp" data-wow-offset="100">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span>
+                </button>
+                <h4>Internet Strategy</h4>
+                <p>Our Strategy Team converts brand values into actionable brand behavior. We implement and measure e-business strategies to provide maximum exposure to consumers everywhere around the globe. Our strategy makes our clients thrive. </p>
+            </li>
+            <li class="col-md-3 wow bounceInDown" data-wow-offset="100">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span>
+                </button>
+                <h4>Internet Strategy</h4>
+                <p>Our Strategy Team converts brand values into actionable brand behavior. We implement and measure e-business strategies to provide maximum exposure to consumers everywhere around the globe. Our strategy makes our clients thrive. </p>
+            </li>
+            <li class="col-md-3 wow bounceInRight " data-wow-offset="100">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span>
+                </button>
+                <h4>Internet Strategy</h4>
+                <p>Our Strategy Team converts brand values into actionable brand behavior. We implement and measure e-business strategies to provide maximum exposure to consumers everywhere around the globe. Our strategy makes our clients thrive. </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="swiper/js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="wow/js/wow.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/index.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

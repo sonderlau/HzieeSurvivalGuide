@@ -1,0 +1,85 @@
+body{
+    color: #777;
+    padding-top: 80px;
+}
+/*导航栏*/
+.navbar-default{
+    min-height: 80px;
+    box-shadow: 0 0 10px 0 #00aef3;
+    background: rgba(255,255,255,0.7);
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.navbar-collapse{
+    margin-top: 15px;
+}
+.navbar-toggle{
+    margin-top: 23px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: deeppink;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a{
+    transition: .5s;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    background: deeppink;
+    color: #fff;
+}
+.form-group{
+    position: relative;
+}
+.navbar-form button{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background: none;
+    border: none;
+    outline: none;
+    /*color: #fff;*/
+}
+.navbar-default .navbar-text,
+.navbar-default .navbar-link{
+    color: #fff;
+}
+.navbar-default .navbar-link:hover{
+    color: deeppink;
+}
+.btn-primary{
+    transition: .5s;
+}
+.btn-primary:hover{
+    background-color: deeppink;
+}
+.btn-primary{
+    margin-left: 10px;
+}
+.navbar-default .navbar-toggle{
+    border-color: #0baee4;
+    color: #fff;
+    transition: .5s;
+}
+.navbar-default .navbar-toggle:hover{
+    background: deeppink;
+    border-color: deeppink;
+
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #fff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #0baee4;
+}
+
+
+
+
+
+body{
+    height: 3000px;
+}

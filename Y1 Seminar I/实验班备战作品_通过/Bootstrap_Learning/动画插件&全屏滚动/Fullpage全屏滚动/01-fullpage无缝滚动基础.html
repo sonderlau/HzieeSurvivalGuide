@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="网页作者" />
+    <meta name="Copyright" content="网站版权" />
+    <meta name="keywords" content="网站关键字" />
+    <meta name="description" content="网站描述" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css">
+
+
+
+    <title>Document</title>
+    <style>
+        body,dl,dd,dt,p,h1,h2,h3,h4,h5,h6{ margin: 0;}
+        ul,ol{margin: 0; list-style: none; padding: 0;}
+        a{ text-decoration: none; color:inherit; }
+        *{ margin: 0; padding: 0; }
+        a img{ display:block; border:none;}
+        .clearfix:after{ content:""; display: block; clear: both;}
+        .fl-l{ float: left;}
+        .fl-r{ float: right;}
+
+        li{ font-size: 50px; text-align: center; color: #fff;}
+        #menu{ position: fixed; top: 0; left: calc(50% - 400px); width: 800px; display: flex; justify-content: space-between; }
+
+        #menu li{  width: 150px; height: 70px;  font: bold 30px/70px ""; text-align: center; background: #999; border-radius: 10px; }
+        #menu li a{display: block; width: 100%; height: 100%;}
+
+        #menu li.active{ background: #153170; color: #fff; }/*给锚点添加动态颜色*/
+
+        #fp-nav ul li a span, .fp-slidesNav ul li a span{ background: skyblue;} /*改变导航栏的颜色*/
+        #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span{ background: blue;} /*改变导航栏点击的当前的颜色*/
+
+        </style>
+</head>
+    <!--===========================-->
+    <!-------监督热线：400-1567-315---->
+    <!--===========================-->
+<body>
+<!--全屏滚动排版-->
+<ul id="fullpage">
+    <li class="section">
+        <div class="slide">slide1</div>
+        <div class="slide">slide2</div>
+        <div class="slide">slide3</div>
+        <div class="slide">slide4</div>
+    </li>
+    <li class="section">section2</li>
+    <li class="section">section3</li>
+    <li class="section">section4</li>
+    <li class="section">section5</li>
+</ul>
+<!--
+控制菜单滚动按钮
+注意：注意这个自定义的菜单代码应该放置到插件设置的内容外面，避免因为排版不兼容问题可以使用css3:true，否则将被附加到body的插件本身。
+-->
+<ol id="menu">
+    <li data-menuanchor="anchor1" class="active"><a href="#anchor1">anchor1</a></li>
+    <li data-menuanchor="anchor2"><a href="#anchor2">anchor2</a></li>
+    <li data-menuanchor="anchor3"><a href="#anchor3">anchor3</a></li>
+    <li data-menuanchor="anchor4"><a href="#anchor4">anchor4</a></li>
+    <li data-menuanchor="anchor5"><a href="#anchor5">anchor5</a></li>
+</ol>
+<script src="js/jquery.2.2.4.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#fullpage").fullpage({
+            //Navigation
+            menu: "#menu", //绑定菜单，设定的相关属性与anchors的值对应后，菜单可以控制滚动，默认为false。
+            anchors: ["anchor1","anchor2","anchor3","anchor4","anchor5"],//anchors定义锚链接，默认为[]
+            navigation: true,   //是否显示导航，默认为false
+            navigationPosition: "left",     //导航小圆点的位置
+            navigationTooltips: ["hi","boy","hi","girl","I love you"],  //导航小圆点的提示
+            showActiveTooltip: true, //是否显示当前页面的tooltip信息
+            slidesNavigation: true, //是否显示横向幻灯片的导航，默认为false
+
+            //Scrolling
+            sectionsColor: ["deeppink","green","#153170","orangered","gold"],//为每个section设置background-color属性
+            scrollingSpeed: 700,//设置滚动速度，单位毫秒，默认700
+           // autoScrolling: false,//是否使用插件的滚动方式，默认为true,若为false则会出现浏览器自带滚动条
+            easing: 'easeInOutBounce',//定义页面section滚动的动画方式，若修改此项需引入jquery.easing插件
+            loopBottom: true,//滚动到最低部后是否连续滚动到顶部，默认为false
+            loopTop: true,//滚动到最顶部后是否连续滚动到底部，默认为false
+            loopHorizontal: true,//横向slide幻灯片是否循环滚动，默认为true
+            resize : true,//字体是否随窗口缩放而缩放，默认false
+
+
+
+
+        });
+    })
+</script>
+</body>
+</html>

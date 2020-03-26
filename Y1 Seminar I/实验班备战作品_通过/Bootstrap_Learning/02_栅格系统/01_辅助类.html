@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+	<title>01-辅助类</title>
+	<meta name='keywords' content='关键词,关键词' />
+	<meta name='description' content='网站描述' />
+	<!-- bootstrap相关 -->
+	<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="../jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		.c1{
+			width:100px;
+			height:100px;
+			background:deeppink;
+		}
+		.c2{
+			width:200px;
+			height:100px;
+			background:orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- 页头 -->
+		<h1 class="page-header">Hello Bootstrap!</h1>
+		<p class="alert alert-info">This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+	</div>
+	<!-- 容器 width:100% -->
+	<div class="container-fluid">
+		<p>
+        This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.
+    </p>
+	</div>
+	<!-- 情景文本色 -->
+	<div class="container">
+		<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="text-primary">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="text-success">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="text-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="text-warning">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="text-danger">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+	</div>
+	<!-- 情景背景色 -->
+	<div class="container">
+		<p class="bg-primary">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="bg-success">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="bg-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="bg-warning">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+		<p class="bg-danger">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+	</div>
+	<div class="container">
+		<!-- 关闭按钮 -->
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<!-- 三角符号 -->
+		<span class="caret"></span>
+	</div>
+	<div class="container">
+		<!-- 快速浮动 -->
+		<div class="clearfix">
+			<div class="c1 pull-left"></div>
+			<div class="c1 pull-right"></div>
+		</div>
+		<div class="c2"></div>
+	</div>
+</body>
+</html>

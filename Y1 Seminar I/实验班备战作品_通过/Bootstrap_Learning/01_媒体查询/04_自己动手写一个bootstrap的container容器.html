@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+	<title>自己实现一个bootstrap容器</title>
+	<meta name='keywords' content='关键词,关键词' />
+	<meta name='description' content='网站描述' />
+
+	<!--
+	bootstrap响应式网站的container原理：
+		页面宽度		.container宽度
+		1200px以上		1170px(包括左右15px的padding)
+		990px以上		970px(包括左右15px的padding)
+		760px以上		750px(包括左右15px的padding)
+		<760px			100%
+	-->
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		.container{
+			margin:auto;
+			background:deeppink;
+			padding:0 15px;
+		}
+		@media (max-width:760px) {
+			.container{
+				width:100%;
+				padding:0;
+			}
+		}
+		@media (min-width:760px) {
+			.container{
+				width:720px;
+			}
+		}
+		@media (min-width:990px) {
+			.container{
+				width:940px;
+			}
+		}
+		@media (min-width:1200px) {
+			.container{
+				width:1140px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 class="container">
+		Hello Bootstrap Container!
+	</h1>
+</body>
+</html>
