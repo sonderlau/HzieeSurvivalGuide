@@ -1,6 +1,6 @@
 # Hziee生存指南_计科
 
-![RepoSize](https://img.shields.io/github/repo-size/sonderlau/HzieeSurvivalGuide) ![stars](https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social)
+![RepoSize](https://img.shields.io/github/repo-size/sonderlau/HzieeSurvivalGuide) ![stars](https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social) ![LastCommit](https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide)
 
 ## 前言
 
