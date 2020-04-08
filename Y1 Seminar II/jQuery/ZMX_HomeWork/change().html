@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change查询</title>
+</head>
+<body>
+关键字:  <input type="text" id="searchBox">
+
+<ul class="items">
+</ul>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        var data = ["Head First HTML与CSS", "JavaScript高级程序设计", "JavaScript DOM编程艺术", "高性能网站建设进阶指南", "高性能网站建设指南", "Web前端黑客技术揭秘", "JavaScript权威指南", "精通CSS", "编写可维护的JavaScript", "高性能JavaScript"];
+
+        var searchBox = $("#searchBox");
+
+        searchBox.change(function () {
+            $("ul li").remove();
+            console.log(searchBox.val());
+            for (var i = 0 ; i < data.length ; i ++){
+                if (data[i].search(searchBox.val())!== -1){
+                    // console.log(data[i]);
+                    $(".items").append("<li>"+data[i]+"</li>");
+
+                }
+
+            }
+
+        });
+
+    </script>
+
+</body>
+</html>
