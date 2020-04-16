@@ -711,6 +711,127 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "f7b30a03-7f9c-11ea-89cc-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg",
+                        "paste-3aa5f5d373af6e39c759b950050de87c74065f7c.jpg",
+                        "paste-4df6464c838657003b7cfc4e6c89b76120094010.jpg"
+                    ],
+                    "name": "03 词法分析",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "正规表达式的代数性质",
+                                "<div>\\( r | s = s | r \\)<br></div><div>\\(r | (s | t) = ( r | s) | t \\)<br></div><div>\\( (r s) t = r (s t) \\)<br></div><div>\\( r (s | t) = rs | rt \\)<br></div><div>\\( r^{**} = r^* \\)</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "A?bS@uAlv*",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( (a | b)^* \\)<br>",
+                                "每一个位置可能是a或者b",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "r(gI9C%@Vx",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "非确定有限自动机 NFA&nbsp;<div><b>特点</b></div>",
+                                "- 可能会有回溯<div>-&nbsp;输入 :&nbsp;字符串</div><div>-&nbsp;输出 :&nbsp;停留在接受状态&nbsp;输出&nbsp;是<br></div><div>- NFA运行 :&nbsp;一次读入一个字符</div><div><br></div>",
+                                "<div>寻找一条从开始状态到接受状态的通路，把边上的字符连接起来</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "hv{][!QM|m",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "确定的有限自动机 DFA<div><b>特点</b></div>",
+                                "-&nbsp;没有空边转移<div>-&nbsp;<span>一个状态面临一个输入符号时最多只转移到一个状态</span></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ywODixe..U",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<img src=\"paste-4df6464c838657003b7cfc4e6c89b76120094010.jpg\"><div>NFA -&gt; DFA</div>",
+                                "<img src=\"paste-3aa5f5d373af6e39c759b950050de87c74065f7c.jpg\">",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "g_`^.rU&zH",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "f7b3cdf5-7f9c-11ea-a764-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "name": "04 语法分析",
+                    "notes": []
                 }
             ],
             "crowdanki_uuid": "35b67ab6-6066-11ea-9868-b025aa30a048",
@@ -1389,6 +1510,246 @@
                             "guid": "rK=g)dtQsX",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "量词辖域的收缩与扩展律<div>\\( \\forall x (A(x) \\land B) =&nbsp; \\)&nbsp; &nbsp;&nbsp;{{c1:: \\(\\forall x A(x) \\land B\\)<span>&nbsp; }}</span></div><div>\\( \\forall x (A(x) \\land B) = \\)&nbsp; &nbsp;&nbsp;{{c2::\\( \\forall x A(x) \\lor B \\)}}<br></div><div>\\( \\exists x (A(x) \\land B ) =&nbsp; \\)&nbsp; &nbsp;{{c3::\\(&nbsp; \\exists x A(x) \\land B \\)}}<br></div><div>\\( \\exists x (A(x) \\lor B) = \\)&nbsp; &nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\lor B \\)}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "LR4PtOi<Z5",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "f7b6b205-7f9c-11ea-baa3-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "03 集合与关系",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "对称差<div>\\(A - B = \\)&nbsp;&nbsp;{{c1::\\(A \\cap \\overline{B} \\)}}<br></div><div>\\(A \\oplus B = \\)&nbsp; &nbsp;{{c2::\\((A-B) \\cup (B-A) \\)}}<br></div><div>\\(A \\oplus B = \\)&nbsp; &nbsp;{{c3::\\( (A \\cup B) - (A \\cap B) \\)}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k9N,USG&We",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( A \\cup (A \\cap B ) = \\)&nbsp;&nbsp;{{c1::\\(A\\)}}<br><div>\\( A \\cap (A \\cup B) =&nbsp; \\)&nbsp;{{c2::A}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rrO{!`#6,W",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\(A - (B \\cup C)\\) =&nbsp;{{c1::\\((A-B)\\cup(A-C)\\)}}<br><div>\\(A-(B \\cap C) = \\)&nbsp;&nbsp;{{c2::\\((A-B)\\cup (A-C<span>)\\)}}</span></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "x1~1rwyXRA",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "笛卡尔积<div>\\(A \\times B = \\)&nbsp;&nbsp;{{c1::\\( {&lt;a,b&gt; | a \\in A \\and b \\in B \\} \\)}}<br></div>",
+                                "&lt;a,b&gt; 有序对&nbsp; 通常称为序偶",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "h5&p|w|gx3",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果A B都是有限集&nbsp;\\( |A \\times B| =&nbsp; \\)&nbsp;&nbsp;{{c1::\\( |A| \\cdot |B| \\)}}<div>\\(&lt;a.b&gt; = &lt;c,d&gt; \\Leftrightarrow \\)&nbsp;&nbsp;{{c2::\\(a=c \\and b=d\\)}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "H`:]f85:qT",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "关系 \\&nbsp;二元关系",
+                                "A B的笛卡尔积的子集&nbsp;为 A&nbsp;到 B的二元关系或子集",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rOeC:.HV:+",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "{{c1::\\( \\forall x (A(x) \\rightarrow B) \\)}}&nbsp; =&nbsp; &nbsp;{{c2::\\( \\exists x A(x) \\rightarrow B \\)}}<br><div>{{c3::\\( \\exists x (A(x) \\rightarrow B) \\)}} =&nbsp; &nbsp;{{c4::\\( \\forall x A(x) \\rightarrow B \\)}}<br></div><div>{{c5::\\( \\forall (B \\rightarrow A(x) ) \\)}}&nbsp; =&nbsp;&nbsp;{{c6::\\( B \\rightarrow \\forall x A(x) \\)}}<br></div><div>{{c7::&nbsp;\\( \\exists x (B \\rightarrow A(x)) \\) }}&nbsp; =&nbsp;&nbsp;{{c8:: \\( B \\rightarrow \\exists x A(x) \\)}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "L_K[3JYuV#",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "{{c1::&nbsp; \\( \\exists x (A(x) \\rightarrow B(x) ) \\)}}&nbsp; &nbsp;=&nbsp; &nbsp;{{c2::\\forall x A(x) \\rightarrow \\exists x B(x) }}<br>",
+                                "存在和任意互换&nbsp; 则不成立",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "KH^[q75tKJ",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "谓词公式的推理演<div><span>\\( \\forall x A(x) \\Rightarriow \\)&nbsp; {{c1::\\( \\exists x A(x) \\)}}</span><div>\\( \\forall x A(x) \\lor \\forall x B(X) \\Rightarrow \\)&nbsp;{{c2::\\( \\forall x (A(x) \\lor B(x)) \\)}}<br></div></div><div>\\( \\forall x (A(x) \\lor B(x)) \\Rightarrow \\)&nbsp;{{c3::\\( \\exists x A(x) \\lor \\forall x B(x) \\)}}<br></div><div>\\( \\exists x (A(x) \\land B(x) ) \\Rightarrow \\)&nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\land \\exists x B(x) \\)}}<br></div><div>\\( \\exists x A(x) \\land \\forall x B(x) \\Rightarrow \\)&nbsp;{{c5::\\(&nbsp; \\exists x (A(x) \\land B(x) )\\)}}<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "y5Zt,F!7t3",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\(\\exists y \\forall x A(x,y) \\Rightarrow&nbsp; \\)&nbsp;&nbsp;{{c1::\\( \\forall x \\exists y A(x,y) \\)}}<br>",
+                                "存在&nbsp;任意交换位置&nbsp;不成立",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "M&7b;Im5)m",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "恒等关系",
+                                "\\( I_A = { &lt;a,a&gt; | a \\in A&nbsp; } \\)",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "DoQS]?I-C4",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "关系矩阵&nbsp;\\(M_{R}^{2} = I_n \\)",
+                                "n阶单位矩阵&nbsp;",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "n;:y[)oiFg",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "复合关系",
+                                "\\( R \\circ S = {&lt;a,c&gt; | \\exists b \\in B ( &lt;a,b&gt; \\in R \\land &lt;b,c&gt; \\in S ) }&nbsp; \\)<br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "pwv>!ChPJE",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "自反&nbsp;与&nbsp;反自反",
+                                "对与<b>任意</b>的\\(a \\in A\\)都有&nbsp;\\( &lt;a,a&gt; \\in R \\)&nbsp;称 R&nbsp;是<b>自反的</b><div>对与<b>任意</b>的\\(a \\in A\\)都有&nbsp;\\( &lt;a,a&gt; \\notin R \\)&nbsp;称 R&nbsp;是<b>反自反的</b></div>",
+                                "可以既不是自反&nbsp;也不是反自反",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "rhw2/cYb1",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "反对称&nbsp;和&nbsp;对称",
+                                "若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp;必有&nbsp;\\( &lt;b,a&gt; \\in R \\)&nbsp;称 R&nbsp;是<b>对称的</b><div>若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp; \\( &lt;b,a&gt; \\in R \\)&nbsp;必有 \\( a = b\\ )称 R&nbsp;是<b>反对称的</b><br></div>",
+                                "可以既是对称&nbsp;也是反对称的",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "kD}sCW`Aaw",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
                         }
                     ]
                 }
@@ -1619,6 +1980,87 @@
                             "flags": 0,
                             "guid": "v6g`%FhNYB",
                             "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "f7b810b1-7f9c-11ea-9780-b025aa30a048",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "name": "08 多元函数微分学及应用",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "去心邻域",
+                                "\\[ M_0 (x_0, y_0) \\in D , let \\delta &gt; 0 , call \\ { (x,y) | 0 &lt; \\sqrt {(x-x_0)^2 + (y-y_0)^2 }&nbsp; &lt; \\delta }&nbsp;\\]&nbsp;<br><div>为 M0的去心邻域</div><div>记作&nbsp;\\(&nbsp;\\mathring{U} (M_0, \\delta ) \\)</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "d0s?,z@Yy(",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "邻域",
+                                "\\[ M_0 (x_0, y_0) \\in D , let \\delta &gt; 0 , call \\ { (x,y) | \\sqrt{(x-x_0)^2 + (y-y_0)^2} &lt; \\delta } \\]<br><div>为M0的邻域</div><div>记为&nbsp;\\( U (M_0, \\delta) \\)</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "m+$txoK5NU",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "开集",
+                                "设 D&nbsp;为 xOy&nbsp;面上的点集<div>\\[ \\forall M_0 (x_0, y_0) \\in D \\ if \\exists \\delta &gt; 0, let U (M_0, \\delta ) \\subset D&nbsp; \\]<br></div><div>称D为开集</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "EI.IuIV:;x",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "区域&nbsp;闭区域",
+                                "区域<div>-&nbsp;连通的开集称为区域</div><div><br></div><div>闭区域</div><div>-&nbsp;开区域连同边界称为闭区域</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "KEes0?-e<-",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
                             "tags": []
                         }
                     ]
@@ -2497,6 +2939,30 @@
                 "_z-night.svg"
             ],
             "name": "JavaServerPage",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "f7bbde86-7f9c-11ea-981f-b025aa30a048",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "name": "短语记忆",
             "notes": []
         }
     ],
