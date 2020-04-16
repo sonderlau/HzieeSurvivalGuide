@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: "Microsoft YaHei",Sans-Serif;
+}
+body,html{
+    min-width: 1200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#header{
+    height: 40px;
+    padding: 17px 0;
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+}
+#header #logo{
+    float: left;
+    margin-right: 5%;
+    margin-top: -20px;
+}
+#header #nav{
+    float: left;
+}
+#header #nav ul li{
+    position: relative;
+    float: left;
+}
+#header #nav ul li a{
+    margin-right: 40px;
+    line-height: 36px;
+    color: #666;
+}
+#header #bar{
+    margin-right: 20px;
+    height: 34px;
+    line-height: 34px;
+    color: #666;
+    float: right;
+}
+#header #bar a{
+    display: block;
+    float: left;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border-radius: 46px;
+}
+#header #bar a#register{
+    margin-right: 20px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    color: #666;
+}
+#header #bar a#register:hover{
+    background: #00d1a0;
+    color: #fff;
+    border-color: #00d1a0;
+}
+#header #bar a#login{
+    height: 36px;
+    line-height: 36px;
+    background: #00d1a0;
+}
+#header #bar a#login:hover{
+    background: #0fc1af;
+}
+/*.w{*/
+    /*position: relative;*/
+    /*width: 1180px;*/
+    /*margin: 0 auto;*/
+/*}*/
+#table{
+    color: #6a7c92;
+}
+#table .title{
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #31475e;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+table{
+    width: 1180px;
+    margin: 0 auto;
+}
+#table table thead tr th{
+    border-bottom: 2px solid #dee2e6;
+    padding: .75rem;
+}
+#table tbody tr th{
+    padding: .75rem;
+}

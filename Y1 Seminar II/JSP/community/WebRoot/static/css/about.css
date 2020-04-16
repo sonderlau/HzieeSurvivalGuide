@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: "Microsoft YaHei",Sans-Serif;
+}
+body,html{
+    min-width: 1200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#header{
+    height: 40px;
+    padding: 17px 0;
+    width: 1180px;
+    margin: 0 auto;
+    top: 0;
+    position: relative;
+    background: #fff;
+}
+#header #logo{
+    float: left;
+    margin-right: 5%;
+    margin-top: -20px;
+}
+#header #nav{
+    float: left;
+}
+#header #nav ul li{
+    position: relative;
+    float: left;
+}
+#header #nav ul li a{
+    margin-right: 40px;
+    line-height: 36px;
+    color: #666;
+}
+#header #bar{
+    margin-right: 20px;
+    height: 34px;
+    line-height: 34px;
+    color: #666;
+    float: right;
+}
+#header #bar a{
+    display: block;
+    float: left;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border-radius: 46px;
+}
+#header #bar a#register{
+    margin-right: 20px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    color: #666;
+}
+#header #bar a#register:hover{
+    background: #00d1a0;
+    color: #fff;
+    border-color: #00d1a0;
+}
+#header #bar a#login{
+    height: 36px;
+    line-height: 36px;
+    background: #00d1a0;
+}
+#header #bar a#login:hover{
+    background: #0fc1af;
+}
+#banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/about_banner.png");
+}
+#banner h4{
+    padding-top: 140px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 5.21px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: 100;
+}
+#banner .word{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.w{
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+}
+#qiyewenhua{
+    position: relative;
+    margin-top: 70px;
+}
+#qiyewenhua img{
+    float: left;
+    margin-right: 50px;
+}
+#qiyewenhua h4{
+    padding-top: 110px;
+    font-size: 30px;
+    color: #31475e;
+    font-weight: 400;
+}
+#qiyewenhua p{
+    margin-top: 14px;
+    font-size: 14px;
+    color: #6a7c92;
+}
+#bangonghuanjing{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#bangonghuanjing h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #31475e;
+    text-align: center;
+    font-weight: 400;
+}
+#bangonghuanjing ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+#footer{
+    padding: 60px 0 200px 200px;
+    background: #303847;
+    margin-top: 800px;
+}
+#footer dl{
+    float: left;
+    margin-right: 80px;
+}
+#footer dl dt{
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 32px;
+}
+#footer dl dd{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+#footer .logo{
+    position: relative;
+    float: right;
+    text-align: center;
+    margin-right: 190px;
+}
+#footer .logo img{
+    display: block;
+}
