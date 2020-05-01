@@ -2,6 +2,8 @@
 
 关键字使用大写 变量或者其他数据等 使用小写
 
+**TBD** 说明当前条目内容 未完成 或 有错误需要修正
+
 ---
 
 ## 基本使用
@@ -29,7 +31,7 @@ FROM table_list
 
 
 
-#### where 的运算符
+#### where 运算符
 
 1. 比较
 
@@ -85,16 +87,21 @@ TIPS：
 >   - `M%` 
 >   - `%M%` 
 > - `ROWNUM`是个伪列 用来代表结果的行个数
+> - `where` 不能使用在**聚集**函数中
 
 
 
-#### GROUP BY 分组
+#### 分组查询
 
 TIPS:
 
 - 空值字段也会当作新的一个分组
 - 对于指定的一组只生成一条记录  不返回详细信息
 - 对于`SELECT`后面的每一列 除了出现在分组函数中的列意外 都必须包含在`GROUP BY`子句中
+
+后续可以使用`HAVING` 对分组结果进行筛选
+
+
 
 
 
@@ -105,7 +112,29 @@ FROM table_name_1 [join_type] JOIN table_name_2
 [ ON (join_condition)];
 ```
 
-**TBD**
+
+
+- 交叉链接
+
+  - `cross join`
+
+- 内连接
+
+  - `[inner] join`
+
+  - ```sql
+    SELECT 
+    ```
+
+- 外连接
+
+  - 左外连接 `left join`
+  - 右外连接 `right join`
+  - 全外连接 `full join`
+
+- 自连接
+
+  - `self join`
 
 
 
@@ -123,6 +152,15 @@ WHERE age=(SELECT id
 
 
 
+- `EXISTS` 
+  - 先主 后子 找到第一个即可
+- `IN`
+  - 找子 后主 全部都找
+
+
+
+
+
 #### 集合查询
 
 ```SQL
@@ -132,6 +170,12 @@ SELECT clasuse_2 ;
 ```
 
 **TBD**
+
+
+
+
+
+---
 
 
 
@@ -153,13 +197,13 @@ SELECT clasuse_2 ;
 
 #### 聚集函数
 
-| Function Grammar                | Description         |
-| ------------------------------- | ------------------- |
-| `COUNT(column)` or `COUNT(*)``` | 计算个数 或者总行数 |
-| `SUM(column)`                   | 总和                |
-| `AVG(column)`                   | 平均值              |
-| `MAX(column)`                   | 最大值              |
-| `MIN(column)`                   | 最小值              |
+| Function Grammar              | Description         |
+| ----------------------------- | ------------------- |
+| `COUNT(column)` or `COUNT(*)` | 计算个数 或者总行数 |
+| `SUM(column)`                 | 总和                |
+| `AVG(column)`                 | 平均值              |
+| `MAX(column)`                 | 最大值              |
+| `MIN(column)`                 | 最小值              |
 
 
 
