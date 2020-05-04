@@ -1,7 +1,7 @@
 select ROUTENAME 线路名称,
        ROUTETYPENAME 线路类别,
-       D2.UNINAME,
-       NUM2.UNINAME 所属单位,
+       D2.UNINAME 所属单位,
+       NUM2.UNINAME 所属车队,
        VALUE 线路车辆类型
 from G_ROUTENUM,
      G_ROUTETYPE,
