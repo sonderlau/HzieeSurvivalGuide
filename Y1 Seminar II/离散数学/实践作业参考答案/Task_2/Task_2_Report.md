@@ -370,7 +370,7 @@ public static final String path = System.getProperty("user.dir");
 
 这里我准备了一个原图片 3个目标图片 其中的1张是从`Task 2.1` 中处理后得到的图片
 
-一张是一样的图片 一样是完全不同的图片 
+一张是一样的图片 一张是完全不同的图片 
 
 ![image-20200427150213912](Task_2_Report_images/image-20200427150213912.png)
 
