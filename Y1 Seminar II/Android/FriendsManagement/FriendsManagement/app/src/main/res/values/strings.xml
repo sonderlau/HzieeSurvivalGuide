@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FriendsManagement</string>
+    <string name="friend_hobby">Friend Hobby</string>
+    <string name="friend_tag">Friend Tag</string>
+    <string name="friend_name">Friend Name</string>
+    <string name="new_item">new Item</string>
+    <string name="add_name">姓名</string>
+    <string name="add_sex">性别</string>
+    <string name="add_birthday">生日</string>
+    <string name="add_edit_birthday">更改生日</string>
+    <string name="add_hobby">爱好</string>
+    <string name="cancelButton">取消</string>
+    <string name="saveButton">保存</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="name">Name</string>
+</resources>
