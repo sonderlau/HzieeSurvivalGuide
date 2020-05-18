@@ -26,7 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 </div>
 
                 <div class="password">
-                    <input type="password" id="password" name="password" placeholder="请输入密码" onclick="JavaScript:this.value=''" pattern="\w{3,12}">
+                    <input type="password" id="password" name="password" placeholder="请输入密码" onclick="this.value=''" pattern="\w{3,12}">
                 </div>
 
                 <div class="checkPassword">
