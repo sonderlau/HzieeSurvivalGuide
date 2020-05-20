@@ -2,6 +2,10 @@
 
 ![RepoSize](https://img.shields.io/github/repo-size/sonderlau/HzieeSurvivalGuide) ![stars](https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social) ![LastCommit](https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide)
 
+如果你的同步速度比较慢 可以考虑不使用`git clone`
+
+使用`Download`下载下来zip包就可以了
+
 ## 前言
 
 我想 当你打算使用本项目的时候 你已经是个懂学习的人了
@@ -30,7 +34,7 @@
 4. `Pull Request`
 5. 等待 `Merge`
 
-如果你的更新内容量比较大 可以考虑和我申请成为`contributor`
+如果你的更新内容量比较大 可以考虑向我申请成为`contributor`
 
 ## 内容细则
 
@@ -117,7 +121,7 @@ Anki的使用 : 插件  \  基本操作
 ## TODO
 
 - [x] 图片转移
-- [ ] 文件结构梳理
+- [x] 文件结构梳理
 - [x] Anki牌组
 - [ ] 增加形式的资料和内容
 - [ ] 课后作业 期末考试相关

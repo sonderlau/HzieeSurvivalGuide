@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			$("#send").click(function(){
 				var username = $("#username").val();
 				var message = $("#add").val();
-				if(username != "" && message != ""){
+				if(username !== "" && message !== ""){
 					alert("提交成功！");
 				}else{
 					alert("用户名或者物业问题填写不能为空！");
