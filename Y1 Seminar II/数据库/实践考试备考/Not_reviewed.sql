@@ -218,6 +218,73 @@ where sno not in (
 
 # )6
 select Sname from student
-where (select count(cno) from grade group by Grade.Sno) = (select count(*) from course);
+where 
+	(
+	select count(cno) from grade 
+	group by Grade.Sno
+	) = 
+	(
+	select count(*) from course
+	);
 
 
+# 14
+
+	# 1)
+select Sno,Gmark from Grade where Cno =  '3' order by Gmark desc;
+
+	# 2)
+select * from student order by Clno asc,Sage desc;
+
+	# 3)
+select distinct Clno, count(Sno) as '选课人数' from grade group by Cno;
+	# 4)
+select Sno, count(Cno) as '选课门数' from grade
+group by Sno
+having count(Cno) > 3;
+
+	
+# 15
+
+	# 1)
+update grade set Gmark = 0 where Sno in 
+	(
+	 select Sno from student where Clno = '01311'
+);
+
+	# 2)
+delete from grade where Sno in 
+	(
+		select Sno from Student where Clno = '01311'
+		
+		)
+	# 3)
+		# 删除顺序  :  Grade -> class -> Student
+
+delete from grade where Sno in 
+	(
+		select sno from student
+		where Sname = '李勇'
+		);
+
+
+update class set number = number -1
+where clno in 
+(
+	select clno from student
+	where Sname = '李勇'
+);
+
+
+delete from student where Sname = '李勇';
+
+	# 4)
+
+create table average
+	(
+		clno char(5),
+		average smallint
+
+		);
+
+insert into average select clno,avg(sage) from student group by clno;
