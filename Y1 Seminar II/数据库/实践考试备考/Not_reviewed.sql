@@ -30,12 +30,14 @@ create table Class
 );
 
 
-	# 外键
+
 create table Grade
 (
   Sno char(7) not null references student(Sno),
   Cno char(1) not null references course(Cno),
-  Gmark numeric(4,1),
+  Gmark numeric,
+  # 此处是SQL Server的写法 如果是Oracle 需要写成
+  # !  Gmark number
   primary key (Sno,Cno)
 );
 
@@ -237,7 +239,7 @@ select Sno,Gmark from Grade where Cno =  '3' order by Gmark desc;
 select * from student order by Clno asc,Sage desc;
 
 	# 3)
-select distinct Clno, count(Sno) as '选课人数' from grade group by Cno;
+select distinct clno, count(Sno) as '选课人数' from grade group by Cno;
 	# 4)
 select Sno, count(Cno) as '选课门数' from grade
 group by Sno
@@ -257,7 +259,7 @@ delete from grade where Sno in
 	(
 		select Sno from Student where Clno = '01311'
 		
-		)
+		);
 	# 3)
 		# 删除顺序  :  Grade -> class -> Student
 
