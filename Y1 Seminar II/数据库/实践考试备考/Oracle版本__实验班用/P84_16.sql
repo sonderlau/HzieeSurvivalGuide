@@ -11,8 +11,8 @@ where Student.Sno in (
     select Sno
     from Grade
     where Grade.Cno = '1'
-      and Student.Clno = '00312'
-);
+      
+) and Student.Clno = '00312';
 
 
 -- (2) 建立 01311 班 选修了 1号课程 且成绩不及格的学生视图 Stu_01311_2
