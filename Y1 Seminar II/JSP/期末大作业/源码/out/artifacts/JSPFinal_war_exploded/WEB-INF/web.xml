@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+<!--    Filters-->
+    <!--    字符集-->
+    <filter>
+        <filter-name>Encoding</filter-name>
+        <filter-class>Filter.Encoding</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Encoding</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+
+    <!--    自动登陆-->
+    <filter>
+        <filter-name>AutoLogin</filter-name>
+        <filter-class>Filter.AutoLogin</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AutoLogin</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+
+
+
+
+<!--    登陆-->
+    <!--    自动登陆检测-->
+    <servlet>
+        <servlet-name>AutoLoginCheck</servlet-name>
+        <servlet-class>Control.Login.LoginCheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoLoginCheck</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <!--    登陆查询-->
+    <servlet>
+        <servlet-name>LoginConfirmation</servlet-name>
+        <servlet-class>Control.Login.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginConfirmation</servlet-name>
+        <url-pattern>/Login/confirm</url-pattern>
+    </servlet-mapping>
+    <!--    登出-->
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Control.Login.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+    
+<!--    学生页面-->
+    <!--    首页-->
+    <servlet>
+        <servlet-name>StudentIndex</servlet-name>
+        <servlet-class>Control.Student.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentIndex</servlet-name>
+        <url-pattern>/student/index</url-pattern>
+    </servlet-mapping>
+    <!--    课程信息-->
+    <servlet>
+        <servlet-name>StudentLessonInfo</servlet-name>
+        <servlet-class>Control.Student.LessonInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentLessonInfo</servlet-name>
+        <url-pattern>/student/lessoninfo</url-pattern>
+    </servlet-mapping>
+    <!--    在线作业-->
+    <!--    成绩查询-->
+
+<!--    老师页面-->
+
+
+    <!--    首页-->
+    <servlet>
+        <servlet-name>TeacherIndex</servlet-name>
+        <servlet-class>Control.Teacher.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherIndex</servlet-name>
+        <url-pattern>/teacher/index</url-pattern>
+    </servlet-mapping>
+    <!--    公告内容-->
+    <servlet>
+        <servlet-name>TeacherAnnouncement</servlet-name>
+        <servlet-class>Control.Teacher.Announcement</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherAnnouncement</servlet-name>
+        <url-pattern>/teacher/announcement</url-pattern>
+    </servlet-mapping>
+    <!--    课程信息-->
+    <servlet>
+        <servlet-name>TeacherLessonInfo</servlet-name>
+        <servlet-class>Control.Teacher.LessonInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherLessonInfo</servlet-name>
+        <url-pattern>/teacher/lessoninfo</url-pattern>
+    </servlet-mapping>
+        <!--    上传文件-->
+    <servlet>
+        <servlet-name>TeacherFileUpload</servlet-name>
+        <servlet-class>Control.Teacher.UploadLessonFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherFileUpload</servlet-name>
+        <url-pattern>/teacher/upload</url-pattern>
+    </servlet-mapping>
+    <!--    题目录入-->
+    <servlet>
+        <servlet-name>TeacherEnterQuestion</servlet-name>
+        <servlet-class>Control.Teacher.EnterQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherEnterQuestion</servlet-name>
+        <url-pattern>/teacher/enterquestion</url-pattern>
+    </servlet-mapping>
+    <!--    学生管理-->
+    <servlet>
+        <servlet-name>Teacher_StudentManager</servlet-name>
+        <servlet-class>Control.Teacher.StudentManager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Teacher_StudentManager</servlet-name>
+        <url-pattern>/teacher/addStudent</url-pattern>
+    </servlet-mapping>
+    <!--    作业管理-->
+    <servlet>
+        <servlet-name>Teacher_Assignments</servlet-name>
+        <servlet-class>Control.Teacher.Assignments</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Teacher_Assignments</servlet-name>
+        <url-pattern>/teacher/assignments</url-pattern>
+    </servlet-mapping>
+
+
+
+<!--    JSON 返回页-->
+    <servlet>
+        <servlet-name>JSONBack</servlet-name>
+        <servlet-class>Control.JSONBack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JSONBack</servlet-name>
+        <url-pattern>/feedback</url-pattern>
+    </servlet-mapping>
+</web-app>
