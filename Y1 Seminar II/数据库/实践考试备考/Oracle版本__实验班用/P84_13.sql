@@ -25,7 +25,7 @@ where sno in (
 )
   and Sname != '李勇';
 
--- (3)
+-- (3) 
 select *
 from student
 where sage between (select Sage from student where Sname = '李勇') and 25;
