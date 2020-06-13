@@ -1,0 +1,79 @@
+<LinearLayout android:id="@+id/ShowInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+<!--            <com.google.android.material.tabs.TabLayout-->
+<!--                android:id="@+id/titles"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="top" >-->
+
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:icon="@drawable/ic_bookmark_24dp"-->
+<!--                    android:text="nice"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_width="wrap_content" />-->
+
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:icon="@drawable/ic_bookmark_24dp"-->
+<!--                    android:text="nice"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_width="wrap_content" />-->
+
+<!--            </com.google.android.material.tabs.TabLayout>-->
+
+
+
+
+
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/ratio_button_money_source"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center">-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/source_income"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:checked="true"-->
+<!--                android:text="@string/income"-->
+<!--                android:textColor="@color/black_800"/>-->
+
+
+<!--            <RadioButton-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:id="@+id/source_outcome"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/outcome"-->
+<!--                android:textColor="@color/black_800"/>-->
+
+<!--        </RadioGroup>-->
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+

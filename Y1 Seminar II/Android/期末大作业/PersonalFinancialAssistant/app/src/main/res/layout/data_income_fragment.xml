@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:id="@+id/ShowInfo"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/information_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@color/material_on_surface_emphasis_high_type" />
+
+
+
+
+
+        <View android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_view"
+            android:tag="1" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/back" />
+
+    </LinearLayout>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 每一个选项的展示内容 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginVertical="20dp">
+
+
+    <ImageView
+        android:layout_marginStart="30dp"
+        android:id="@+id/option_view_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/option_view_icon_description"
+        android:adjustViewBounds="true">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_marginStart="40dp"
+        android:paddingTop="15dp"
+        android:id="@+id/option_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        >
+
+    </TextView>
+
+</LinearLayout>
