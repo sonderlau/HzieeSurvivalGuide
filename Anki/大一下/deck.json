@@ -138,7 +138,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "符号表管理 Symbal-Table Management<div>- 功能: 管理分析过程中得到的源程序中的{{c6::标识符的各种信息}}</div><div>&nbsp; - 记录源程序中使用的{{c5::标识符 identifier}}</div><div>&nbsp; - 收集每个标识符的各种{{c3::属性 attribute 信息}}&nbsp; {{c2::包括类型Type}} 作{{c4::用域Scope}} {{c1::存储分配Storage Allocated信息}}</div>",
+                                "符号表管理 Symbal-Table Management<div>- 功能: 管理分析过程中得到的源程序中的{{c6::标识符的各种信息}}</div><div>&nbsp; - 记录源程序中使用的{{c5::标识符 identifier}}</div><div>&nbsp; - 收集每个标识符的各种{{c3::属性 attribute 信息}}&nbsp; {{c2::包括类型Type}} {{c4::<span>作</span><span>用域Scope}} {{c1::存储分配Storage Allocated信息}}</span></div>",
                                 "",
                                 ""
                             ],
@@ -594,7 +594,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "<b>Chomsky&nbsp;文法</b><div>- 0型文法&nbsp;{{c1::\\( | \\alpha | \\ne 0 . which is \\ne&nbsp; \\varepsilon (\\alpha \\rightarrow \\beta )\\)}}</div><div>- 1型文法 \\ 上下文有关文法 {{c2::\\(|\\alpha | \\leq |\\beta | (\\alpha \\rightarrow \\beta )&nbsp; \\)}}</div><div>- 2型文法 \\ 上下文无关文法&nbsp;{{c3::\\(A \\in V_N , \\beta \\in (V_T \\cup V_N )^* \\)}}</div><div>- 3型文法 \\&nbsp;正规文法 {{c4::\\( A \\rightarrow a \\ or \\ A \\rightarrow aB \\ RightLinear \\quad&nbsp;<span>A \\rightarrow a \\ or A \\rightarrow Ba \\quad LeftLinear</span><span>&nbsp;\\)}}</span></div>",
+                                "<b>Chomsky&nbsp;文法</b><div>- 0型文法&nbsp;{{c1::\\( | \\alpha | \\ne 0 . which \\; is \\ne&nbsp; \\varepsilon (\\alpha \\rightarrow \\beta )\\)}}</div><div>- 1型文法 \\ 上下文有关文法 {{c2::\\(|\\alpha | \\leq |\\beta | (\\alpha \\rightarrow \\beta )&nbsp; \\)}}</div><div>- 2型文法 \\ 上下文无关文法&nbsp;{{c3::\\(A \\in V_N , \\beta \\in (V_T \\cup V_N )^* \\)}}</div><div>- 3型文法 \\&nbsp;正规文法 {{c4::&nbsp;&nbsp;\\(<span>A \\rightarrow a \\ or \\ A \\rightarrow aB \\ RightLinear \\quad&nbsp;</span><span>A \\rightarrow a \\ or A \\rightarrow Ba \\quad LeftLinear</span><span>\\)</span><span>&nbsp;}}</span></div>",
                                 "",
                                 ""
                             ],
@@ -635,7 +635,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "如果&nbsp;\\( S \\overset {*}{Rightarrow} \\ and \\ A \\overset{+}{\\beta} \\)",
+                                "如果&nbsp;\\( S \\overset {*}{ \\Rightarrow} \\ and \\ A \\overset{+}{\\beta} \\)",
                                 "称β是关于 A的，句型αβδ的一个短语",
                                 "<img src=\"paste-cde7cdaeb8674c9af29fe6619cc18f17a20b62cb.jpg\">",
                                 ""
@@ -651,7 +651,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "如果&nbsp;\\(S \\overset {*} {\\Rightarrow \\alpha A \\delta } \\ and \\ A \\Rightarrow \\beta \\)",
+                                "如果&nbsp;\\(S \\overset {*} {\\Rightarrow&nbsp; } \\alpha A \\delta&nbsp;\\ and \\ A \\Rightarrow \\beta \\)",
                                 "称β是关于 A的，句型αβδ的一个直接短语",
                                 "",
                                 ""
@@ -832,6 +832,653 @@
                     ],
                     "name": "04 语法分析",
                     "notes": []
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a1c26d00-ba82-11ea-9475-04ea56b77c52",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg",
+                        "paste-29537564cca8467eaf7516a81f1c4c70ae876e57.jpg"
+                    ],
+                    "mid": 1485179307096,
+                    "name": "00 题目库",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "计算机高级语言翻译成低级语言只有解释一种方式",
+                                "<font color=\"#ff0000\">X</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "GT,o&<Bf$E",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "每个文法都能改写为 LL(1) 文法",
+                                "<font color=\"#ff0000\">X</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "gkg0!7zN7h",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "每个文法都能改写为 LL(1) 文法",
+                                "<font color=\"#ff0000\">X</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "t4kyi-PUI@",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "算符优先关系表不一定存在对应的优先函数",
+                                "<font color=\"#ff0000\">√</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "D^~U*dlO6M",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "LR分析方法是自顶向下语法分析方法",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "t<_uxH]8V`",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "用高级语言书写的源程序都必须通过编译,产生目标代码后才能投入运行",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k<NK#DNYd_",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个句型的句柄一定是文法某产生式的右部",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "HRD0MN)*Y0",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "甲机上的某编译程序在乙机上能直接使用的必要条件是甲机和乙机的操作系统功能完全相同",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "u9(=rEoPYg",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "递归下降分析法是自顶向下分析方法",
+                                "<font color=\"#ff0000\">√</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "j5N+HrS@(!",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "产生式是用于定义词法成分 的一种书写规则",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "P{ZJM$#^SO",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "SLR(1)分析法的名称中，S的含义是简单的",
+                                "<font color=\"#ff0000\">√</font><div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "nah.?.@}L#",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一张转换图只包含有限个状态，其中有一个被认为是初态，最多只有一个终态",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "qsR?pr!~,|",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果一个文法存在某个句子对应两棵不同的语法树，则称这个文法是二义的",
+                                "<font color=\"#ff0000\">√</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "jy_3S{)>u!",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "算符优先关系表不一定存在对应的优先函数",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "I4:jl,(K*8",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个有限状态自动机中，有且仅有一个唯一的终态",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "i0oy<M%D:m",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个算符优先文法可能不存在算符优先函数与之对应",
+                                "<font color=\"#ff0000\">√</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "p|<q2TwPE8",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语法分析时必须先消除文法中的左递归",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "eKGp{.Cz/L",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "设r和s分别是正规式，则有L(r|s)=L(r)L(s)",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FIm!%O*!gz",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "两个正规集相等的必要条件是他们对应的正规式等价",
+                                "<font color=\"#ff0000\">√</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "!?cR`V|o&",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "LR分析技术无法适用二义文法",
+                                "<font color=\"#ff0000\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "EN$N/<trwL",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "解释程序处理语言时 , 大多数采用的是",
+                                "<font color=\"#ff00ff\">先将源程序转化为中间代码 , 再解释执行</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "zO-R4h4ZsN",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "编译程序是一种",
+                                "<font color=\"#ff00ff\">解释程序</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "r={lNQSWqG",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "句型的句柄&nbsp;是句型中的",
+                                "<font color=\"#ff00ff\">最左直接短语</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K$t~-Qy.J*",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "词法分析器用于识别",
+                                "<font color=\"#ff00ff\">单词</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ORRjiHH$]X",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在自底向上的语法分析方法中，分析的关键是",
+                                "<font color=\"#ff00ff\">选择候选式</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "nrB~Uj!0~&",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "文法产生的_______的全体是该文法描述的语言",
+                                "<font color=\"#ff00ff\">句子</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "cl753{eLWR",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "若文法 G 定义的语言是无限集，则文法必然是",
+                                "<font color=\"#ff00ff\">递归的</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f%qIQUN%rB",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个文法所描述的语言是",
+                                "<font color=\"#ff00ff\">唯一的</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f@0uLCfN|7",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "两类程序语言处理程序是什么",
+                                "<font color=\"#ff00ff\">解释程序&nbsp;编译程序</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "yYSl#lxX!E",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "文法 G 所描述的语言是什么的合集",
+                                "<font color=\"#ff00ff\">由文法的开始符号推出的所有终结符号串</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "wRl=C{Ma0t",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "采用自上而下分析，必须",
+                                "<font color=\"#ff00ff\">消除回溯</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "fYQisk;SYC",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在规范归约中，用______来刻画可归约串",
+                                "<font color=\"#ff00ff\">句柄</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "xv,;Nx:RJZ",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "编译方式与解释方式的根本区别在于",
+                                "<font color=\"#ff00ff\">是否生成目标代码</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "wV[H/3;/}[",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "产生式是用于定义",
+                                "<font color=\"#ff00ff\">语法成分</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "D)P|whXs+a",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "自顶向下的语法分析方法的基本思想是：从文法的__{{c1::<font color=\"#ff00ff\">开始符号</font>}}____开始，根据给定的输入串并按照文法的产生式一步一步的向下进行__{{c2::<font color=\"#ff00ff\">直接推导</font>}}____，试图推导出文法的__{{c3::<font color=\"#ff00ff\">句子</font>}}____，使之与给定的输入串___{{c4::<font color=\"#ff00ff\">匹配</font>}}___。",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "G6Gy/g[1*8",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个句型中的最左简单短语称为该句型的___{{c1::<font color=\"#ff00ff\">句柄</font>}}__",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "D8)+u~E!oo",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "<div>语法分析最常用的两类方法是__{{c1::<font color=\"#ff00ff\">自上而下</font>}}___和__{{c2::<font color=\"#ff00ff\">自下而上</font>}}___分析法。</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IP@Gt{QfSf",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "扫描器是__{{c1::<font color=\"#ff00ff\">词法分析器</font>}}___，它接受输入的__{{c2::<font color=\"#ff00ff\">源程序</font>}}___，对源程序进行___{{c3::<font color=\"#ff00ff\">词法分析</font>}}__并识别出一个个单词符号，其输出结果是单词符号，供语法分析器使用",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "gy.og!+se0",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "自上而下分析法采用{{c1::<font color=\"#ff00ff\">移进</font>}}、{{c3::<font color=\"#ff00ff\">归约</font>}}、{{c4::<font color=\"#ff00ff\">错误处理</font>}}、{{c2::<font color=\"#ff00ff\">接受</font>}}等四种操作",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "x+|ju0Pgkb",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一个LR分析器包括两部分：一个{{c1::总控程序}}和一张{{c2::分析表}}。",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k9O(km=mWe",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "词法分析基于__{{c1::正则}}___文法进行，即识别的单词是该类文法的句子",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "euqd&ZGXY7",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "语法分析基于__{{c1::上下文无关}}___文法进行，即识别的是该类文法的句子<div>语法分析的有效工具是__{{c2::语法树}}___</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "s2[SXaZh$$",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "分析句型时，应用算符优先分析技术时，每步被直接归约的是__{{c1::最左素短语}}___，而应用LR分析技术时，每步被直接归约的是___{{c2::句柄}}__",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "AD:^&&)TIY",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "按Chomsky分类法，文法按照___{{c1::规则定义的形式}}__进行分类",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "tn7c;I-RPh",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "写一个文法，使其语言是奇数集，且每个奇数不以0开头",
+                                "<img src=\"paste-29537564cca8467eaf7516a81f1c4c70ae876e57.jpg\">",
+                                "1.&nbsp;一位数&nbsp;多位数<div>2.&nbsp;第一位不为0&nbsp;其他位可以补0</div><div>3.&nbsp;除最后一位 0-9都可以选</div>",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "fO9>cb%JIB",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
                 }
             ],
             "crowdanki_uuid": "35b67ab6-6066-11ea-9868-b025aa30a048",
@@ -1302,7 +1949,7 @@
                         "_z-day.svg",
                         "_z-night.svg"
                     ],
-                    "mid": 1437128516929,
+                    "mid": 1485179307096,
                     "name": "00 错题集",
                     "notes": [
                         {
@@ -1430,6 +2077,62 @@
                             "guid": "qqvG6J+qj,",
                             "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
                             "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( \\forall x (P(x) \\rightarrow Q (x) ) \\)&nbsp;是&nbsp;\\( p \\rightarrow q \\)&nbsp;的代替实例<br>",
+                                "<i><font color=\"#ff00ff\">×</font></i>",
+                                "不是处处替代&nbsp;是整体代替",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "B3C[V6U6SO",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "同命题公式一样，谓词公式仅仅是一个符号串，并不具有任何实际意义。只有对谓词公式给出解释后，它才具有一定的意义且变成了命题。",
+                                "<i><font color=\"#ff00ff\">×</font></i>",
+                                "只有&nbsp;闭式的情况下&nbsp;才能一定成为命题",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "L+)]@4;U)*",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( \\exists x (A(x)&nbsp; \\rightarrow B) = \\forall x A(x) \\rightarrow B \\)<br>",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "w2?Yq7n1fM",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( \\exists x (A(x) \\rightarrow B(x)) = \\forall x A(x) \\rightarrow \\exists x B(x) \\)<br>",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "替换之后则不对",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ws$tH;=Nu#",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
                         }
                     ]
                 },
@@ -1502,7 +2205,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "在&nbsp;\\(\\forall x A \\ and \\ \\exsits x A \\)中&nbsp;称 x&nbsp;是&nbsp;{{c1::指导变元}} A&nbsp;为对应量词的{{c2::辖域或作用域&nbsp;}}<div>辖域或作用域中凡与指导变元相同的个体变元称为{{c3::约束变元}}&nbsp;</div><div>不是则称为{{c4::自由变元}}<br></div>",
+                                "在&nbsp;\\(\\forall x A \\ and \\ \\exists x A \\)中&nbsp;称 x&nbsp;是&nbsp;{{c1::指导变元}} A&nbsp;为对应量词的{{c2::辖域或作用域&nbsp;}}<div>辖域或作用域中凡与指导变元相同的个体变元称为{{c3::约束变元}}&nbsp;</div><div>不是则称为{{c4::自由变元}}<br></div>",
                                 "",
                                 ""
                             ],
@@ -1515,7 +2218,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "量词辖域的收缩与扩展律<div>\\( \\forall x (A(x) \\land B) =&nbsp; \\)&nbsp; &nbsp;&nbsp;{{c1:: \\(\\forall x A(x) \\land B\\)<span>&nbsp; }}</span></div><div>\\( \\forall x (A(x) \\land B) = \\)&nbsp; &nbsp;&nbsp;{{c2::\\( \\forall x A(x) \\lor B \\)}}<br></div><div>\\( \\exists x (A(x) \\land B ) =&nbsp; \\)&nbsp; &nbsp;{{c3::\\(&nbsp; \\exists x A(x) \\land B \\)}}<br></div><div>\\( \\exists x (A(x) \\lor B) = \\)&nbsp; &nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\lor B \\)}}<br></div>",
+                                "量词辖域的收缩与扩展律<div>\\( \\forall x (A(x) \\land B) =&nbsp; \\)&nbsp; &nbsp;&nbsp;{{c1:: \\(\\forall x A(x) \\land B\\)<span>&nbsp; }}</span></div><div>\\( \\forall x (A(x) \\lor<span>&nbsp;B) = \\)&nbsp; &nbsp;&nbsp;{{c2::\\( \\forall x A(x) \\lor B \\)}}</span></div><div>\\( \\exists x (A(x) \\land B ) =&nbsp; \\)&nbsp; &nbsp;{{c3::\\(&nbsp; \\exists x A(x) \\land B \\)}}<br></div><div>\\( \\exists x (A(x) \\lor B) = \\)&nbsp; &nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\lor B \\)}}<br></div>",
                                 "",
                                 ""
                             ],
@@ -1545,9 +2248,10 @@
                         "_y-day.svg",
                         "_y-night.svg",
                         "_z-day.svg",
-                        "_z-night.svg"
+                        "_z-night.svg",
+                        "paste-4253d716c83f595b030fd8cee500aef2973720af.jpg"
                     ],
-                    "mid": 1437128516929,
+                    "mid": 1485179307096,
                     "name": "03 集合与关系",
                     "notes": [
                         {
@@ -1580,7 +2284,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "\\(A - (B \\cup C)\\) =&nbsp;{{c1::\\((A-B)\\cup(A-C)\\)}}<br><div>\\(A-(B \\cap C) = \\)&nbsp;&nbsp;{{c2::\\((A-B)\\cup (A-C<span>)\\)}}</span></div>",
+                                "\\(A - (B \\cup C)\\) =&nbsp;{{c1::\\((A-B)\\cup(A-C)\\)}}<br><div>\\(A-(B \\cap C) = \\)&nbsp;&nbsp;{{c2::\\(&nbsp;<span>(A-B)\\cap(A-C</span><span>)</span><span>\\)}}</span></div>",
                                 "",
                                 ""
                             ],
@@ -1593,7 +2297,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "笛卡尔积<div>\\(A \\times B = \\)&nbsp;&nbsp;{{c1::\\( {&lt;a,b&gt; | a \\in A \\and b \\in B \\} \\)}}<br></div>",
+                                "笛卡尔积<div>\\(A \\times B = \\)&nbsp;&nbsp;{{c1::&nbsp; \\( \\{ &lt;a,b&gt; | a \\in A \\and b \\in B \\} \\) }}<br></div>",
                                 "&lt;a,b&gt; 有序对&nbsp; 通常称为序偶",
                                 ""
                             ],
@@ -1606,7 +2310,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "如果A B都是有限集&nbsp;\\( |A \\times B| =&nbsp; \\)&nbsp;&nbsp;{{c1::\\( |A| \\cdot |B| \\)}}<div>\\(&lt;a.b&gt; = &lt;c,d&gt; \\Leftrightarrow \\)&nbsp;&nbsp;{{c2::\\(a=c \\and b=d\\)}}<br></div>",
+                                "如果A B都是有限集&nbsp;\\( |A \\times B| =&nbsp; \\)&nbsp;&nbsp;{{c1::\\( |A| \\cdot |B| \\)}}<div>\\(&lt;a.b&gt; = &lt;c,d&gt; \\Leftrightarrow \\)&nbsp;&nbsp;{{c2::\\(a=c&nbsp; \\land b=d\\)}}<br></div>",
                                 "",
                                 ""
                             ],
@@ -1646,7 +2350,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "{{c1::&nbsp; \\( \\exists x (A(x) \\rightarrow B(x) ) \\)}}&nbsp; &nbsp;=&nbsp; &nbsp;{{c2::\\forall x A(x) \\rightarrow \\exists x B(x) }}<br>",
+                                "{{c1::&nbsp; \\( \\exists x (A(x) \\rightarrow B(x) ) \\)}}&nbsp; &nbsp;=&nbsp; &nbsp;{{c2:: \\(&nbsp;&nbsp;\\forall x A(x) \\rightarrow \\exists x B(x)&nbsp;\\) }}<br>",
                                 "存在和任意互换&nbsp; 则不成立",
                                 ""
                             ],
@@ -1659,7 +2363,7 @@
                             "__type__": "Note",
                             "data": "",
                             "fields": [
-                                "谓词公式的推理演<div><span>\\( \\forall x A(x) \\Rightarriow \\)&nbsp; {{c1::\\( \\exists x A(x) \\)}}</span><div>\\( \\forall x A(x) \\lor \\forall x B(X) \\Rightarrow \\)&nbsp;{{c2::\\( \\forall x (A(x) \\lor B(x)) \\)}}<br></div></div><div>\\( \\forall x (A(x) \\lor B(x)) \\Rightarrow \\)&nbsp;{{c3::\\( \\exists x A(x) \\lor \\forall x B(x) \\)}}<br></div><div>\\( \\exists x (A(x) \\land B(x) ) \\Rightarrow \\)&nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\land \\exists x B(x) \\)}}<br></div><div>\\( \\exists x A(x) \\land \\forall x B(x) \\Rightarrow \\)&nbsp;{{c5::\\(&nbsp; \\exists x (A(x) \\land B(x) )\\)}}<br></div>",
+                                "谓词公式的推理演算<div><span>\\( \\forall x A(x) \\Rightarrow \\)&nbsp; {{c1::\\( \\exists x A(x) \\)}}</span><div>\\( \\forall x A(x) \\lor \\forall x B(X) \\Rightarrow \\)&nbsp;{{c2::\\( \\forall x (A(x) \\lor B(x)) \\)}}<br></div></div><div>\\( \\forall x (A(x) \\lor B(x)) \\Rightarrow \\)&nbsp;{{c3::\\( \\exists x A(x) \\lor \\forall x B(x) \\)}}<br></div><div>\\( \\exists x (A(x) \\land B(x) ) \\Rightarrow \\)&nbsp;&nbsp;{{c4::\\( \\exists x A(x) \\land \\exists x B(x) \\)}}<br></div><div>\\( \\exists x A(x) \\land \\forall x B(x) \\Rightarrow \\)&nbsp;{{c5::\\(&nbsp; \\exists x (A(x) \\land B(x) )\\)}}<br></div>",
                                 "",
                                 ""
                             ],
@@ -1742,13 +2446,752 @@
                             "data": "",
                             "fields": [
                                 "反对称&nbsp;和&nbsp;对称",
-                                "若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp;必有&nbsp;\\( &lt;b,a&gt; \\in R \\)&nbsp;称 R&nbsp;是<b>对称的</b><div>若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp; \\( &lt;b,a&gt; \\in R \\)&nbsp;必有 \\( a = b\\ )称 R&nbsp;是<b>反对称的</b><br></div>",
+                                "若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp;必有&nbsp;\\( &lt;b,a&gt; \\in R \\)&nbsp;称 R&nbsp;是<b>对称的</b><div>若&nbsp;\\( &lt;a,b&gt; \\in R \\)&nbsp; \\( &lt;b,a&gt; \\in R \\)&nbsp;必有 \\( a = b \\)&nbsp; 称 R&nbsp;是<b>反对称的</b><br></div>",
                                 "可以既是对称&nbsp;也是反对称的",
                                 ""
                             ],
                             "flags": 0,
                             "guid": "kD}sCW`Aaw",
                             "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "对称差集",
+                                "A△B=(A∪B)—(A∩B)",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "eZ!)xpx4*9",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "\\( \\varnothing \\subseteq \\{ \\varnothing \\} \\)<br>",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "d)whmtEjc_",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "对任意的非空集合A及A的幂集ρ(A)，ρ(A)-{\\( \\varnothing \\)}是A的非空集合族，ρ(A)-{ \\( \\varnothing \\) }是否构成A的划分？",
+                                "<font color=\"#ff00ff\">否</font>",
+                                "|A|=1时可以，大于1时不可以。",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Oj-}9VLY{B",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "设R是非空集合A上的等价关系&nbsp;则",
+                                "<img src=\"paste-4253d716c83f595b030fd8cee500aef2973720af.jpg\">",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "J3lnm|_5cn",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "A上的等价关系与A的划分是一一对应的",
+                                "<i><font color=\"#ff00ff\">√</font></i><br>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Gw>z%>lLbY",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "全序集的每一个子集都是全序集",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "P?dUoCt/eb",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "有理数集合Q与自然数集合N等势，但实数集合与自然数集合N不等势。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "cUA|%R#fCS",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一般地，把与实数集合R 等势的集合称为连续集。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "wke,gE9Le<",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a1c6d6c9-ba82-11ea-87d7-04ea56b77c52",
+                    "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [
+                        "_bg.png",
+                        "_space.png",
+                        "_switch.png",
+                        "_times.ttf",
+                        "_x-day.svg",
+                        "_x-night.svg",
+                        "_y-day.svg",
+                        "_y-night.svg",
+                        "_z-day.svg",
+                        "_z-night.svg"
+                    ],
+                    "mid": 1437128516929,
+                    "name": "05 图",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "图的阶",
+                                "顶点数",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "wW%>vpU6^i",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "零图",
+                                "边集为空集",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "oV/:azD+??",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "平凡图",
+                                "(1,0)&nbsp;图",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "zv+g,9lJM#",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "完全图&nbsp;和&nbsp;完全图的总边数",
+                                "任何两个不同的顶点之间都有边相连的简单图<div>\\[\\frac {p(p-1)} {2}\\]<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "M5t);w9Pi>",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "简单图",
+                                "没有环&nbsp;也没有平行边",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "f&TP]9COhN",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "多重图",
+                                "有平行边",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "n4!,h69Jo%",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "二部图&nbsp;完全二部图",
+                                "将顶点分为2部分&nbsp;这个图的所有边只能是连接分别来自两个部分的顶点<div><br><div>类似完全图&nbsp;即每两个来自两个部分的顶点都有边连接</div></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "je4WBYrf:9",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "导出子图",
+                                "子图并且边是自己顶点产生的&nbsp;不比原图多&nbsp;也不能少",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "H?DQdF$qh|",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "生成子图",
+                                "子图&nbsp;且有原图的所有顶点",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "r!G8#-,8LE",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "顶点的度",
+                                "与顶点相关联边的条数",
+                                "若有环&nbsp;则关联度为2",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "NHuOK9{+DH",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "奇点&nbsp;偶点&nbsp;悬挂点&nbsp;悬挂边",
+                                "度数的奇偶性&nbsp;<div>度为1&nbsp;称为悬挂点</div><div>与悬挂点关联的边称为悬挂边</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K%{iHc0{~L",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "最大度",
+                                "对于p阶简单图&nbsp;最大度 &lt;= p-1",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "AnFj=;9)g*",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "握手定理",
+                                "图中&nbsp;各顶点度数之和是边数的两倍",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "j1{,Ew!FE?",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "简单通路",
+                                "边各不相同",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "AF^B~K-T_6",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "基本通路",
+                                "顶点各不相同",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "GlZHdgS`su",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "基本回路的定理",
+                                "非零图&nbsp;无奇点&nbsp;必有基本回路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "bc:Z%F7^(^",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "顶点之间的距离",
+                                "顶点之间最短通路的长度<div>若无通路&nbsp;记为无穷大</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "DrD4>U)[qy",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "连通图",
+                                "任意两个顶点之间存在通路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "FppBBi]U3}",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "连通分图",
+                                "非连通图中的极大子联通子图",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "K(a2&U$t,>",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "若一个图中恰有2个奇点",
+                                "则这两个奇点&nbsp;连通",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "nC7p.&%ex^",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "点割集&nbsp;割点",
+                                "具有最大连通分图数的一个点的子集&nbsp;若就一个点&nbsp;叫割点",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "vh>-2N/?.7",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "桥&nbsp;割集&nbsp;边割集",
+                                "恰好使图的连通性发生改变的边的集合",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "C-Iqi}mAy>",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "欧拉通路",
+                                "包含了所有边的简单通路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Dx#<r00|<g",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "半欧拉图",
+                                "具有欧拉通路&nbsp;没有欧拉回路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "w9*dq0AM0)",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "非平凡连通图的2个定价命题",
+                                "G是欧拉图<div>G中无奇点</div><div><br></div><div>-----</div><div><br></div><div>G是半欧拉图</div><div>G中恰有两个奇点&nbsp;且这两个奇点是欧拉通路的起点和终点</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "k*|&$2nAw^",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "哈密尔顿图",
+                                "经过所有顶点的基本通路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ecAM[oq$}.",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "半哈密尔顿图",
+                                "具有哈密尔顿统路&nbsp;而不具备哈密尔顿回路",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "IOlJeOYi8}",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "哈密尔顿图的3个结论",
+                                "每个哈密尔顿图都连通&nbsp;且每个顶点的度数&nbsp;大于等于 2<div>若一个图有哈密尔顿回路&nbsp;则任何顶点所关联的边一定有两条在该哈密尔顿回路上</div><div>若一个图有哈密尔顿回路 则该哈密尔顿回路上的部分边不可能组成一个未经过所有顶点的基本回路<br></div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "z{jFRFcdU/",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "树&nbsp;林",
+                                "不含回路的连通图称为&nbsp;树<div>每个连通分图都是树的非连通图称为林</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ldRQB^M[~%",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "树的等价结论",
+                                "<div>​G是树；</div><div>​G中任意两点之间有唯一一条简单通路；</div><div>​G连通，且任何边都是桥；</div><div>​G连通，且​q = p -1 ；</div><div>​G中无回路，且​ q = p - 1；</div><div>G​中无回路，且在任意两个不同的顶点之间加一条边，则恰有一条基本回路。</div>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "I!)YO#pjLV",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "零图是平凡图",
+                                "<font color=\"#ff00ff\">×</font>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "C902ZCiNRz",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在一个图中，奇点必有偶数个。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "l696BE+B48",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "完全图的边连通度是",
+                                "p-1",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "clfg^j*7DP",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "完全图的点连通度是",
+                                "p-1",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "sy&g}>d=;e",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "非连通图和平凡图的点连通度都为0",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "u*5=:T%Ghz",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "一般来说，基本通路(回路)一定是简单通路(回路)。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "zDzKIvaw#T",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "图中两个顶点之间的通路可能不止一条<div>但是，必然存在长度最短的一条，即最短通路</div>",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "E%g)XOQ-}g",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "在简单图中，回路的长度至少为",
+                                "3",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Ls^1HD:!2/",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "如果非零图G中无奇点，则G中必有基本回路。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "uh?/5nPMtU",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "完全图是欧拉图&nbsp; p&gt;= 3",
+                                "<i><font color=\"#ff00ff\">×</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "Ka_qHWKp/Z",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "当r，s为正偶数时，完全二部图Kr,s是欧拉图。",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "ya44KyE4ij",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "完全图是哈密尔顿图 p &gt;= 3",
+                                "<i><font color=\"#ff00ff\">√</font></i>",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "uVyb;mtH}L",
+                            "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "欧拉图问题考虑{{c1::边}}的遍历性，哈密尔顿图问题考虑{{c2::点}}的遍历性。",
+                                "",
+                                ""
+                            ],
+                            "flags": 0,
+                            "guid": "j3B6~Sj;T+",
+                            "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
                             "tags": []
                         }
                     ]
@@ -2964,6 +4407,729 @@
             ],
             "name": "短语记忆",
             "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "a1cd6318-ba82-11ea-abc8-04ea56b77c52",
+            "deck_config_uuid": "35b4f51b-6066-11ea-b14d-b025aa30a048",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [
+                "_bg.png",
+                "_space.png",
+                "_switch.png",
+                "_times.ttf",
+                "_x-day.svg",
+                "_x-night.svg",
+                "_y-day.svg",
+                "_y-night.svg",
+                "_z-day.svg",
+                "_z-night.svg"
+            ],
+            "mid": 1485179307096,
+            "name": "军事理论",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "东盟十国有",
+                        "<div>泰国、菲律宾、印度尼西亚、新加坡、文莱、越南、老挝、缅甸、柬埔寨和马来西亚</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "r^^mn|g@]<",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "我军设置的五大战区有",
+                        "<div>东部战区、南部战区、西部战区、北部战区、中部战区</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "jAxP3lo[{V",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "中国人民解放军由{{c1::陆军、海军、空军、火箭军、战略支援部队和联勤保障部队}}组成",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "mHNk3QT,A]",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "“武经七书”有：{{c1::《孙子》、《吴子》、《六韬》、《司马法》、《三略》、《尉缭子》、《李卫公问对》}}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "QZSBD%9$|0",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>无产阶级研究和认识战争的目的是{{c1::为了消灭一切战争，实现人类的永久和平}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "HnHUOSE(gt",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>本1946年制定的“和平宪法”中的“无核三原则”是{{c1::不拥有、不运进和不制造核武器}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "M;jU:pYdL7",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>我国南沙群岛共有{{c1::38个}}岛屿被周边国家所侵占，其中{{c2::越南占27个，菲律宾占8个，马来西亚占3个}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "N[:As;(erD",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "中华人民共和国武装力量由{{c1::中国人民解放军、中国人民武装警察部队、民兵和预备役组成}}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Qng;^Zx22a",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>联合国海洋法规定：沿海国家拥有{{c1::12}}海里领海,{{c1::200}}海里专署经济区,{{c1::350}}海里大陆架。我国的海洋蓝色国土是{{c2::300万平方公里}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o=V5pco{}=",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>当代革命军人核心价值观是：{{c1::忠诚于党、热爱人民、报效国家、献身使命、崇尚荣誉}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "EM7ArYX_lH",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>中国人民解放军建设的总目标就是“三化”：{{c1::即革命化、现代化、正规化}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Le*nZHB*8y",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>参军入伍对视力的要求是：{{c1::左眼4.5，右眼4.6}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "kp8@?<5:0O",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>我军的宗旨是：{{c1::全心全意为人民服务}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "t}6W@yT-+]",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>战争观是人们关于战争的{{c1::总认识和根本观点}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "M&5=&S36Io",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>我军政治工作“三大民主”是：{{c1::政治民主、军事民主和经济民主}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Q#,G}J5A>W",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>我军政治工作“三大原则是：{{c1::军民一致、官兵一致和军政一致}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F?||U]7%i1",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>前苏联成功发射世界上第一颗人造地球卫星的时间是{{c1::1957年10月4日}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "d!=Fc&@pj&",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>{{c2::1981年4月12日}},{{c1::美国第一架航天飞机哥伦比亚号首次试飞成功}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G,;CPe`@>w",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>中国\"神舟6号\"载人飞船成功发射的时间是{{c1::2005年10月12日}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "e8EC07XzKG",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>邓小平军事理论的精髓是{{c1::解放思想，实事求是}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "kv+`fI}JY|",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>精确制导武器是指{{c1::命中精度很高的制导武器或直接命中概率大于50%的制导武器}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "O_co[^.:GL",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>《战争论》作者是{{c1::克劳塞维茨}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "oJT23v^>KA",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>美国特朗普政府的军事战略是{{c1::先发制人}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "nWOrkhI;Q7",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>我国的国土（陆地和海洋）总面积是{{c1::1260万平方公里}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "iM-c)JXT/%",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>精确制导武器按射程分为{{c1::洲际、远程、中程、近程、短程导弹}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "L7bxYP3E>M",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>载人飞船是能{{c1::保障宇航员在太空执行航天任务、宇航员座舱能返回地面垂直着陆的}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "w{1&IQ|a0D",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>空间站亦称{{c1::航天站、太空站或轨道站}}，是在太空{{c2::具备一定工作条件、可供多名宇航员工作和生活的长期运行}}的航天器</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "wO,zaL0kzc",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "C4ISR系统的含义包括有{{c1::指挥、控制、通讯、计算机、情报、监视和侦察}}",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "r1q{y?q5z9",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>核武器是利用{{c1::原子核裂变或聚变反应、瞬时释放岀巨大能量，造成大规模杀伤破坏效应}}的武器</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "dau`>4Ic|4",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>“九一八”事变的时间{{c1::1931年9月18日}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "l}4Mnz04C;",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>通信卫星是用作{{c1::无线电通信中继站}}的{{c2::人造地球卫星}}</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "wg$FKkY<0J",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>导航卫星是从太空发射{{c1::无线电导航信号}}，能为{{c2::地面、海洋、空中和太空用户导航定位}}的人造卫星</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "BR2f!]t/qn",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "气象卫星的概念是能够{{c1::从太空对地球及其大气层进行气象观测}}的人造地球卫星",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "PPE&p%Kv@_",
+                    "note_model_uuid": "35b8765a-6066-11ea-8dc8-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "国防",
+                        "<div>是国家为防备和抵抗侵略、制止武装颠覆，保卫国家主权、统一、领土完整和安全所进行的军事及与军事有关的政治、经济、外交、科技、教育等方面的活动，是国家生存与发展的安全保障。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Ffn2:XA~v9",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "军事思想",
+                        "<div>是关于战争、军队和国防等基本问题的理性认识，是人们长期从事军事实践的经验总结和理论概括。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G?LnCCE;58",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "毛泽东军事思想",
+                        "<div>是以毛泽东为代表的中国共产党人关于中国革命战争和国防问题的科学理论体系</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "qKXRlNS!Fm",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "邓小平军事理论",
+                        "<div>是以邓小平为代表的中国共产党人关于当代中国军事的科学理论体系。它是邓小平理论的重要组成部分，是毛泽东军事思想在新的历史条件下的继承和发展，是当代中国的马克思主义军事理论。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "h|T[;$g=K/",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "精确制导导弹",
+                        "是依靠自身的动力装置推进，由制导系统导引、控制其飞行路线并导向目标的精确制导武器。",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G[OSO@TlS6",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "军事侦察卫星",
+                        "<div>是装有光电遥感器、雷达或无线电接收机等侦察设备，用以获取军事信息的人造地球卫星。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "NJz=/hE@j1",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>计算机病毒武器</div>",
+                        "是指通过某种手段或途径把计算机病毒投放到敌方的计算机里，使其无法正常工作的一种武器。",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "L/aW=Lq!^d",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>化学武器</div>",
+                        "<div>是指以化学毒剂的毒害作用杀伤有生力量，迟滞、困扰敌方军事行动的个种武器、器材的总称。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "yqpxUw~7@S",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>人民战争</div>",
+                        "<div>就是人民群众自觉参加的反抗本国压迫者和外国入侵者的战争。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Csw,Q+w=E0",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "当前世界军事形势的特点",
+                        "<div>“一超多强”左右世界；<br>美国想独霸世界；<br>日本要从走军国主义老路；<br>俄罗斯要重振前苏联的大国雄风；<br>欧盟要成为世界中心城市；<br>印度不满南亚大国现状，想成为世界强国；<br>中国要发挥大国作用。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "lF_KP#~]Q`",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "钓鱼岛属于中国的理由",
+                        "<div>历史记载上,中国的史书记载比日本史书早了400年；<br>从地理上看， 钓鱼岛在中国的大陆架上，与日本琉球之间隔一条2000多米深的海沟；<br>二战结束时，国际会议也已将钓鱼岛明确为中国所有。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "L8}xrC,.u$",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "我国对台湾的政策",
+                        "<div>世界只有一个中国，大陆和台湾同属中国的一部分，我们将以最大的诚意和耐心实现祖国的和平统一、一国两制，但不排除用非和平方式解决台独问题。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "c7wD02*SG:",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "巴以争端的焦点问题",
+                        "<div>边界问题；<br>耶路撒冷问题；<br>难民问题；<br>犹太人定居点问题；<br>水资源问题。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "e,0`WB)T]N",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>中国人民解放军各军种、中国人民武装警察部队军服颜色</div>",
+                        "<div>陆军松枝绿；</div><div>海军深藏青色、白色；</div><div>空军深蓝灰色；</div><div>火箭军墨绿色搭配卡其色；</div><div>武警橄榄绿。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "z)/s1:!5q8",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>中国古代军事思想产生、形成和发展轨迹</div>",
+                        "<div>萌芽时期的军事思想（公元前21世纪至前8世纪，即夏、商、西周时期）<br>迅速生长时期的军事思想（公元前8世纪至前3世纪,即春秋战国时期）<br>缓慢演进时期的军事思想（公元前221年至公元1840年</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "z@_,l0sKoi",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "毛泽东军事思想的主要内容",
+                        "无产阶级战争观和方法论；<br>人民军队思想；<br>人民战争思想；<br>人民战争的战略战术；<br>现代化国防思想。",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "GLMw9UF.8U",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "通讯卫星的特点",
+                        "<div>覆盖范围大，通讯距离远；通讯容量大；传输质量高；机动性能好；生存能力强；经济使用，成本低</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "cTL^BmifC(",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "核武器的杀伤破坏作用",
+                        "光辐射；冲击波；早期核辐射；核电磁脉冲；放射性沾染",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "D((&LW;[E0",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "中国军队军官军衔从高到低分别为",
+                        "<div>上将、中将、少将、大校、上校、中校、少校、上尉、中尉、少尉。</div>",
+                        "",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "fAMe;(,N,^",
+                    "note_model_uuid": "35b89d52-6066-11ea-aafc-b025aa30a048",
+                    "tags": []
+                }
+            ]
         }
     ],
     "crowdanki_uuid": "35b4f51a-6066-11ea-8948-b025aa30a048",
