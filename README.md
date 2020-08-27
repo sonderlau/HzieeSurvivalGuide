@@ -4,7 +4,9 @@
 <img src="https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social" alt="Stars" />
 <img src="https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide" alt="LastCommit"/>
 </div>
-如果你下载文档的速度比较慢 可以考虑使用我们提供的在线文档 [Hziee.site](hziee.site)
+如果你下载文档的速度比较慢 可以考虑使用我们提供的在线文档 
+
+[Hziee.site](https://hziee.site/)
 
 ## 前言
 
