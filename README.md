@@ -1,22 +1,14 @@
 # Hziee生存指南_计科
 
-![RepoSize](https://img.shields.io/github/repo-size/sonderlau/HzieeSurvivalGuide) ![stars](https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social) ![LastCommit](https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide)
-
-如果你的同步速度比较慢 可以考虑不使用`git clone`
-
-使用`Download`下载下来zip包就可以了
+<div align="center"><img src="https://img.shields.io/github/repo-size/sonderlau/HzieeSurvivalGuide" alt="RepoSize" />
+<img src="https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social" alt="Stars" />
+<img src="https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide" alt="LastCommit"/>
+</div>
+如果你下载文档的速度比较慢 可以考虑使用我们提供的在线文档 [Hziee.site](hziee.site)
 
 ## 前言
 
-我想 当你打算使用本项目的时候 你已经是个懂学习~~白嫖~~的人了
-
-初到大学 新的环境总要花点时间去适应
-
-这里不是顶级高校 走进来时候 多少有些小情绪
-
-也许是你的分数让你有些不甘 也许是这里的环境让你有些失望
-
-**一个人也许可以走的很快 但是一群人可以走的更远**
+<div align="center"><strong>每个人都有自己独特的价值</strong><br><strong>生活本就沉闷，但跑起来就会有风。</strong></div>
 
 
 
@@ -29,13 +21,21 @@
 
 
 
+目前内容十分有限 
+
+**欢迎各位同学积极参与到项目中 让我们一起完善这个项目!**
+
+**一个人也许可以走的很快 但是一群人可以走的更远**
+
+
+
 ## 内容来源
 
 笔记参考自网络和老师们的课件
 
 **如有侵权请联系[Sonder Lau](https://github.com/sonderlau)删除**
 
-目前内容十分有限 **欢迎各位同学积极参与到项目中 让我们一起完善这个项目!**
+
 
 ### 贡献步骤
 
@@ -45,7 +45,7 @@
 4. `Pull Request`
 5. 等待 `Merge`
 
-如果你的更新比较频繁 可以考虑申请成为`contributor`
+如果你的内容很多 可以考虑向[Sonder Lau](https://github.com/sonderlau)申请成为`contributor` 方便提交内容
 
 
 
@@ -53,7 +53,7 @@
 
 ### 大一上 \ Year 1 - Seminar 1
 
-| 科目 Subject | 进度 Progress | 图片 Pictures | 笔记 Notes | 额外 Extra        | Anki | 备注 Remark                       | 主要贡献者Major Cotributor |
+| 科目 Subject | 进度 Progress | 图片 Pictures | 笔记 Notes | 额外 Extra        | Anki | 备注<br />Remark                  | 主要贡献者Major Cotributor |
 | :----------: | :-----------: | :-----------: | :--------: | ----------------- | :--: | :-------------------------------- | -------------------------- |
 |  C语言基础   |     完结      |               |     ✓      | 期末考资料\大作业 |      | 多数为课本内容 无基础部分         | Sonder_Lau                 |
 | Java程序设计 |     完结      |               |     ✓      |                   |  ✓   | 课本源码 实践作业源码             | Sonder_Lau                 |
@@ -65,17 +65,17 @@
 
 ### 大一下 \ Year 1 - Seminar 2
 
-| 科目 Subject | 进度 Progress | 图片 Pictures | 笔记Notes |  额外 Extra  | Anki | 备注 Remark               | 主要贡献者Major Cotributor |
-| :----------: | :-----------: | :-----------: | :-------: | :----------: | :--: | :------------------------ | -------------------------- |
-|     JSP      |     完结      |               |           |              |  ✓   | 期末大作业                | Sonder_Lau                 |
-|    数据库    |     完结      |     本地      |     ✓     | 实践考试答案 |  ✓   |                           | Sonder_Lau                 |
-|   数字电路   |     完结      |     本地      |     ✓     |              |  ✓   | 期末复习提纲 超星作业答案 | Sonder_Lau                 |
-|   离散数学   |     完结      |               |     ✓     |              |  ✓   | 实践作业                  | ManUtdLove                 |
-|   大学英语   |     完结      |     本地      |           |              |      | 听说课 上传每周的材料文章 | Sonder_Lau                 |
-|  高等数学A2  |     完结      |               |           |              |  ✓   | 历年期末考卷子            | Sonder_Lau                 |
-|   编译原理   |     完结      |               |     ✓     |   实践作业   |  ✓   | 期末考试卷子              | Sonder_Lau                 |
-| 思想道德修养 |     完结      |     本地      |     -     |   演讲PPT    |      | 期末考试原题              | Sonder_Lau                 |
-|    jQuery    |     完结      |               |     ✓     |              |      | 期末大作业                | Sonder_Lau                 |
+| 科目 Subject | 进度 Progress | 图片 Pictures | 笔记Notes |  额外 Extra  | Anki | 备注<br />Remark          | 主要贡献者<br />Major Cotributor |
+| :----------: | :-----------: | :-----------: | :-------: | :----------: | :--: | :------------------------ | -------------------------------- |
+|     JSP      |     完结      |               |           |              |  ✓   | 期末大作业                | Sonder_Lau                       |
+|    数据库    |     完结      |     本地      |     ✓     | 实践考试答案 |  ✓   |                           | Sonder_Lau                       |
+|   数字电路   |     完结      |     本地      |     ✓     |              |  ✓   | 期末复习提纲 超星作业答案 | Sonder_Lau                       |
+|   离散数学   |     完结      |               |     ✓     |              |  ✓   | 实践作业                  | ManUtdLove                       |
+|   大学英语   |     完结      |     本地      |           |              |      | 听说课 上传每周的材料文章 | Sonder_Lau                       |
+|  高等数学A2  |     完结      |               |           |              |  ✓   | 历年期末考卷子            | Sonder_Lau                       |
+|   编译原理   |     完结      |               |     ✓     |   实践作业   |  ✓   | 期末考试卷子              | Sonder_Lau                       |
+| 思想道德修养 |     完结      |     本地      |     -     |   演讲PPT    |      | 期末考试原题              | Sonder_Lau                       |
+|    jQuery    |     完结      |               |     ✓     |              |      | 期末大作业                | Sonder_Lau                       |
 
 ---
 
@@ -87,23 +87,23 @@
 
 #### 通用课程
 
-| 科目 Subject | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注 Remark | 主要贡献者Major Cotributor |
-| :----------: | :-----------: | :-----------: | :-------: | :--------: | :--: | :---------- | -------------------------- |
-|              |               |               |           |            |      |             |                            |
-|              |               |               |           |            |      |             |                            |
-|              |               |               |           |            |      |             |                            |
-|              |               |               |           |            |      |             |                            |
+|      科目 Subject       | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注<br />Remark | 主要贡献者<br />Major Cotributor |
+| :---------------------: | :-----------: | :-----------: | :-------: | :--------: | :--: | :--------------- | -------------------------------- |
+| Java EE程序设计课程实践 |               |               |           |            |      |                  |                                  |
+|   英语3 (阅读 / 翻译)   |               |               |           |            |      |                  |                                  |
+|        数据结构         |               |               |           |            |      |                  |                                  |
+|    数据结构课程实践     |               |               |           |            |      |                  |                                  |
+|    高级程序设计 C++     |               |               |           |            |      |                  |                                  |
 
 
 
 #### 计算机科学与技术
 
-|     科目 Subject     | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注 Remark | 主要贡献者Major Cotributor |
-| :------------------: | ------------- | ------------- | --------- | ---------- | ---- | ----------- | -------------------------- |
-| 移动操作系统内核分析 |               |               |           |            |      |             |                            |
-|    QT图形界面变成    |               |               |           |            |      |             |                            |
-|   图形图像处理技术   |               |               |           |            |      |             |                            |
-|    嵌入式系统应用    |               |               |           |            |      |             |                            |
+|     科目 Subject     | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注 <br />Remark | 主要贡献者<br />Major Cotributor |
+| :------------------: | ------------- | ------------- | --------- | ---------- | ---- | ----------------- | -------------------------------- |
+| 移动操作系统内核分析 |               |               |           |            |      |                   |                                  |
+|   图形图像处理技术   |               |               |           |            |      |                   |                                  |
+|    嵌入式系统应用    |               |               |           |            |      |                   |                                  |
 
 
 
@@ -111,14 +111,20 @@
 
 #### 软件工程
 
-|          科目 Subject           | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注 Remark | 主要贡献者Major Cotributor |
-| :-----------------------------: | ------------- | ------------- | --------- | ---------- | ---- | ----------- | -------------------------- |
-|       Android高级应用开发       |               |               |           |            |      |             |                            |
-|      UML面向对象分析与设计      |               |               |           |            |      |             |                            |
-|          HTML5移动开发          |               |               |           |            |      |             |                            |
-| 企业级Java EE案例分析及实战开发 |               |               |           |            |      |             |                            |
+|    科目 Subject     | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注<br />Remark | 主要贡献者<br />Major Cotributor |
+| :-----------------: | ------------- | ------------- | --------- | ---------- | ---- | ---------------- | -------------------------------- |
+| Android高级应用开发 |               |               |           |            |      |                  |                                  |
+|    HTML5移动开发    |               |               |           |            |      |                  |                                  |
 
 
+
+#### 选修课
+
+仅列出有相关内容的课程
+
+|    科目 Subject     | 进度 Progress | 图片 Pictures | 笔记Notes | 额外 Extra | Anki | 备注<br />Remark | 主要贡献者<br />Major Cotributor |
+| :-----------------: | ------------- | ------------- | --------- | ---------- | ---- | ---------------- | -------------------------------- |
+| ACM程序设计竞赛实训 |               |               |           |            |      |                  |                                  |
 
 ## Anki 牌组 使用相关
 
@@ -131,7 +137,6 @@
 ### 基础准备
 
 - Anki Desktop
-- Internet
 - Anki Plugin : CrowdAnki
 - 足够的耐心
 
@@ -167,7 +172,7 @@ Anki的使用 : 插件  \  基本操作
 
 与导入的步骤相同
 
-即可获取我后续更新的卡片
+即可获取后续更新的卡片
 
 并不会覆盖你的学习进度等自定义内容
 
@@ -180,3 +185,5 @@ Anki的使用 : 插件  \  基本操作
 - [x] Anki牌组
 - [x] 增加形式的资料和内容
 - [x] 课后作业 期末考试相关
+- [ ] 在线文档
+- [ ] 在线文档自动化构建
