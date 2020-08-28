@@ -4,9 +4,8 @@
 <img src="https://img.shields.io/github/stars/sonderlau/HzieeSurvivalGuide?style=social" alt="Stars" />
 <img src="https://img.shields.io/github/last-commit/sonderlau/HzieeSurvivalGuide" alt="LastCommit"/>
 </div>
-如果你下载文档的速度比较慢 可以考虑使用我们提供的在线文档 
-
-[Hziee.site](https://hziee.site/)
+<div align="center"><h1>目前项目已经终止</h1><br><h3>
+请使用<a href="https://hziee.site/">Hziee.site</a></h3></div>
 
 ## 前言
 
